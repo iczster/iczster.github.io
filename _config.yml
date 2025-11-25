@@ -1,5 +1,5 @@
 # Site Settings
-name: Jekflix
+name: Longyflix
 title: Jekflix | A blog theme for Jekyll
 description: Jekflix is a template for Jekyll inspired by Netflix and made by
   Thiago Rossener.
@@ -19,7 +19,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: iczster@ntlworld.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
@@ -31,7 +31,7 @@ formspree_form_id: formspree_form_id
 # Remove the item if you don't need it
 github_username: github_username
 facebook_username: facebook_username
-twitter_username: twitter_username
+twitter_username: iczster
 instagram_username: instagram_username
 linkedin_username: linkedin_username
 medium_username: medium_username
@@ -61,7 +61,7 @@ collections:
   authors:
     output: true
 paginate_path: "/page/:num/"
-show_get_theme_btn: true
+show_get_theme_btn: false
 use_logo: false
 
 # Content paginator
