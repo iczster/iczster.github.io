@@ -1,8 +1,8 @@
 # Site Settings
-name: Longyflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
-  Thiago Rossener.
+name: Longyflix | Film - Tech - Hiking - Sport
+title: Film - Tech - Hiking - Sport
+description: My personal blog about my hobbies, interests and career
+timezone: Europe/London
 tags:
   - blog
   - template
@@ -29,12 +29,8 @@ formspree_form_id: formspree_form_id
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
+github_username: iczster
 twitter_username: iczster
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
 
 
 # Posts Settings
@@ -111,3 +107,9 @@ exclude: [
 
 # Theme
 version: v3.1.2
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      date_format: "%d-%m-%Y"

@@ -127,9 +127,9 @@
             "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
             "wordcount": "{{ content | number_of_words }}",
             "inLanguage": "{{ site.language }}",
-            "dateCreated": "{{ page.date | date: '%Y-%m-%d/' }}",
-            "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
-            "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
+            "dateCreated": "{{ page.date | date: '%d-%M-%Y/' }}",
+            "datePublished": "{{ page.date | date: '%d-%M-%Y/' }}",
+            "dateModified": "{{ page.date | date: '%d-%M-%Y/' }}",
             "author": {
                 "@type": "Person",
                 "name": "{{ author.display_name }}",
