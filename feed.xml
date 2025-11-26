@@ -3,18 +3,18 @@
   <channel>
     <title>Film - Tech - Hiking - Sport - Music</title>
     <description>My personal blog about my hobbies, interests and career</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Nov 2025 23:04:50 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Nov 2025 23:04:50 +0000</lastBuildDate>
+    <link>https://iczster.github.io/</link>
+    <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 26 Nov 2025 23:11:12 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Nov 2025 23:11:12 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
         <title>Skiddaw Summit via Jenkins Bridleway</title>
         <description>&lt;h2 id=&quot;hiking-to-skiddaw-summit--little-man&quot;&gt;Hiking to Skiddaw Summit &amp;amp; Little Man&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Overview&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Parking isnt great and you need to arrive early to have any chance of a parking space (the car park is small). Otherwise this was a fantastic hike with great views. We even managed to experience a cloud inversion.&lt;/p&gt; &lt;p&gt;After some early clag this cleared and its a pretty steep and brutal ascent. We took in Skiddaw little man also and recommend you tackle this afer summitting.&lt;/p&gt; &lt;h3 id=&quot;key-hike-points&quot;&gt;Key Hike Points&lt;/h3&gt; &lt;ul&gt; &lt;li&gt;Steep but rewarding ascent&lt;/li&gt; &lt;li&gt;Cloud inversion at the summit&lt;/li&gt; &lt;li&gt;Claggy start&lt;/li&gt; &lt;li&gt;Limited parking — arrive early&lt;/li&gt; &lt;/ul&gt; &lt;h3 id=&quot;quote-from-the-hike&quot;&gt;Quote...</description>
         <pubDate>Sat, 11 Oct 2025 19:00:00 +0100</pubDate>
-        <link>/hiking-skiddaw-via-jenkinshill/</link>
-        <guid isPermaLink="true">/hiking-skiddaw-via-jenkinshill/</guid>
+        <link>https://iczster.github.io/hiking-skiddaw-via-jenkinshill/</link>
+        <guid isPermaLink="true">https://iczster.github.io/hiking-skiddaw-via-jenkinshill/</guid>
         
         <category>hiking</category>
         
@@ -29,8 +29,8 @@
         <title>Creating a Reusable Hike Info Box in Jekyll</title>
         <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;In this post, I’ll explain how I created a &lt;strong&gt;reusable Hike Info Box&lt;/strong&gt; for my hiking posts using &lt;strong&gt;Jekyll and the Jekflix theme&lt;/strong&gt;. The system is modular and can be adapted to &lt;strong&gt;any category&lt;/strong&gt;, whether hiking, tech tutorials, recipes, or music albums.&lt;/p&gt; &lt;p&gt;The main goals:&lt;/p&gt; &lt;ol&gt; &lt;li&gt;Store metadata in the &lt;strong&gt;front-matter&lt;/strong&gt;.&lt;/li&gt; &lt;li&gt;Render a visually appealing info box with &lt;strong&gt;icons, animations, and badges&lt;/strong&gt;.&lt;/li&gt; &lt;li&gt;Only display the box for relevant posts.&lt;/li&gt; &lt;li&gt;Make it &lt;strong&gt;easy to reuse for future posts&lt;/strong&gt;.&lt;/li&gt; &lt;/ol&gt; &lt;hr /&gt; &lt;h2 id=&quot;step-1-add-metadata-to-post-front-matter&quot;&gt;Step 1: Add Metadata to Post Front-Matter&lt;/h2&gt; &lt;p&gt;Jekyll posts allow &lt;strong&gt;custom variables&lt;/strong&gt; in the YAML front-matter. For...</description>
         <pubDate>Wed, 01 Oct 2025 11:00:00 +0100</pubDate>
-        <link>/creating-hikebox-tutorial/</link>
-        <guid isPermaLink="true">/creating-hikebox-tutorial/</guid>
+        <link>https://iczster.github.io/creating-hikebox-tutorial/</link>
+        <guid isPermaLink="true">https://iczster.github.io/creating-hikebox-tutorial/</guid>
         
         <category>tech</category>
         
