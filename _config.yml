@@ -43,6 +43,7 @@ two_columns_layout: true
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://iczster.github.io" # the base hostname & protocol for your site
+theme: jekflix
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
 categories_folder: category
@@ -85,6 +86,9 @@ sass:
 # Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-paginate-content
 
 # Exclude my node related stuff
