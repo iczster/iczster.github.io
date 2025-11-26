@@ -28,6 +28,19 @@
                 {% include pagination-post.html progressBar=true %}
 
                 {% include toc.html %}
+                {% if page.category == "Hiking" %}
+                {% include hike-box.html
+                    difficulty=page.difficulty
+                    crowded=page.crowded
+                    dog_friendly=page.dog_friendly
+                    conditions=page.conditions
+                    great_views=page.great_views
+                    distance=page.distance
+                    duration=page.duration
+                    elevation_gain=page.elevation_gain
+                    start_point=page.start_point
+                %}
+                {% endif %}
 
                 {{ content }}
 

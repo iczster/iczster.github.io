@@ -1,0 +1,80 @@
+<div class="hike-box">
+
+  <h3 class="hike-box-title">Hike Details</h3>
+
+  <div class="hike-box-grid">
+
+    {% if include.difficulty %}
+    <div class="hike-item difficulty {{ include.difficulty | downcase }}">
+      <span class="hike-icon">⛰️</span>
+      <span class="hike-label">Difficulty</span>
+      <span class="hike-value">{{ include.difficulty | capitalize }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.crowded %}
+    <div class="hike-item crowded">
+      <span class="hike-icon">🚶‍♂️</span>
+      <span class="hike-label">Crowds</span>
+      <span class="hike-value">{{ include.crowded }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.dog_friendly %}
+    <div class="hike-item dog">
+      <span class="hike-icon">🐕</span>
+      <span class="hike-label">Dog Friendly</span>
+      <span class="hike-value">{{ include.dog_friendly | capitalize }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.conditions %}
+    <div class="hike-item conditions">
+      <span class="hike-icon">🌦️</span>
+      <span class="hike-label">Conditions</span>
+      <span class="hike-value">{{ include.conditions }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.great_views %}
+    <div class="hike-item views">
+      <span class="hike-icon">🌄</span>
+      <span class="hike-label">Great Views</span>
+      <span class="hike-value">{{ include.great_views | capitalize }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.distance %}
+    <div class="hike-item distance">
+      <span class="hike-icon">📏</span>
+      <span class="hike-label">Distance</span>
+      <span class="hike-value">{{ include.distance }} km</span>
+    </div>
+    {% endif %}
+
+    {% if include.duration %}
+    <div class="hike-item duration">
+      <span class="hike-icon">⏱️</span>
+      <span class="hike-label">Duration</span>
+      <span class="hike-value">{{ include.duration }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.elevation_gain %}
+    <div class="hike-item elevation">
+      <span class="hike-icon">📈</span>
+      <span class="hike-label">Elevation Gain</span>
+      <span class="hike-value">{{ include.elevation_gain }} m</span>
+    </div>
+    {% endif %}
+
+    {% if include.start_point %}
+    <div class="hike-item start">
+      <span class="hike-icon">📍</span>
+      <span class="hike-label">Start Point</span>
+      <span class="hike-value">{{ include.start_point }}</span>
+    </div>
+    {% endif %}
+
+  </div>
+</div>
