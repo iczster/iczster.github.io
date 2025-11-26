@@ -1,0 +1,21 @@
+[
+  
+  
+  
+    {
+      "title"    : "Skiddaw Summit via Jenkins Bridleway",
+      "tags"     : "hiking, summit, and lakes",
+      "categories" : "Hiking",
+      "url"      : "/hiking-skiddaw-via-jenkinshill/",
+      "date"     : "10/11/2025"
+    } ,
+  
+    {
+      "title"    : "Creating a Reusable Hike Info Box in Jekyll",
+      "tags"     : "tech, blogging, jekyll, and tutorial",
+      "categories" : "Tech",
+      "url"      : "/creating-hikebox-tutorial/",
+      "date"     : "10/01/2025"
+    } 
+  
+]
