@@ -48,6 +48,9 @@ Breathtaking views of a cloud inversion
 
 ![Looking Down to Derwentwater](/assets/images/looking-down-to-derwentwater.jpg)  
 *Looking down to Derwentwater*
+![Skiddaw to Little Man](/assets/images/skiddaw-to-little-man.jpg)  
+*Skiddaw to Little Man and cloud inversion*
+
 ### Additional Notes
 
 - Bring waterproofs if rain is forecast  
