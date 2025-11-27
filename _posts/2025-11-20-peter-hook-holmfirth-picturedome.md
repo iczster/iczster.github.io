@@ -21,9 +21,9 @@ The night was tinged with sorrow, however. Earlier in the day, news broke of the
 ![Like from Hooky](/assets/images/hooky-like.jpg)  
 *Managed to get a like from Hooky*
 
-The concert then surged forward with “Shadowplay”, “Wilderness”, “Digital”, and “Transmission”, before closing the Joy Division portion with a stirring “Love Will Tear Us Apart”. Transitioning back to New Order, fans were treated to “Your Silent Face”, “Procession”, “Ceremony”, “Regret”, “Run”, “Bizarre Love Triangle”, and “Temptation”—every note met with loud sing-alongs and cheers, cementing the night as both celebratory and cathartic.
+The concert then surged forward with “Shadowplay”, “Wilderness”, “Digital”, and “Transmission”, before closing the Joy Division portion with a stirring “Love Will Tear Us Apart”. Transitioning back to New Order, fans were treated to “Your Silent Face”, “Procession”, “Ceremony”, “Regret”, “Run”, “Bizarre Love Triangle”, and “Temptation” every note met with loud sing-alongs and cheers, cementing the night as both celebratory and cathartic.
 
-From the pulsating basslines to the audience’s enthusiastic participation, Peter Hook and The Light offered a night of musical brilliance and heartfelt emotion—a fitting tribute not only to the legacy of Joy Division and New Order but also to the power of live music to unite people, even in moments of mourning.
+From the pulsating basslines to the audience’s enthusiastic participation, Peter Hook and The Light offered a night of musical brilliance and heartfelt emotion fitting tribute not only to the legacy of Joy Division and New Order but also to the power of live music to unite people, even in moments of mourning.
 
 **Highlights:**
 
@@ -35,9 +35,9 @@ From the pulsating basslines to the audience’s enthusiastic participation, Pet
 ```A night to remember in Holmfirth.```
 
 
-# 🎵 Full Setlist
+### 🎵 Full Setlist
 
-## Set 1 (Get Ready album)
+> #### Set 1 (Get Ready album)
 - **Crystal** _(New Order cover)_  
 - **60 Miles an Hour** _(New Order cover)_  
 - **Turn My Way** _(New Order cover)_  
@@ -51,7 +51,7 @@ From the pulsating basslines to the audience’s enthusiastic participation, Pet
 - **Brutal** _(New Order cover)_  
 - **Here to Stay** _(New Order cover)_  
 
-## Set 2
+> #### Set 2
 - **Atmosphere** _(Joy Division cover)_  
 - **Dead Souls** _(Joy Division cover)_  
 - **New Dawn Fades** _(Joy Division cover)_  
