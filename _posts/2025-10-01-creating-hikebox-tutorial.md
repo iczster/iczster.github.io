@@ -95,7 +95,7 @@ The following CSS makes the box visually appealing:
 ```
 > You can adapt this CSS for other types of info boxes.
 
-## Step 4: Conditional Include in _layouts/post.html
+## Step 4: Conditional Include in layouts/post.html
 
 To ensure the Hike Info Box appears only for relevant posts:
 
