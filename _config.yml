@@ -51,6 +51,8 @@ sent_message_url: "/contact/message-sent/"
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: rouge
 permalink: /:title/
 collections:
@@ -84,7 +86,6 @@ sass:
 
 # Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-paginate-content
 
 # Exclude my node related stuff

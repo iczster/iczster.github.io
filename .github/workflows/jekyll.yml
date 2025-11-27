@@ -1,32 +1,41 @@
-name: Build Jekyll site
+name: Build and Deploy Jekflix site
 
 on:
   push:
     branches:
-      - master  # or your default branch
+      - master  # build when you push to master
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo
       - uses: actions/checkout@v3
 
+      # 2️⃣ Setup Ruby
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2' # match your local version
+          ruby-version: '3.2.2'
           bundler-cache: true
 
+      # 3️⃣ Install system dependencies for native gems (if needed)
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install -y build-essential libxml2-dev libxslt1-dev zlib1g-dev
+
+      # 4️⃣ Install gems
       - name: Install dependencies
         run: bundle install
 
+      # 5️⃣ Build site with strict front matter check
       - name: Build site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --strict_front_matter --trace
 
+      # 6️⃣ Deploy to gh-pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-
+          # target_branch: gh-pages   # Optional, defaults to gh-pages
