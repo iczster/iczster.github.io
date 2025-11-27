@@ -135,7 +135,7 @@ Serve the site immediately without touching code again
 
 This pattern can be reused for:
 
-* Recipes → r```ecipe-box.html``` + metadata like ```prep_time```, ```ingredients```
+* Recipes → ```recipe-box.html``` + metadata like ```prep_time```, ```ingredients```
 * Music albums → ```album-box.html``` + ```artist```, ```release_year```, ```tracks```
 * Tech tutorials → ```tech-box.html``` + ```difficulty```, ```language```, ```estimated_time```
 
