@@ -1,205 +1,100 @@
-# Jekflix Template
+# 🎬🌐 Longyflix 
+### A blog about **Film, Tech, Hiking, Music, Cooking & Sport**  
+Built with **Jekyll** + a customised **Jekflix** theme
 
-![Jekflix Template Cover Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1505354182/jekflix-logo_mfngps.png)
-
-See the [demo here](https://jekflix.rossener.com/).
-
-## What is it?
-
-A theme for Jekyll inspired by Netflix panel for who loves movies and series and would like to have a blog with this cool appearance.
-
-![Jekflix Screenshot Image](https://res.cloudinary.com/dm7h7e8xj/image/upload/v1566390829/jekflix-screenshot-2_zfiog2.jpg)
-
-## Features
-
-- [Live Search](docs/features.md#live-search)
-- [Estimated Reading Time](docs/features.md#estimated-reading-time)
-- [Reading Progress Bar](docs/features.md#reading-progress-bar) *(optional)*
-- ["New Post" tag](docs/features.md#new-post-tag)
-- [Load images on demand](docs/features.md#load-images-on-demand)
-- [Push Menu](docs/features.md#push-menu)
-- [SVG icons](docs/features.md#svg-icons)
-- [Shell script to create posts](docs/features.md#shell-script-to-create-posts)
-- [Tags page](docs/features.md#tags-page)
-- [About page](docs/features.md#about-page)
-- [Contact page](docs/features.md#contact-page)
-- [404 error page](docs/features.md#404-error-page)
-- [Feed RSS](docs/features.md#feed-rss)
-- [Disqus](docs/features.md#disqus) *(optional)*
-- [Featured post](docs/features.md#featured-post) *(optional)*
-- [Home page pagination](docs/features.md#home-page-pagination) *(optional)*
-- [Posts sidebar](docs/features.md#posts-sidebar) *(optional)*
-- [Paginated posts](docs/features.md#paginated-posts) *(optional)*
-- ["Before you go" modal](docs/features.md#before-you-go-modal) *(optional)*
-- [Post recommendation](docs/features.md#post-recommendation)
-- [Netlify CMS ready](docs/features.md#netlify-cms-ready)
-- [Translations](docs/setup.md#translations) **new!**
-- [Math Expressions](docs/features.md#math-expressions) *(optional)* **new!**
-
-## SEO
-
-- Google Analytics
-- Meta tags
-- JSON-LD
-- Sitemap.xml
-- Social Media ready
-
-## Quick Install
-
-In the case you're installing to existing Jekyll project, add this line to your project's `Gemfile`:
-
-```
-gem "jekflix"
-```
-
-Add this line to your project's `_config.yml`:
-
-```
-theme: jekflix
-```
-
-And then run:
-
-```
-$ bundle
-```
-
-Or install it yourself as:
-
-```
-$ gem install jekflix
-```
-
-### Theme Colors
-
-Create the file `/assets/css/styles.scss` and add:
-
-```
----
 ---
 
-$themeColor: #ff0a16;
-$primaryDark: #141414;
-$accentDark: #ffffff;
-$lightGray: #f2f2f2;
-$texts: #333333;
+![Longy Cloud Banner](https://dummyimage.com/1200x300/000/fff&text=Longy.Cloud+Blog)  
 
-@import "jekflix";
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/Built%20with-Jekyll-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Theme-Jekflix-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-longy.cloud-purple?style=for-the-badge" />
+</p>
 
-Modify the variables above to change your theme colors.
+---
 
-### Site configuration
+## 🌟 About the Site
 
-Below are some properties you can change in your project `_config.yml`, check the [documentation](docs/settings.md#settings) for more details.
+Welcome to **Longyflix** a curated digital space where curiosity and creativity collide.
 
-```
-# Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
-tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
-show_hero: true
-menu:
-  - title: Home
-    url: /
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-  - title: Feed
-    url: /feed.xml
+This blog blends cinematic visuals with clean reading, combining personal stories, technical deep-dives, and hobby explorations… all wrapped inside a customised **Jekflix** theme powered by **Jekyll**.
 
-# Social Media Settings
-# Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+---
 
-# Posts Settings
-show_time_bar: true
-show_modal_on_exit: false
-show_modal_on_finish_post: true
-two_columns_layout: true
+## 📚 What You’ll Find Here
 
-# Advanced Settings
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
-language: "en"
-categories_folder: category
-sent_message_url: "/contact/message-sent/"
+### 🎥 Film  
+Thoughtful reviews, hidden gems, movie breakdowns, and the occasional rant about reboots nobody asked for.
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
-collections:
-  authors:
-    output: true
-paginate_path: "/page/:num/"
-show_get_theme_btn: true
-use_logo: false
+### 💻 Tech  
+Tutorials, experiments, cloud engineering notes, GCP/Terraform builds, homelab tinkering, and more.
 
-# Content paginator
-paginate_content:
-  enabled: true
-  debug: false
-  collections:
-    - posts
-  auto: false
-  separator: "--page-break--"
-  permalink: "/:num/"
-  seo_canonical: true
-  properties:
-    part:
-      is_generated: true
-    last:
-      is_generated: true
-    single:
-      is_generated: true
+### 🥾 Hiking  
+Trail write-ups, gear breakdowns, and stories from the mountains with custom “Hike Info Boxes” embedded directly into posts.
 
-# SASS
-sass:
-  style: compressed
+### 🎶 Music  
+Playlists, mixes, production tips, and commentary on the artists that inspire.
 
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-paginate-content
-```
+### 🍳 Cooking  
+Recipes, experiments, and flavour-packed ideas from a food lover who likes to break the rules.
 
-## Setup
+### ⚽ Sport  
+Match thoughts, commentary, and observations from the world of football and beyond.
 
-In the case you're cloning this repo, follow those instructions:
+---
 
-- [Environment](docs/setup.md#environment)
-- [Installing template](docs/setup.md#installing-template)
-- [Running local](docs/setup.md#running-local)
+## 🛠️ Technology Behind the Site
 
-### Customization
+**Longyflix** is powered by:
 
-See the [settings documentation](docs/settings.md#settings) to customize layout, titles, social media and more.
+- ⚙️ **Jekyll** — a fast static site generator  
+- 🎞️ **Jekflix Theme (customised):**  
+  - Tweaked layouts  
+  - Extended components  
+  - Added Hiking Info Box  
+  - Improved styling and visuals  
+- 🧩 Custom HTML/Liquid components made specifically for the blog  
+- 🚀 **GitHub Pages** hosting  
+- 🔒 **Cloudflare** for DNS and HTTPS  
 
-### Theme
+---
 
-You can easily change the theme colors by changing the file `src/yml/theme.yml`, then running `gulp build` in your terminal.
+## 🚀 Mission
 
-#### GitHub pages
+There’s a whole world of things worth exploring films that inspire, tech that evolves, trails that challenge, sounds that move and bang, dishes that comfort, and sports that electrify. There is something here for everyone and all interests I'm passionate about.
 
-It's a known issue that you can't run Gulp when deploying the website into GitHub pages. So, you must change the theme colors and run `gulp build` locally, then push the changes into your repo, there is no other way.
+**Longyflix is a place to share all of that.**
 
-To see how your website is going to look like when you deploy it, run `bundle exec jekyll serve` locally and access `http://127.0.0.1:4000/`.
+A personal corner of the internet where passion and creativity meet.
+
+---
+
+## 🌐 Visit the Site
+
+👉 **https://longy.cloud**
+
+---
+
+## 📸 Site Preview   
+
+![Grafana Dashboard](/assets/images/site-preview.png)  
+
+---
+
+## 📬 Contributions
+
+This is my personal blog site, but ideas or suggestions are welcome.  
+Open an issue. Say hello. Share a trail. Recommend a film.
+
+---
+
+## ❤️ Thanks for Visiting
+
+If you enjoy the site, bookmark it more content is always on the way!
+
+
 
 ## Posts
 
@@ -207,17 +102,15 @@ Use the [Front Matter properties](docs/post.md#front-matter-properties) to creat
 
 > **Note:** In the case you're cloning this repo, you can use the available [script](docs/post.md#creating-a-post) to generate posts automatically.
 
-## Questions?
 
-File a [GitHub issue](https://github.com/thiagorossener/jekflix-template/issues/new) please.
 
-## Author
+## Theme
 
-[Thiago Rossener](https://rossener.com/)
+[Thanks to ```Thiago Rossener``` for the Jekflix theme]
 
 Do you like my work? Buy me a coffee!
 
-<a href="https://www.buymeacoffee.com/thiagorossener" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/iczster" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## License
 
