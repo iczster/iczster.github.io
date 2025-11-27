@@ -287,7 +287,7 @@ Here we can see the web server is provisioned by code and build time
 
 ![Website Automated](/assets/images/website-html-automated.png)  
 
-To remove all resources that have been created just run terraform destroy you can also apply the same switch if you do not wish to be prompted
+To remove all resources that have been created just run ```terraform destroy``` you can also apply the same switch if you do not wish to be prompted
 
 ### Additional Improvements
 
@@ -295,10 +295,10 @@ Given the size and complexity of the terraform code it isn't worth the effort to
 
 Remember Terraform is a declarative language so this will help in modularisation of your code.
 
-Create separate .tf module files
-Create custom variables
-Running ```terraform fmt``` will ensure your code is nicely linted
-Test the Ansible deployment by configuring a local ```Inventory.txt``` file and running the following command.
+* Create separate .tf module files
+* Create custom variables
+* Running ```terraform fmt``` will ensure your code is nicely linted
+* Test the Ansible deployment by configuring a local ```Inventory.txt``` file and running the following command.
 
 
 ```bash
