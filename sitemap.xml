@@ -184,6 +184,13 @@
             <lastmod>2025-10-01</lastmod>
         </url>
     
+        <url>
+            <loc>https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2022-03-11</lastmod>
+        </url>
+    
     
         <url>
             <loc>https://iczster.github.io/authors/longy/</loc>

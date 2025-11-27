@@ -20,7 +20,7 @@
     <title>Creating a Reusable Hike Info Box in Jekyll | Longyflix | Film - Tech - Hiking - Sport - Music</title>
     <meta name="description" content="Step-by-step guide on creating a reusable hike info box with animations, badges, and conditional rendering in Jekyll.">
     
-        <meta name="keywords" content="tech, blogging, jekyll, tutorial">
+        <meta name="keywords" content="tech, blog, jekyll, tutorial">
     
 
     <!-- Social: Twitter -->
@@ -167,7 +167,7 @@
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>3 min to read</span>
+                    <span>4 min to read</span>
                 </p>
                 <h1 class="post-title">Creating a Reusable Hike Info Box in Jekyll</h1>
                 <p class="post-subtitle">How to build a modular info box for hiking posts (or any category)</p>
@@ -272,7 +272,19 @@
 
 <p>To ensure the Hike Info Box appears only for relevant posts:</p>
 
-<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if page.category == "Hiking" %}
+  {% include hike-box.html
+      difficulty=page.difficulty
+      crowded=page.crowded
+      dog_friendly=page.dog_friendly
+      conditions=page.conditions
+      great_views=page.great_views
+      distance=page.distance
+      duration=page.duration
+      elevation_gain=page.elevation_gain
+      start_point=page.start_point
+  %}
+{% endif %}
 </code></pre></div></div>
 
 <blockquote>
@@ -348,6 +360,15 @@
                                 </a>
                             </li>
                         
+                            <li>
+                                <a href="/beginners-guide-to-building-in-gcp-with-terraform/">
+                                    
+                                        <img src="/assets/images/building-in-gcp-header.jpg">
+                                    
+                                    <h3>Beginners Guide to building in GCP with Terraform</h3>
+                                </a>
+                            </li>
+                        
                     </ul>
                 </aside>
             
@@ -356,7 +377,7 @@
 
         <!-- Add time bar only for pages without pagination -->
         
-            <div class="time-bar" data-minutes="3">
+            <div class="time-bar" data-minutes="4">
     <span class="time-completed"></span>
     <span class="time-remaining"></span>
     <div class="bar">
@@ -398,7 +419,7 @@
 
         <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Step-by-step guide on creating a reusable hike info box with animations, badges, and conditional rendering in Jekyll.&quot;%20https://iczster.github.io/creating-hikebox-tutorial/%20via%20&#64;iczster&hashtags=tech,blogging,jekyll,tutorial"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Step-by-step guide on creating a reusable hike info box with animations, badges, and conditional rendering in Jekyll.&quot;%20https://iczster.github.io/creating-hikebox-tutorial/%20via%20&#64;iczster&hashtags=tech,blog,jekyll,tutorial"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
@@ -707,7 +728,19 @@ Step 4: Conditional Include in layouts/post.html
 
 To ensure the Hike Info Box appears only for relevant posts:
 
-
+{% if page.category == &quot;Hiking&quot; %}
+  {% include hike-box.html
+      difficulty=page.difficulty
+      crowded=page.crowded
+      dog_friendly=page.dog_friendly
+      conditions=page.conditions
+      great_views=page.great_views
+      distance=page.distance
+      duration=page.duration
+      elevation_gain=page.elevation_gain
+      start_point=page.start_point
+  %}
+{% endif %}
 
 
 
@@ -761,7 +794,7 @@ Tips for Readers
 
 
 ",
-            "wordcount": "711",
+            "wordcount": "732",
             "inLanguage": "en",
             "dateCreated": "01-00-2025/",
             "datePublished": "01-00-2025/",
@@ -792,7 +825,7 @@ Tips for Readers
             "mainEntityOfPage": "True",
             "genre": "Tech",
             "articleSection": "Tech",
-            "keywords": ["tech","blogging","jekyll","tutorial"]
+            "keywords": ["tech","blog","jekyll","tutorial"]
         }
         </script>
     </body>

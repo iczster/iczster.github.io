@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    <title>Beginners Guide to building in GCP with Terraform | Longyflix | Film - Tech - Hiking - Sport - Music</title>
+    <meta name="description" content="Step-by-step guide on automating the creation of GCP resources">
+    
+        <meta name="keywords" content="tech, blog, GCP, tutorial">
+    
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Beginners Guide to building in GCP with Terraform | Longyflix | Film - Tech - Hiking - Sport - Music">
+    <meta name="twitter:description" content="Step-by-step guide on automating the creation of GCP resources">
+
+    
+        <meta property="twitter:image" content="https://iczster.github.io/assets/images/building-in-gcp-header.jpg">
+    
+    
+    
+        <meta name="twitter:site" content="@iczster">
+    
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/">
+    <meta property="og:title" content="Beginners Guide to building in GCP with Terraform | Longyflix | Film - Tech - Hiking - Sport - Music">
+    <meta property="og:image" content="/assets/images/building-in-gcp-header.jpg">
+    <meta property="og:description" content="Step-by-step guide on automating the creation of GCP resources">
+    <meta property="og:site_name" content="Film - Tech - Hiking - Sport - Music">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-touch-icon-152x152.png" />
+
+    <!-- Windows 8 Tile Icons -->
+    <meta name="application-name" content="Longyflix | Film - Tech - Hiking - Sport - Music">
+    <meta name="msapplication-TileColor" content="#141414">
+    <meta name="msapplication-square70x70logo" content="smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="widetile.png" />
+    <meta name="msapplication-square310x310logo" content="largetile.png" />
+    
+    <!-- Android Lolipop Theme Color -->
+    <meta name="theme-color" content="#141414">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="canonical" href="https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/">
+    <link rel="alternate" type="application/rss+xml" title="Film - Tech - Hiking - Sport - Music" href="https://iczster.github.io/feed.xml" />
+
+    <!-- Include extra styles -->
+    
+
+    <!-- JavaScript enabled/disabled -->
+    <script>
+        document.querySelector('html').classList.remove('no-js');
+    </script>
+</head>
+
+    <body class="has-push-menu">
+        
+
+
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none" version="1.1"><defs><symbol id="icon-menu" viewBox="0 0 1024 1024"><path class="path1" d="M128 213.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 725.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5zM128 469.333h768q17.667 0 30.167 12.5t12.5 30.167-12.5 30.167-30.167 12.5h-768q-17.667 0-30.167-12.5t-12.5-30.167 12.5-30.167 30.167-12.5z"/></symbol><symbol id="icon-search" viewBox="0 0 951 1024"><path class="path1" d="M658.286 475.429q0-105.714-75.143-180.857t-180.857-75.143-180.857 75.143-75.143 180.857 75.143 180.857 180.857 75.143 180.857-75.143 75.143-180.857zM950.857 950.857q0 29.714-21.714 51.429t-51.429 21.714q-30.857 0-51.429-21.714l-196-195.429q-102.286 70.857-228 70.857-81.714 0-156.286-31.714t-128.571-85.714-85.714-128.571-31.714-156.286 31.714-156.286 85.714-128.571 128.571-85.714 156.286-31.714 156.286 31.714 128.571 85.714 85.714 128.571 31.714 156.286q0 125.714-70.857 228l196 196q21.143 21.143 21.143 51.429z"/></symbol><symbol id="icon-close" viewBox="0 0 1000 1000"><path d="M969.8,870.3c27,27.7,27,71.8,0,99.1C955.7,983,937.9,990,920,990c-17.9,0-35.7-7-49.7-20.7L500,599L129.6,969.4C115.6,983,97.8,990,79.9,990s-35.7-7-49.7-20.7c-27-27.3-27-71.4,0-99.1L400.9,500L30.3,129.3c-27-27.3-27-71.4,0-99.1c27.3-27,71.8-27,99.4,0L500,400.9L870.4,30.2c27.7-27,71.8-27,99.4,0c27,27.7,27,71.8,0,99.1L599.1,500L969.8,870.3z"/></symbol><symbol id="icon-twitter" viewBox="0 0 951 1024"><path class="path1" d="M925.714 233.143q-38.286 56-92.571 95.429 0.571 8 0.571 24 0 74.286-21.714 148.286t-66 142-105.429 120.286-147.429 83.429-184.571 31.143q-154.857 0-283.429-82.857 20 2.286 44.571 2.286 128.571 0 229.143-78.857-60-1.143-107.429-36.857t-65.143-91.143q18.857 2.857 34.857 2.857 24.571 0 48.571-6.286-64-13.143-106-63.714t-42-117.429v-2.286q38.857 21.714 83.429 23.429-37.714-25.143-60-65.714t-22.286-88q0-50.286 25.143-93.143 69.143 85.143 168.286 136.286t212.286 56.857q-4.571-21.714-4.571-42.286 0-76.571 54-130.571t130.571-54q80 0 134.857 58.286 62.286-12 117.143-44.571-21.143 65.714-81.143 101.714 53.143-5.714 106.286-28.571z"/></symbol><symbol id="icon-facebook" viewBox="0 0 585 1024"><path class="path1" d="M548 6.857v150.857h-89.714q-49.143 0-66.286 20.571t-17.143 61.714v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571q0-106.286 59.429-164.857t158.286-58.571q84 0 130.286 6.857z"/></symbol><symbol id="icon-clock" viewBox="0 0 1000 1000"><path d="M500,10C229.8,10,10,229.8,10,500c0,270.2,219.8,490,490,490c270.2,0,490-219.8,490-490C990,229.8,770.2,10,500,10z M500,910.2c-226.2,0-410.2-184-410.2-410.2c0-226.2,184-410.2,410.2-410.2c226.2,0,410.2,184,410.2,410.2C910.2,726.1,726.2,910.2,500,910.2z M753.1,374c8.2,11.9,5.2,28.1-6.6,36.3L509.9,573.7c-4.4,3.1-9.6,4.6-14.8,4.6c-4.1,0-8.3-1-12.1-3c-8.6-4.5-14-13.4-14-23.1V202.5c0-14.4,11.7-26.1,26.1-26.1c14.4,0,26.1,11.7,26.1,26.1v300l195.6-135.1C728.7,359.2,744.9,362.1,753.1,374z"/></symbol><symbol id="icon-calendar" viewBox="0 0 1000 1000"><path d="M920,500v420H80V500H920 M990,430H10v490c0,38.7,31.3,70,70,70h840c38.7,0,70-31.3,70-70V430L990,430z"/><path d="M850,80v105c0,57.9-47.2,105-105,105c-58,0-105-47.1-105-105V80H360v105c0,57.9-47.2,105-105,105c-58,0-105-47.1-105-105V80C72.8,80,10,142.7,10,220v140h980V220C990,142.7,927.2,80,850,80z"/><path d="M255,10c-19.3,0-35,15.8-35,35v140c0,19.2,15.7,35,35,35c19.3,0,35-15.8,35-35V45C290,25.8,274.3,10,255,10z"/><path d="M745,10c-19.3,0-35,15.8-35,35v140c0,19.2,15.7,35,35,35c19.3,0,35-15.8,35-35V45C780,25.8,764.3,10,745,10z"/></symbol><symbol id="icon-github" viewBox="0 0 12 14"><path d="M6 1q1.633 0 3.012 0.805t2.184 2.184 0.805 3.012q0 1.961-1.145 3.527t-2.957 2.168q-0.211 0.039-0.312-0.055t-0.102-0.234q0-0.023 0.004-0.598t0.004-1.051q0-0.758-0.406-1.109 0.445-0.047 0.801-0.141t0.734-0.305 0.633-0.52 0.414-0.82 0.16-1.176q0-0.93-0.617-1.609 0.289-0.711-0.062-1.594-0.219-0.070-0.633 0.086t-0.719 0.344l-0.297 0.187q-0.727-0.203-1.5-0.203t-1.5 0.203q-0.125-0.086-0.332-0.211t-0.652-0.301-0.664-0.105q-0.352 0.883-0.062 1.594-0.617 0.68-0.617 1.609 0 0.664 0.16 1.172t0.41 0.82 0.629 0.523 0.734 0.305 0.801 0.141q-0.305 0.281-0.383 0.805-0.164 0.078-0.352 0.117t-0.445 0.039-0.512-0.168-0.434-0.488q-0.148-0.25-0.379-0.406t-0.387-0.187l-0.156-0.023q-0.164 0-0.227 0.035t-0.039 0.090 0.070 0.109 0.102 0.094l0.055 0.039q0.172 0.078 0.34 0.297t0.246 0.398l0.078 0.18q0.102 0.297 0.344 0.48t0.523 0.234 0.543 0.055 0.434-0.027l0.18-0.031q0 0.297 0.004 0.691t0.004 0.426q0 0.141-0.102 0.234t-0.312 0.055q-1.812-0.602-2.957-2.168t-1.145-3.527q0-1.633 0.805-3.012t2.184-2.184 3.012-0.805zM2.273 9.617q0.023-0.055-0.055-0.094-0.078-0.023-0.102 0.016-0.023 0.055 0.055 0.094 0.070 0.047 0.102-0.016zM2.516 9.883q0.055-0.039-0.016-0.125-0.078-0.070-0.125-0.023-0.055 0.039 0.016 0.125 0.078 0.078 0.125 0.023zM2.75 10.234q0.070-0.055 0-0.148-0.062-0.102-0.133-0.047-0.070 0.039 0 0.141t0.133 0.055zM3.078 10.562q0.062-0.062-0.031-0.148-0.094-0.094-0.156-0.023-0.070 0.062 0.031 0.148 0.094 0.094 0.156 0.023zM3.523 10.758q0.023-0.086-0.102-0.125-0.117-0.031-0.148 0.055t0.102 0.117q0.117 0.047 0.148-0.047zM4.016 10.797q0-0.102-0.133-0.086-0.125 0-0.125 0.086 0 0.102 0.133 0.086 0.125 0 0.125-0.086zM4.469 10.719q-0.016-0.086-0.141-0.070-0.125 0.023-0.109 0.117t0.141 0.062 0.109-0.109z"></path></symbol><symbol id="icon-medium" viewBox="0 0 1000 1000"><path d="M336.5,240.2v641.5c0,9.1-2.3,16.9-6.8,23.2s-11.2,9.6-20,9.6c-6.2,0-12.2-1.5-18-4.4L37.3,782.7c-7.7-3.6-14.1-9.8-19.4-18.3S10,747.4,10,739V115.5c0-7.3,1.8-13.5,5.5-18.6c3.6-5.1,8.9-7.7,15.9-7.7c5.1,0,13.1,2.7,24.1,8.2l279.5,140C335.9,238.6,336.5,239.5,336.5,240.2L336.5,240.2z M371.5,295.5l292,473.6l-292-145.5V295.5z M990,305.3v576.4c0,9.1-2.6,16.5-7.7,22.1c-5.1,5.7-12,8.5-20.8,8.5s-17.3-2.4-25.7-7.1L694.7,784.9L990,305.3z M988.4,239.7c0,1.1-46.8,77.6-140.3,229.4C754.6,621,699.8,709.8,683.8,735.7L470.5,389l177.2-288.2c6.2-10.2,15.7-15.3,28.4-15.3c5.1,0,9.8,1.1,14.2,3.3l295.9,147.7C987.6,237.1,988.4,238.2,988.4,239.7L988.4,239.7z"/></symbol><symbol id="icon-instagram" viewBox="0 0 489.84 489.84"><path d="M249.62,50.46c65.4,0,73.14.25,99,1.43C372.47,53,385.44,57,394.07,60.32a75.88,75.88,0,0,1,28.16,18.32,75.88,75.88,0,0,1,18.32,28.16c3.35,8.63,7.34,21.6,8.43,45.48,1.18,25.83,1.43,33.57,1.43,99s-0.25,73.14-1.43,99c-1.09,23.88-5.08,36.85-8.43,45.48a81.11,81.11,0,0,1-46.48,46.48c-8.63,3.35-21.6,7.34-45.48,8.43-25.82,1.18-33.57,1.43-99,1.43s-73.15-.25-99-1.43c-23.88-1.09-36.85-5.08-45.48-8.43A75.88,75.88,0,0,1,77,423.86,75.88,75.88,0,0,1,58.69,395.7c-3.35-8.63-7.34-21.6-8.43-45.48-1.18-25.83-1.43-33.57-1.43-99s0.25-73.14,1.43-99c1.09-23.88,5.08-36.85,8.43-45.48A75.88,75.88,0,0,1,77,78.64a75.88,75.88,0,0,1,28.16-18.32c8.63-3.35,21.6-7.34,45.48-8.43,25.83-1.18,33.57-1.43,99-1.43m0-44.13c-66.52,0-74.86.28-101,1.47s-43.87,5.33-59.45,11.38A120.06,120.06,0,0,0,45.81,47.44,120.06,120.06,0,0,0,17.56,90.82C11.5,106.4,7.36,124.2,6.17,150.27s-1.47,34.46-1.47,101,0.28,74.86,1.47,101,5.33,43.87,11.38,59.45a120.06,120.06,0,0,0,28.25,43.38,120.06,120.06,0,0,0,43.38,28.25c15.58,6.05,33.38,10.19,59.45,11.38s34.46,1.47,101,1.47,74.86-.28,101-1.47,43.87-5.33,59.45-11.38a125.24,125.24,0,0,0,71.63-71.63c6.05-15.58,10.19-33.38,11.38-59.45s1.47-34.46,1.47-101-0.28-74.86-1.47-101-5.33-43.87-11.38-59.45a120.06,120.06,0,0,0-28.25-43.38,120.06,120.06,0,0,0-43.38-28.25C394.47,13.13,376.67,9,350.6,7.8s-34.46-1.47-101-1.47h0Z" transform="translate(-4.7 -6.33)" /><path d="M249.62,125.48A125.77,125.77,0,1,0,375.39,251.25,125.77,125.77,0,0,0,249.62,125.48Zm0,207.41a81.64,81.64,0,1,1,81.64-81.64A81.64,81.64,0,0,1,249.62,332.89Z" transform="translate(-4.7 -6.33)"/><circle cx="375.66" cy="114.18" r="29.39" /></symbol><symbol id="icon-linkedin" viewBox="0 0 12 14"><path d="M2.727 4.883v7.742h-2.578v-7.742h2.578zM2.891 2.492q0.008 0.57-0.395 0.953t-1.059 0.383h-0.016q-0.641 0-1.031-0.383t-0.391-0.953q0-0.578 0.402-0.957t1.051-0.379 1.039 0.379 0.398 0.957zM12 8.187v4.437h-2.57v-4.141q0-0.82-0.316-1.285t-0.988-0.465q-0.492 0-0.824 0.27t-0.496 0.668q-0.086 0.234-0.086 0.633v4.32h-2.57q0.016-3.117 0.016-5.055t-0.008-2.313l-0.008-0.375h2.57v1.125h-0.016q0.156-0.25 0.32-0.438t0.441-0.406 0.68-0.34 0.895-0.121q1.336 0 2.148 0.887t0.813 2.598z"></path></symbol><symbol id="icon-heart" viewBox="0 0 34 30"><path d="M17,29.7 L16.4,29.2 C3.5,18.7 0,15 0,9 C0,4 4,0 9,0 C13.1,0 15.4,2.3 17,4.1 C18.6,2.3 20.9,0 25,0 C30,0 34,4 34,9 C34,15 30.5,18.7 17.6,29.2 L17,29.7 Z M9,2 C5.1,2 2,5.1 2,9 C2,14.1 5.2,17.5 17,27.1 C28.8,17.5 32,14.1 32,9 C32,5.1 28.9,2 25,2 C21.5,2 19.6,4.1 18.1,5.8 L17,7.1 L15.9,5.8 C14.4,4.1 12.5,2 9,2 Z" id="Shape"></path></symbol><symbol id="icon-arrow-right" viewBox="0 0 25.452 25.452"><path d="M4.471,24.929v-2.004l12.409-9.788c0.122-0.101,0.195-0.251,0.195-0.411c0-0.156-0.073-0.31-0.195-0.409L4.471,2.526V0.522c0-0.2,0.115-0.384,0.293-0.469c0.18-0.087,0.396-0.066,0.552,0.061l15.47,12.202c0.123,0.1,0.195,0.253,0.195,0.409c0,0.16-0.072,0.311-0.195,0.411L5.316,25.34c-0.155,0.125-0.372,0.147-0.552,0.061C4.586,25.315,4.471,25.13,4.471,24.929z"/></symbol><symbol id="icon-star" viewBox="0 0 48 48"><path fill="currentColor" d="M44,24c0,11.045-8.955,20-20,20S4,35.045,4,24S12.955,4,24,4S44,12.955,44,24z"/><path fill="#ffffff" d="M24,11l3.898,7.898l8.703,1.301l-6.301,6.102l1.5,8.699L24,30.898L16.199,35l1.5-8.699l-6.301-6.102  l8.703-1.301L24,11z"/></symbol><symbol id="icon-read" viewBox="0 0 32 32"><path fill="currentColor" d="M29,4H3C1.343,4,0,5.343,0,7v18c0,1.657,1.343,3,3,3h10c0,0.552,0.448,1,1,1h4c0.552,0,1-0.448,1-1h10  c1.657,0,3-1.343,3-3V7C32,5.343,30.657,4,29,4z M29,5v20H18.708c-0.618,0-1.236,0.146-1.789,0.422l-0.419,0.21V5H29z M15.5,5  v20.632l-0.419-0.21C14.528,25.146,13.91,25,13.292,25H3V5H15.5z M31,25c0,1.103-0.897,2-2,2H18v1h-4v-1H3c-1.103,0-2-0.897-2-2V7  c0-0.737,0.405-1.375,1-1.722V25c0,0.552,0.448,1,1,1h10.292c0.466,0,0.925,0.108,1.342,0.317l0.919,0.46  c0.141,0.07,0.294,0.106,0.447,0.106c0.153,0,0.306-0.035,0.447-0.106l0.919-0.46C17.783,26.108,18.242,26,18.708,26H29  c0.552,0,1-0.448,1-1V5.278C30.595,5.625,31,6.263,31,7V25z M6,12.5C6,12.224,6.224,12,6.5,12h5c0.276,0,0.5,0.224,0.5,0.5  S11.776,13,11.5,13h-5C6.224,13,6,12.776,6,12.5z M6,14.5C6,14.224,6.224,14,6.5,14h5c0.276,0,0.5,0.224,0.5,0.5S11.776,15,11.5,15  h-5C6.224,15,6,14.776,6,14.5z M6,16.5C6,16.224,6.224,16,6.5,16h5c0.276,0,0.5,0.224,0.5,0.5S11.776,17,11.5,17h-5  C6.224,17,6,16.776,6,16.5z M20,12.5c0-0.276,0.224-0.5,0.5-0.5h5c0.276,0,0.5,0.224,0.5,0.5S25.776,13,25.5,13h-5  C20.224,13,20,12.776,20,12.5z M20,14.5c0-0.276,0.224-0.5,0.5-0.5h5c0.276,0,0.5,0.224,0.5,0.5S25.776,15,25.5,15h-5  C20.224,15,20,14.776,20,14.5z M20,16.5c0-0.276,0.224-0.5,0.5-0.5h5c0.276,0,0.5,0.224,0.5,0.5S25.776,17,25.5,17h-5  C20.224,17,20,16.776,20,16.5z"></path></symbol></defs></svg>
+
+        <header class="bar-header">
+    <a id="menu" role="button">
+        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    </a>
+    <h1 class="logo">
+        <a href="/">
+            
+                Longyflix | Film - Tech - Hiking - Sport - Music <span class="version">v3.1.2</span>
+            
+        </a>
+    </h1>
+    <a id="search" class="dosearch" role="button">
+        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
+    </a>
+    
+</header>
+
+<div id="mask" class="overlay"></div>
+
+<aside class="sidebar" id="sidebar">
+    <nav id="navigation">
+      <h2>Menu</h2>
+      <ul>
+  
+    
+      <li>
+        <a href="https://iczster.github.io/">Home</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://iczster.github.io/about">About</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://iczster.github.io/contact">Contact</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://iczster.github.io/feed.xml">Feed</a>
+      </li>
+    
+  
+</ul>
+
+    </nav>
+</aside>
+
+<div class="search-wrapper">
+    <div class="search-form">
+        <input type="text" class="search-field" placeholder="Search">
+        <svg class="icon-remove-sign"><use xlink:href="#icon-close"></use></svg>
+        <ul class="search-results search-list"></ul>
+    </div>
+</div>
+
+
+
+        <section class="post two-columns">
+            <article role="article" class="post-content">
+                <p class="post-info">
+                    
+                        <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
+                        <time class="date" datetime="2022-03-11T10:00:00+00:00">
+                            11-03-2022
+
+                        </time>
+                    
+                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
+                    <span>9 min to read</span>
+                </p>
+                <h1 class="post-title">Beginners Guide to building in GCP with Terraform</h1>
+                <p class="post-subtitle">Automate the build of a web server and Ansible on Google Compute Engine with Terraform</p>
+
+                
+                    <img src="/assets/images/building-in-gcp-header.jpg" alt="Featured image" class="post-cover">
+                
+
+                <!-- Pagination links -->
+
+
+
+                <!-- Add your table of contents here -->
+
+                
+
+                <h2 id="goal">Goal</h2>
+
+<p>This article will set out what you need in order to be able to standup an automated build of a VM (Google Cloud) a web server (Apache) and Ansible.</p>
+
+<h3 id="what-will-we-cover">What will we cover</h3>
+
+<p>Deployment of a Google Compute VM instance using Terraform
+Use of a Compute Instance startup script or user-data
+Rendering a Terraform template
+Dependencies</p>
+
+<p>You have created a GCP account (or trial account). You will receive $300 of credits and also 750 hours per month will be free if you select the e2-micro instance. More information can be found in the tutorial below including the configuration of your gcp-creds.json file</p>
+
+<p>https://www.youtube.com/watch?v=gb0bytUGDnQ</p>
+
+<p>The Google Cloud SDK is installed link here https://cloud.google.com/sdk/docs/install</p>
+
+<p>You can validate this with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gcloud <span class="nt">--version</span>
+terraform <span class="nt">--version</span>
+</code></pre></div></div>
+
+<p>Our Terraform code will build all the firewall rules, network, API dependencies and resources along with ssh key access using your own public key id_rsa.pub</p>
+
+<h3 id="lets-begin">Lets Begin</h3>
+
+<p>Creating a Google Compute Engine VM</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>terraform-project
+<span class="nb">cd </span>terrafor-project
+</code></pre></div></div>
+
+<p>Define the Google provider in your terraform code along with client.json credentials.</p>
+
+<p>Create all the code in your terraform project directory</p>
+
+<p><code class="language-plaintext highlighter-rouge">vi main.tf</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Main terraform code block</span>
+<span class="c1"># Author:       Longy</span>
+<span class="c1"># Date:         March 2022</span>
+<span class="c1"># Description:  Automate build of CE, Firewall rules &amp; tags. Install web server, ansible &amp; docker</span>
+<span class="c1"># Platform:     GCP</span>
+<span class="c1"># Version:      1.0</span>
+<span class="c1">#########################################################################</span>
+
+<span class="nx">provider</span> <span class="s2">"google"</span> <span class="p">{</span>
+  <span class="nx">credentials</span> <span class="p">=</span> <span class="nx">file</span><span class="err">(</span><span class="s2">"my-gcp-creds.json"</span><span class="err">)</span> <span class="c1">// export GCLOUD_KEYFILE_JSON</span>
+  <span class="nx">project</span>     <span class="p">=</span> <span class="s2">"dev-work-342110"</span>         <span class="c1">// export GCLOUD_PROJECT</span>
+  <span class="nx">region</span>      <span class="p">=</span> <span class="s2">"us-west1"</span>                <span class="c1">// export GCLOUD_REGION</span>
+  <span class="nx">zone</span>        <span class="p">=</span> <span class="s2">"us-west1-c"</span>              <span class="c1">// export GCLOUD_ZONE</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><strong>NOTE</strong> this can also be set as variables see addendum for additional improvements.</p>
+
+<p>We are now going to create the resources in our code:</p>
+
+<p><code class="language-plaintext highlighter-rouge">Firewall rules</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">resource</span> <span class="s2">"google_compute_firewall"</span> <span class="s2">"web"</span> <span class="p">{</span>
+  <span class="nx">name</span>          <span class="p">=</span> <span class="s2">"web-access"</span>
+  <span class="nx">network</span>       <span class="p">=</span> <span class="s2">"default"</span>
+  <span class="nx">source_ranges</span> <span class="p">=</span> <span class="p">[</span><span class="s2">"0.0.0.0/0"</span><span class="p">]</span>
+  <span class="nx">allow</span> <span class="p">{</span>
+    <span class="nx">protocol</span> <span class="p">=</span> <span class="s2">"tcp"</span>
+    <span class="nx">ports</span>    <span class="p">=</span> <span class="p">[</span><span class="s2">"80"</span><span class="p">,</span> <span class="s2">"443"</span><span class="p">,</span> <span class="s2">"22"</span><span class="p">]</span>
+  <span class="p">}</span>
+  <span class="nx">target_tags</span> <span class="p">=</span> <span class="p">[</span><span class="s2">"http-server"</span><span class="p">,</span> <span class="s2">"https-server"</span><span class="p">,</span> <span class="s2">"allow-ssh"</span><span class="p">]</span>
+  <span class="nx">priority</span>    <span class="p">=</span> <span class="mi">1000</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Enable APIs</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">resource</span> <span class="s2">"google_project_service"</span> <span class="s2">"api"</span> <span class="p">{</span>
+  <span class="nx">for_each</span> <span class="p">=</span> <span class="nx">toset</span><span class="err">(</span><span class="p">[</span>
+    <span class="s2">"cloudresourcemanager.googleapis.com"</span><span class="p">,</span>
+    <span class="s2">"compute.googleapis.com"</span>
+  <span class="p">]</span><span class="err">)</span>
+  <span class="nx">disable_on_destroy</span> <span class="p">=</span> <span class="kc">false</span>
+  <span class="nx">service</span>            <span class="p">=</span> <span class="nx">each</span><span class="err">.</span><span class="nx">value</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Configure Compute Engine instance, network and bootstrapping</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">resource</span> <span class="s2">"google_compute_instance"</span> <span class="s2">"gcp-dev-build"</span> <span class="p">{</span>
+  <span class="nx">name</span>         <span class="p">=</span> <span class="s2">"gcp-server-dev"</span>
+  <span class="nx">machine_type</span> <span class="p">=</span> <span class="s2">"e2-micro"</span>
+  <span class="nx">boot_disk</span> <span class="p">{</span>
+    <span class="nx">initialize_params</span> <span class="p">{</span>
+      <span class="nx">image</span> <span class="p">=</span> <span class="s2">"ubuntu-1804-bionic-v20220131"</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="nx">network_interface</span> <span class="p">{</span>
+    <span class="nx">network</span> <span class="p">=</span> <span class="s2">"default"</span> <span class="c1">// This enables Private IP Address</span>
+    <span class="nx">access_config</span> <span class="p">{}</span>    <span class="c1">// This enables Public IP Address</span>
+  <span class="p">}</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Apply the firewall rule to allow external IPs to access this instance</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nx">tags</span> <span class="err">=</span> <span class="p">[</span><span class="s2">"http-server"</span><span class="p">,</span> <span class="s2">"https-server"</span><span class="p">,</span> <span class="s2">"gcp-dev-build"</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>To use the latest <code class="language-plaintext highlighter-rouge">Debian</code> disk image we can use the data source and any type of instance can be selected:</p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nx">data</span> <span class="s2">"google_compute_image"</span> <span class="s2">"debian"</span> <span class="p">{</span>
+    <span class="nx">family</span>  <span class="p">=</span> <span class="s2">"ubuntu-1804-lts"</span>
+    <span class="nx">project</span> <span class="p">=</span> <span class="s2">"gce-uefi-images"</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can play around with different build installations</p>
+
+<p><code class="language-plaintext highlighter-rouge">Invoke our build script</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nx">metadata_startup_script</span> <span class="err">=</span> <span class="nx">file</span><span class="err">(</span><span class="s2">"/Users/alongmuir/coding/terraform-project/gcp-user-data.sh"</span><span class="err">)</span>
+
+  <span class="nx">depends_on</span> <span class="err">=</span> <span class="p">[</span><span class="nx">google_project_service</span><span class="err">.</span><span class="nx">api</span><span class="p">,</span> <span class="nx">google_compute_firewall</span><span class="err">.</span><span class="nx">web</span><span class="p">]</span>
+<span class="err">}</span>
+</code></pre></div></div>
+
+<p>The contents of the <code class="language-plaintext highlighter-rouge">gcp-user-data.sh</code> are as follows.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="c">#!/bin/bash</span>
+  <span class="c"># Test Basic Web Page. Install updates, apache and enable/start</span>
+  <span class="nb">sudo </span>apt-get update
+  <span class="nb">sudo </span>apt-get <span class="nb">install</span> <span class="nt">-y</span> apache2
+  <span class="nb">sudo </span>systemctl start apache2
+  <span class="nb">sudo </span>systemctl <span class="nb">enable </span>apache2
+  <span class="nb">sudo echo</span> <span class="s2">"&lt;h1&gt;Instance deployed by Terraform in GCP instance build time&lt;/h1&gt; </span><span class="sb">`</span><span class="nb">date</span><span class="sb">`</span><span class="s2">"</span> | <span class="nb">sudo tee</span> /var/www/html/index.html
+
+  <span class="c"># Install pip and ansible</span>
+  <span class="nb">sudo </span>curl https://bootstrap.pypa.io/get-pip.py <span class="nt">-o</span> get-pip.py
+  <span class="nb">sudo </span>python3 get-pip.py <span class="nt">--user</span>
+  <span class="nb">sudo </span>python3 <span class="nt">-m</span> pip <span class="nb">install</span> <span class="nt">--user</span> ansible
+  <span class="nb">sudo </span>python3 get-pip.py
+  <span class="nb">sudo </span>python3 <span class="nt">-m</span> pip <span class="nb">install </span>ansible
+
+  <span class="c"># Upgrade to latest pip</span>
+  <span class="nb">sudo </span>python3 <span class="nt">-m</span> pip <span class="nb">install</span> <span class="nt">--upgrade</span> pip
+  <span class="nb">sudo </span>apt <span class="nb">install </span>ansible <span class="nt">-y</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">Pass public RSA key via terraform to VM instance</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Pass public RSA key via terraform to VM instance</span>
+<span class="nx">resource</span> <span class="s2">"google_compute_project_metadata"</span> <span class="s2">"my_ssh_key"</span> <span class="p">{</span>
+  <span class="nx">metadata</span> <span class="p">=</span> <span class="p">{</span>
+    <span class="nx">ssh</span><span class="err">-</span><span class="nx">keys</span> <span class="p">=</span> <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh">
+      &lt; Paste the contents of your id_rsa.pub file here&gt;
+</span><span class="no">    EOF
+</span>  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This will hardcode they key into your code there are ways you can obfuscate this. Some additional research for you 😉 but worth noting not to push your code to any public <code class="language-plaintext highlighter-rouge">GIT</code> repos.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Lets display our outputs</code></p>
+
+<div class="language-hcl highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">data</span> <span class="s2">"google_project"</span> <span class="s2">"project"</span> <span class="p">{</span>
+<span class="p">}</span>
+
+<span class="nx">output</span> <span class="s2">"instance_ip"</span> <span class="p">{</span>
+  <span class="nx">value</span>       <span class="p">=</span> <span class="nx">join</span><span class="err">(</span><span class="s2">" "</span><span class="err">,</span> <span class="nx">google_compute_instance</span><span class="err">.</span><span class="nx">gcp</span><span class="err">-</span><span class="nx">dev</span><span class="err">-</span><span class="nx">build</span><span class="err">.*.</span><span class="nx">network_interface</span><span class="err">.</span><span class="mi">0</span><span class="err">.</span><span class="nx">access_config</span><span class="err">.</span><span class="mi">0</span><span class="err">.</span><span class="nx">nat_ip</span><span class="err">)</span>
+  <span class="nx">description</span> <span class="p">=</span> <span class="s2">"The public IP address of the newly created instance"</span>
+<span class="p">}</span>
+
+<span class="nx">output</span> <span class="s2">"project_name"</span> <span class="p">{</span>
+  <span class="nx">value</span> <span class="p">=</span> <span class="nx">data</span><span class="err">.</span><span class="nx">google_project</span><span class="err">.</span><span class="nx">project</span><span class="err">.</span><span class="nx">name</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h3 id="lets-initialise-our-terraform-project">Lets Initialise our Terraform Project</h3>
+
+<p>To do this run <code class="language-plaintext highlighter-rouge">terraform init</code> see output below.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Initializing the backend...
+
+Initializing provider plugins...
+- Finding latest version of hashicorp/google...
+- Installing hashicorp/google v4.13.0...
+- Installed hashicorp/google v4.13.0 <span class="o">(</span>signed by HashiCorp<span class="o">)</span>
+
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file <span class="k">in </span>your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run <span class="s2">"terraform init"</span> <span class="k">in </span>the future.
+
+Terraform has been successfully initialized!
+
+You may now begin working with Terraform. Try running <span class="s2">"terraform plan"</span> to see
+any changes that are required <span class="k">for </span>your infrastructure. All Terraform commands
+should now work.
+
+If you ever <span class="nb">set </span>or change modules or backend configuration <span class="k">for </span>Terraform,
+rerun this <span class="nb">command </span>to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to <span class="k">do </span>so <span class="k">if </span>necessary.
+</code></pre></div></div>
+
+<p>This will download your provider resources defined earlier. You can view this under .terraform folder in your project directory.</p>
+
+<p>Now lets validate the syntax of our code with <code class="language-plaintext highlighter-rouge">terraform validate</code></p>
+
+<p>You should see</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Success! The configuration is valid.
+</code></pre></div></div>
+
+<p>Running <code class="language-plaintext highlighter-rouge">terraform plan</code> will inform you of what will be created or changed when running your code. Terraform remembers this by its state file. I’ll do an additional article on how to configure this best practice.</p>
+
+<p>OK … lets build our resource in GCP. To do this execute <code class="language-plaintext highlighter-rouge">terraform apply</code> and answer yes</p>
+
+<p>If you run t<code class="language-plaintext highlighter-rouge">erraform apply -auto-approve</code> this will omit the need to validate with a prompt.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Plan: 5 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + instance_ip  <span class="o">=</span> <span class="o">(</span>known after apply<span class="o">)</span>
+  + project_name <span class="o">=</span> <span class="s2">"Dev-Work"</span>
+google_project_service.api[<span class="s2">"compute.googleapis.com"</span><span class="o">]</span>: Creating...
+google_project_service.api[<span class="s2">"cloudresourcemanager.googleapis.com"</span><span class="o">]</span>: Creating...
+google_compute_project_metadata.my_ssh_key: Creating...
+google_compute_firewall.web: Creating...
+google_project_service.api[<span class="s2">"compute.googleapis.com"</span><span class="o">]</span>: Creation <span class="nb">complete </span>after 4s <span class="o">[</span><span class="nb">id</span><span class="o">=</span>dev-work-342110/compute.googleapis.com]
+google_project_service.api[<span class="s2">"cloudresourcemanager.googleapis.com"</span><span class="o">]</span>: Creation <span class="nb">complete </span>after 4s <span class="o">[</span><span class="nb">id</span><span class="o">=</span>dev-work-342110/cloudresourcemanager.googleapis.com]
+google_compute_project_metadata.my_ssh_key: Still creating... <span class="o">[</span>10s elapsed]
+google_compute_firewall.web: Still creating... <span class="o">[</span>10s elapsed]
+google_compute_firewall.web: Creation <span class="nb">complete </span>after 12s <span class="o">[</span><span class="nb">id</span><span class="o">=</span>projects/dev-work-342110/global/firewalls/web-access]
+google_compute_instance.gcp-dev-build: Creating...
+google_compute_project_metadata.my_ssh_key: Creation <span class="nb">complete </span>after 12s <span class="o">[</span><span class="nb">id</span><span class="o">=</span>dev-work-342110]
+google_compute_instance.gcp-dev-build: Still creating... <span class="o">[</span>10s elapsed]
+google_compute_instance.gcp-dev-build: Creation <span class="nb">complete </span>after 13s <span class="o">[</span><span class="nb">id</span><span class="o">=</span>projects/dev-work-342110/zones/us-west1-c/instances/gcp-server-dev]
+
+Apply <span class="nb">complete</span><span class="o">!</span> Resources: 5 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+instance_ip <span class="o">=</span> <span class="s2">"34.83.92.251"</span>
+project_name <span class="o">=</span> <span class="s2">"Dev-Work"</span>
+</code></pre></div></div>
+
+<p>Now if you navigate to the Google Console and navigate to Compute Engine –&gt; VM Instance, you will see an instance coming up. Once the instance is up successfully, browse the webserver_ip. In this case, go to http://34.83.92.251</p>
+
+<p><img src="/assets/images/cloud-console.png" alt="Looking at Google Console" /></p>
+
+<p><strong><em>NOTE</em></strong> You can see the terraform output showing the public IP address</p>
+
+<p>Here we can see the web server is provisioned by code and build time</p>
+
+<p><img src="/assets/images/website-html-automated.png" alt="Website Automated" /></p>
+
+<p>To remove all resources that have been created just run terraform destroy you can also apply the same switch if you do not wish to be prompted</p>
+
+<h3 id="additional-improvements">Additional Improvements</h3>
+
+<p>Given the size and complexity of the terraform code it isn’t worth the effort to break this down into modules and separate <code class="language-plaintext highlighter-rouge">.tf</code> files. However this is good practice so for extra practice attempt the following:</p>
+
+<p>Remember Terraform is a declarative language so this will help in modularisation of your code.</p>
+
+<p>Create separate .tf module files
+Create custom variables
+Running <code class="language-plaintext highlighter-rouge">terraform fmt</code> will ensure your code is nicely linted
+Test the Ansible deployment by configuring a local <code class="language-plaintext highlighter-rouge">Inventory.txt</code> file and running the following command.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ansible gcp_servers <span class="nt">-m</span> script <span class="nt">-a</span> <span class="s2">"update_web_server.sh"</span>
+</code></pre></div></div>
+
+<pre><code class="language-TIP```">
+The contents of your ```update_web_server.sh``` file should be something like
+
+```bash
+sudo echo "&lt;h1&gt;Instance Built Using Terraform in GCP&lt;/h1&gt; `date`" | sudo tee /var/www/html/index.html
+</code></pre>
+
+<p>Thats all until next time 💥</p>
+
+<p><strong><em>Good luck and Happy Coding</em></strong> 💻</p>
+
+
+                <!-- Pagination links -->
+
+
+            </article>
+
+            
+                <aside class="see-also">
+                    <h2>See also</h2>
+                    <ul>
+                        
+                        
+                        
+                            <li>
+                                <a href="/hiking-skiddaw-via-jenkinshill/">
+                                    
+                                        <img src="/assets/images/skiddaw-to-little-man.jpg">
+                                    
+                                    <h3>Skiddaw Summit via Jenkins Bridleway</h3>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a href="/creating-hikebox-tutorial/">
+                                    
+                                        <img src="/assets/images/hikebox-tutorial.jpg">
+                                    
+                                    <h3>Creating a Reusable Hike Info Box in Jekyll</h3>
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </aside>
+            
+
+        </section>
+
+        <!-- Add time bar only for pages without pagination -->
+        
+            <div class="time-bar" data-minutes="9">
+    <span class="time-completed"></span>
+    <span class="time-remaining"></span>
+    <div class="bar">
+        <span class="completed" style="width:0%;"></span>
+        <span class="remaining" style="width:100%;"></span>
+    </div>
+</div>
+
+            <div class="recommendation">
+    <div class="message">
+        <strong>Why don't you read something next?</strong>
+        <div>
+            <button>
+                <svg><use xlink:href="#icon-arrow-right"></use></svg>
+                <span>Go back to top</span>
+            </button>
+        </div>
+    </div>
+    
+    <a href="/creating-hikebox-tutorial/" class="post-preview">
+        <div class="image">
+            
+                <img src="/assets/images/hikebox-tutorial.jpg">
+            
+        </div>
+        <h3 class="title">Creating a Reusable Hike Info Box in Jekyll</h3>
+    </a>
+</div>
+
+        
+
+        <!-- Show modal if the post is the last one -->
+        
+
+        <!-- Show modal before user leaves the page -->
+        
+
+        <!-- Add your newsletter subscription form here -->
+
+        <section class="share">
+    <h3>Share</h3>
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Step-by-step guide on automating the creation of GCP resources&quot;%20https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/%20via%20&#64;iczster&hashtags=tech,blog,GCP,tutorial"
+    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
+        <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+    </a>
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/"
+    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
+        <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
+    </a>
+</section>
+
+        
+
+  <section class="author">
+    <div class="details">
+      
+        <img class="img-rounded" src="/assets/img/uploads/profile.png" alt="Longy">
+      
+      <p class="def">Author</p>
+      <h3 class="name">
+        <a href="/authors/longy/">Longy</a>
+      </h3>
+      <p class="desc">A technology professional in the field of Observability, Site Reliability Engineering, Coding and Automation.</p>
+      <p>
+        
+          <a href="https://github.com/iczster" title="Github">
+            <svg><use xlink:href="#icon-github"></use></svg>
+          </a>
+        
+        
+        
+          <a href="https://twitter.com/iczster" title="Twitter">
+            <svg><use xlink:href="#icon-twitter"></use></svg>
+          </a>
+        
+        
+        
+        
+      </p>
+    </div>
+  </section>
+
+  
+  
+  
+  
+  
+  
+  
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Longy",
+      
+      "image": "/assets/img/uploads/profile.png",
+      
+      "jobTitle": "Site Reliability Engineering Architect",
+      "url": "https://iczster.github.io/authors/longy/",
+      "sameAs": [
+        "https://github.com/iczster","https://twitter.com/iczster"
+      ]
+  }
+  </script>
+
+
+        
+
+<section class="comments">
+    <h3>Comments</h3>
+    <div id="disqus_thread"></div>
+</section>
+<script type="text/javascript">
+    var disqus_loaded = false;
+
+    function load_disqus()
+    {
+        disqus_loaded = true;
+        var disqus_shortname = 'disqus_username';
+        var disqus_title = '';
+        var disqus_url = '/beginners-guide-to-building-in-gcp-with-terraform/';
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        var ldr = document.getElementById('disqus_loader');
+    };
+    window.onscroll = function(e) {
+        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
+            //hit bottom of page
+            if (disqus_loaded==false)
+                load_disqus()
+        }
+    };
+</script>
+
+
+
+        <footer>
+    <p>
+      
+        <a href="https://github.com/iczster" title="Github">
+          <svg><use xlink:href="#icon-github"></use></svg>
+        </a>
+      
+      
+      
+        <a href="https://twitter.com/iczster" title="Twitter">
+          <svg><use xlink:href="#icon-twitter"></use></svg>
+        </a>
+      
+      
+      
+      
+    </p>
+
+    <ul>
+  
+    
+      <li>
+        <a href="https://iczster.github.io/">Home</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://iczster.github.io/about">About</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://iczster.github.io/contact">Contact</a>
+      </li>
+    
+  
+    
+      <li>
+        <a href="https://iczster.github.io/feed.xml">Feed</a>
+      </li>
+    
+  
+</ul>
+
+
+    <p>
+      <span>Longyflix</span> was made with <svg class="love"><use xlink:href="#icon-heart"></use></svg> by <a href="mailto:iczster@ntlworld.com" target="_blank" class="creator">iczster</a>
+    </p>
+</footer>
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Longyflix | Film - Tech - Hiking - Sport - Music",
+  "description": "My personal blog about my hobbies, interests and career",
+  "url": "https://iczster.github.io/",
+  "logo": {
+      "@type": "ImageObject",
+      "url": "https://iczster.github.io/assets/img/icons/mediumtile.png",
+      "width": "600",
+      "height": "315"
+  },
+  "sameAs": [
+    "https://github.com/iczster","https://twitter.com/iczster"
+  ]
+}
+</script>
+
+<!-- Include the script that allows Netlify CMS login -->
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+<!-- Include the website scripts -->
+<script src="/assets/js/scripts.min.js"></script>
+
+<!-- Include Google Analytics script -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXX-X"></script>
+<script>
+  var host = window.location.hostname;
+  if (host != 'localhost') {
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-XXXXXXXX-X');
+  }
+</script>
+  
+
+
+<!-- Include extra scripts -->
+
+
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "name": "Beginners Guide to building in GCP with Terraform",
+            "headline": "Automate the build of a web server and Ansible on Google Compute Engine with Terraform",
+            "description": "Step-by-step guide on automating the creation of GCP resources",
+            "image": "/assets/images/building-in-gcp-header.jpg",
+            "url": "https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/",
+            "articleBody": "Goal
+
+This article will set out what you need in order to be able to standup an automated build of a VM (Google Cloud) a web server (Apache) and Ansible.
+
+What will we cover
+
+Deployment of a Google Compute VM instance using Terraform
+Use of a Compute Instance startup script or user-data
+Rendering a Terraform template
+Dependencies
+
+You have created a GCP account (or trial account). You will receive $300 of credits and also 750 hours per month will be free if you select the e2-micro instance. More information can be found in the tutorial below including the configuration of your gcp-creds.json file
+
+https://www.youtube.com/watch?v=gb0bytUGDnQ
+
+The Google Cloud SDK is installed link here https://cloud.google.com/sdk/docs/install
+
+You can validate this with:
+
+gcloud --version
+terraform --version
+
+
+Our Terraform code will build all the firewall rules, network, API dependencies and resources along with ssh key access using your own public key id_rsa.pub
+
+Lets Begin
+
+Creating a Google Compute Engine VM
+
+mkdir terraform-project
+cd terrafor-project
+
+
+Define the Google provider in your terraform code along with client.json credentials.
+
+Create all the code in your terraform project directory
+
+vi main.tf
+
+# Main terraform code block
+# Author:       Longy
+# Date:         March 2022
+# Description:  Automate build of CE, Firewall rules &amp;amp; tags. Install web server, ansible &amp;amp; docker
+# Platform:     GCP
+# Version:      1.0
+#########################################################################
+
+provider &quot;google&quot; {
+  credentials = file(&quot;my-gcp-creds.json&quot;) // export GCLOUD_KEYFILE_JSON
+  project     = &quot;dev-work-342110&quot;         // export GCLOUD_PROJECT
+  region      = &quot;us-west1&quot;                // export GCLOUD_REGION
+  zone        = &quot;us-west1-c&quot;              // export GCLOUD_ZONE
+}
+
+
+NOTE this can also be set as variables see addendum for additional improvements.
+
+We are now going to create the resources in our code:
+
+Firewall rules
+
+resource &quot;google_compute_firewall&quot; &quot;web&quot; {
+  name          = &quot;web-access&quot;
+  network       = &quot;default&quot;
+  source_ranges = [&quot;0.0.0.0/0&quot;]
+  allow {
+    protocol = &quot;tcp&quot;
+    ports    = [&quot;80&quot;, &quot;443&quot;, &quot;22&quot;]
+  }
+  target_tags = [&quot;http-server&quot;, &quot;https-server&quot;, &quot;allow-ssh&quot;]
+  priority    = 1000
+}
+
+
+Enable APIs
+
+resource &quot;google_project_service&quot; &quot;api&quot; {
+  for_each = toset([
+    &quot;cloudresourcemanager.googleapis.com&quot;,
+    &quot;compute.googleapis.com&quot;
+  ])
+  disable_on_destroy = false
+  service            = each.value
+}
+
+
+Configure Compute Engine instance, network and bootstrapping
+
+resource &quot;google_compute_instance&quot; &quot;gcp-dev-build&quot; {
+  name         = &quot;gcp-server-dev&quot;
+  machine_type = &quot;e2-micro&quot;
+  boot_disk {
+    initialize_params {
+      image = &quot;ubuntu-1804-bionic-v20220131&quot;
+    }
+  }
+  network_interface {
+    network = &quot;default&quot; // This enables Private IP Address
+    access_config {}    // This enables Public IP Address
+  }
+
+
+Apply the firewall rule to allow external IPs to access this instance
+
+  tags = [&quot;http-server&quot;, &quot;https-server&quot;, &quot;gcp-dev-build&quot;]
+
+
+To use the latest Debian disk image we can use the data source and any type of instance can be selected:
+
+    data &quot;google_compute_image&quot; &quot;debian&quot; {
+    family  = &quot;ubuntu-1804-lts&quot;
+    project = &quot;gce-uefi-images&quot;
+    }
+
+
+You can play around with different build installations
+
+Invoke our build script
+
+  metadata_startup_script = file(&quot;/Users/alongmuir/coding/terraform-project/gcp-user-data.sh&quot;)
+
+  depends_on = [google_project_service.api, google_compute_firewall.web]
+}
+
+
+The contents of the gcp-user-data.sh are as follows.
+
+  #!/bin/bash
+  # Test Basic Web Page. Install updates, apache and enable/start
+  sudo apt-get update
+  sudo apt-get install -y apache2
+  sudo systemctl start apache2
+  sudo systemctl enable apache2
+  sudo echo &quot;&amp;lt;h1&amp;gt;Instance deployed by Terraform in GCP instance build time&amp;lt;/h1&amp;gt; `date`&quot; | sudo tee /var/www/html/index.html
+
+  # Install pip and ansible
+  sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  sudo python3 get-pip.py --user
+  sudo python3 -m pip install --user ansible
+  sudo python3 get-pip.py
+  sudo python3 -m pip install ansible
+
+  # Upgrade to latest pip
+  sudo python3 -m pip install --upgrade pip
+  sudo apt install ansible -y
+
+
+Pass public RSA key via terraform to VM instance
+
+# Pass public RSA key via terraform to VM instance
+resource &quot;google_compute_project_metadata&quot; &quot;my_ssh_key&quot; {
+  metadata = {
+    ssh-keys = &amp;lt;&amp;lt;EOF
+      &amp;lt; Paste the contents of your id_rsa.pub file here&amp;gt;
+    EOF
+  }
+}
+
+
+This will hardcode they key into your code there are ways you can obfuscate this. Some additional research for you 😉 but worth noting not to push your code to any public GIT repos.
+
+Lets display our outputs
+
+data &quot;google_project&quot; &quot;project&quot; {
+}
+
+output &quot;instance_ip&quot; {
+  value       = join(&quot; &quot;, google_compute_instance.gcp-dev-build.*.network_interface.0.access_config.0.nat_ip)
+  description = &quot;The public IP address of the newly created instance&quot;
+}
+
+output &quot;project_name&quot; {
+  value = data.google_project.project.name
+}
+
+
+Lets Initialise our Terraform Project
+
+To do this run terraform init see output below.
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Finding latest version of hashicorp/google...
+- Installing hashicorp/google v4.13.0...
+- Installed hashicorp/google v4.13.0 (signed by HashiCorp)
+
+Terraform has created a lock file .terraform.lock.hcl to record the provider
+selections it made above. Include this file in your version control repository
+so that Terraform can guarantee to make the same selections by default when
+you run &quot;terraform init&quot; in the future.
+
+Terraform has been successfully initialized!
+
+You may now begin working with Terraform. Try running &quot;terraform plan&quot; to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+
+
+This will download your provider resources defined earlier. You can view this under .terraform folder in your project directory.
+
+Now lets validate the syntax of our code with terraform validate
+
+You should see
+
+Success! The configuration is valid.
+
+
+Running terraform plan will inform you of what will be created or changed when running your code. Terraform remembers this by its state file. I’ll do an additional article on how to configure this best practice.
+
+OK … lets build our resource in GCP. To do this execute terraform apply and answer yes
+
+If you run terraform apply -auto-approve this will omit the need to validate with a prompt.
+
+Plan: 5 to add, 0 to change, 0 to destroy.
+
+Changes to Outputs:
+  + instance_ip  = (known after apply)
+  + project_name = &quot;Dev-Work&quot;
+google_project_service.api[&quot;compute.googleapis.com&quot;]: Creating...
+google_project_service.api[&quot;cloudresourcemanager.googleapis.com&quot;]: Creating...
+google_compute_project_metadata.my_ssh_key: Creating...
+google_compute_firewall.web: Creating...
+google_project_service.api[&quot;compute.googleapis.com&quot;]: Creation complete after 4s [id=dev-work-342110/compute.googleapis.com]
+google_project_service.api[&quot;cloudresourcemanager.googleapis.com&quot;]: Creation complete after 4s [id=dev-work-342110/cloudresourcemanager.googleapis.com]
+google_compute_project_metadata.my_ssh_key: Still creating... [10s elapsed]
+google_compute_firewall.web: Still creating... [10s elapsed]
+google_compute_firewall.web: Creation complete after 12s [id=projects/dev-work-342110/global/firewalls/web-access]
+google_compute_instance.gcp-dev-build: Creating...
+google_compute_project_metadata.my_ssh_key: Creation complete after 12s [id=dev-work-342110]
+google_compute_instance.gcp-dev-build: Still creating... [10s elapsed]
+google_compute_instance.gcp-dev-build: Creation complete after 13s [id=projects/dev-work-342110/zones/us-west1-c/instances/gcp-server-dev]
+
+Apply complete! Resources: 5 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+instance_ip = &quot;34.83.92.251&quot;
+project_name = &quot;Dev-Work&quot;
+
+
+Now if you navigate to the Google Console and navigate to Compute Engine –&amp;gt; VM Instance, you will see an instance coming up. Once the instance is up successfully, browse the webserver_ip. In this case, go to http://34.83.92.251
+
+
+
+NOTE You can see the terraform output showing the public IP address
+
+Here we can see the web server is provisioned by code and build time
+
+
+
+To remove all resources that have been created just run terraform destroy you can also apply the same switch if you do not wish to be prompted
+
+Additional Improvements
+
+Given the size and complexity of the terraform code it isn’t worth the effort to break this down into modules and separate .tf files. However this is good practice so for extra practice attempt the following:
+
+Remember Terraform is a declarative language so this will help in modularisation of your code.
+
+Create separate .tf module files
+Create custom variables
+Running terraform fmt will ensure your code is nicely linted
+Test the Ansible deployment by configuring a local Inventory.txt file and running the following command.
+
+ansible gcp_servers -m script -a &quot;update_web_server.sh&quot;
+
+
+
+The contents of your ```update_web_server.sh``` file should be something like
+
+```bash
+sudo echo &quot;&amp;lt;h1&amp;gt;Instance Built Using Terraform in GCP&amp;lt;/h1&amp;gt; `date`&quot; | sudo tee /var/www/html/index.html
+
+
+Thats all until next time 💥
+
+Good luck and Happy Coding 💻
+",
+            "wordcount": "1687",
+            "inLanguage": "en",
+            "dateCreated": "11-00-2022/",
+            "datePublished": "11-00-2022/",
+            "dateModified": "11-00-2022/",
+            "author": {
+                "@type": "Person",
+                "name": "Longy",
+                
+                "image": "/assets/img/uploads/profile.png",
+                
+                "jobTitle": "Site Reliability Engineering Architect",
+                "url": "https://iczster.github.io/authors/longy/",
+                "sameAs": [
+                    "https://github.com/iczster","https://twitter.com/iczster"
+                ]
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Longyflix | Film - Tech - Hiking - Sport - Music",
+                "url": "https://iczster.github.io/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://iczster.github.io/assets/img/blog-image.png",
+                    "width": "600",
+                    "height": "315"
+                }
+            },
+            "mainEntityOfPage": "True",
+            "genre": "Tech",
+            "articleSection": "Tech",
+            "keywords": ["tech","blog","GCP","tutorial"]
+        }
+        </script>
+    </body>
+</html>

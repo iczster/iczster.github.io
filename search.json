@@ -12,10 +12,18 @@
   
     {
       "title"    : "Creating a Reusable Hike Info Box in Jekyll",
-      "tags"     : "tech, blogging, jekyll, and tutorial",
+      "tags"     : "tech, blog, jekyll, and tutorial",
       "categories" : "Tech",
       "url"      : "/creating-hikebox-tutorial/",
       "date"     : "10/01/2025"
+    } ,
+  
+    {
+      "title"    : "Beginners Guide to building in GCP with Terraform",
+      "tags"     : "tech, blog, GCP, and tutorial",
+      "categories" : "Tech",
+      "url"      : "/beginners-guide-to-building-in-gcp-with-terraform/",
+      "date"     : "03/11/2022"
     } 
   
 ]

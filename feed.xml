@@ -5,8 +5,8 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Nov 2025 17:20:47 +0000</pubDate>
-    <lastBuildDate>Thu, 27 Nov 2025 17:20:47 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Nov 2025 21:14:25 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Nov 2025 21:14:25 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -34,9 +34,27 @@
         
         <category>tech</category>
         
-        <category>blogging</category>
+        <category>blog</category>
         
         <category>jekyll</category>
+        
+        <category>tutorial</category>
+        
+        <category>Tech</category>
+      </item>
+    
+      <item>
+        <title>Beginners Guide to building in GCP with Terraform</title>
+        <description>&lt;h2 id=&quot;goal&quot;&gt;Goal&lt;/h2&gt; &lt;p&gt;This article will set out what you need in order to be able to standup an automated build of a VM (Google Cloud) a web server (Apache) and Ansible.&lt;/p&gt; &lt;h3 id=&quot;what-will-we-cover&quot;&gt;What will we cover&lt;/h3&gt; &lt;p&gt;Deployment of a Google Compute VM instance using Terraform Use of a Compute Instance startup script or user-data Rendering a Terraform template Dependencies&lt;/p&gt; &lt;p&gt;You have created a GCP account (or trial account). You will receive $300 of credits and also 750 hours per month will be free if you select the e2-micro instance. More information can be found in the tutorial below including the...</description>
+        <pubDate>Fri, 11 Mar 2022 10:00:00 +0000</pubDate>
+        <link>https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/</link>
+        <guid isPermaLink="true">https://iczster.github.io/beginners-guide-to-building-in-gcp-with-terraform/</guid>
+        
+        <category>tech</category>
+        
+        <category>blog</category>
+        
+        <category>GCP</category>
         
         <category>tutorial</category>
         
