@@ -171,6 +171,13 @@
     
     
         <url>
+            <loc>https://iczster.github.io/peter-hook-holmfirth-picturedome/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-11-20</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/hiking-skiddaw-via-jenkinshill/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
