@@ -5,8 +5,8 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 27 Nov 2025 21:25:15 +0000</pubDate>
-    <lastBuildDate>Thu, 27 Nov 2025 21:25:15 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Nov 2025 22:12:02 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Nov 2025 22:12:02 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -39,6 +39,24 @@
         <category>jekyll</category>
         
         <category>tutorial</category>
+        
+        <category>Tech</category>
+      </item>
+    
+      <item>
+        <title>What&apos;s the difference between Observability &amp; Monitoring?</title>
+        <description>&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt; &lt;p&gt;I often get asked what is the difference between observability and monitoring and should observability replace monitoring? Lets take it back to the premise of what traditional monitoring is. This is my first article in my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Site Reliability Engineering&lt;/code&gt; series.&lt;/p&gt; &lt;p&gt;I have been involved in monitoring over 20 years and the design, architecture and implementation of a whole range of monitoring tools across both open source and enterprise.&lt;/p&gt; &lt;p&gt;Monitoring is about the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;known knowns&lt;/code&gt; and traditionally this would involve the templating up of these scenarios and coding them into the monitoring stack for infrastructure...</description>
+        <pubDate>Tue, 29 Mar 2022 11:00:00 +0100</pubDate>
+        <link>https://iczster.github.io/what-is-the-difference-between-observability-and-monitoring/</link>
+        <guid isPermaLink="true">https://iczster.github.io/what-is-the-difference-between-observability-and-monitoring/</guid>
+        
+        <category>tech</category>
+        
+        <category>blog</category>
+        
+        <category>SRE</category>
+        
+        <category>observability</category>
         
         <category>Tech</category>
       </item>

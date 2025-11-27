@@ -17,19 +17,19 @@
     
     
 
-    <title>Skiddaw Summit via Jenkins Bridleway | Longyflix | Film - Tech - Hiking - Sport - Music</title>
-    <meta name="description" content="A great hike with a steep early ascent and a cloud inversion">
+    <title>What's the difference between Observability & Monitoring? | Longyflix | Film - Tech - Hiking - Sport - Music</title>
+    <meta name="description" content="Overview and explanation between observability and monitoring">
     
-        <meta name="keywords" content="hiking, summit, lakes">
+        <meta name="keywords" content="tech, blog, SRE, observability">
     
 
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Skiddaw Summit via Jenkins Bridleway | Longyflix | Film - Tech - Hiking - Sport - Music">
-    <meta name="twitter:description" content="A great hike with a steep early ascent and a cloud inversion">
+    <meta name="twitter:title" content="What's the difference between Observability & Monitoring? | Longyflix | Film - Tech - Hiking - Sport - Music">
+    <meta name="twitter:description" content="Overview and explanation between observability and monitoring">
 
     
-        <meta property="twitter:image" content="https://iczster.github.io/assets/images/skiddaw-to-little-man.jpg">
+        <meta property="twitter:image" content="https://iczster.github.io/assets/images/what-is-observability-header.jpg">
     
     
     
@@ -37,10 +37,10 @@
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="https://iczster.github.io/hiking-skiddaw-via-jenkinshill/">
-    <meta property="og:title" content="Skiddaw Summit via Jenkins Bridleway | Longyflix | Film - Tech - Hiking - Sport - Music">
-    <meta property="og:image" content="/assets/images/skiddaw-to-little-man.jpg">
-    <meta property="og:description" content="A great hike with a steep early ascent and a cloud inversion">
+    <meta property="og:url" content="https://iczster.github.io/what-is-the-difference-between-observability-and-monitoring/">
+    <meta property="og:title" content="What's the difference between Observability & Monitoring? | Longyflix | Film - Tech - Hiking - Sport - Music">
+    <meta property="og:image" content="/assets/images/what-is-observability-header.jpg">
+    <meta property="og:description" content="Overview and explanation between observability and monitoring">
     <meta property="og:site_name" content="Film - Tech - Hiking - Sport - Music">
 
     <!-- Favicon -->
@@ -72,7 +72,7 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="canonical" href="https://iczster.github.io/hiking-skiddaw-via-jenkinshill/">
+    <link rel="canonical" href="https://iczster.github.io/what-is-the-difference-between-observability-and-monitoring/">
     <link rel="alternate" type="application/rss+xml" title="Film - Tech - Hiking - Sport - Music" href="https://iczster.github.io/feed.xml" />
 
     <!-- Include extra styles -->
@@ -161,19 +161,19 @@
                 <p class="post-info">
                     
                         <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
-                        <time class="date" datetime="2025-10-11T19:00:00+01:00">
-                            11-10-2025
+                        <time class="date" datetime="2022-03-29T11:00:00+01:00">
+                            29-03-2022
 
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>1 min to read</span>
+                    <span>7 min to read</span>
                 </p>
-                <h1 class="post-title">Skiddaw Summit via Jenkins Bridleway</h1>
-                <p class="post-subtitle">Taking in the views from Little Man</p>
+                <h1 class="post-title">What's the difference between Observability & Monitoring?</h1>
+                <p class="post-subtitle">Observability is core to SRE activities and success</p>
 
                 
-                    <img src="/assets/images/skiddaw-to-little-man.jpg" alt="Featured image" class="post-cover">
+                    <img src="/assets/images/what-is-observability-header.jpg" alt="Featured image" class="post-cover">
                 
 
                 <!-- Pagination links -->
@@ -183,150 +183,93 @@
                 <!-- Add your table of contents here -->
 
                 
-                <div class="hike-box">
 
-  <h3 class="hike-box-title">Hike Details</h3>
+                <h2 id="introduction">Introduction</h2>
 
-  <div class="hike-box-grid">
+<p>I often get asked what is the difference between observability and monitoring and should observability replace monitoring? Lets take it back to the premise of what traditional monitoring is. This is my first article in my <code class="language-plaintext highlighter-rouge">Site Reliability Engineering</code> series.</p>
 
-    
-    <div class="hike-item difficulty hard">
-      <span class="hike-icon">⛰️</span>
-      <span class="hike-label">Difficulty</span>
-      <span class="hike-value">Hard</span>
-    </div>
-    
+<p>I have been involved in monitoring over 20 years and the design, architecture and implementation of a whole range of monitoring tools across both open source and enterprise.</p>
 
-    
-    <div class="hike-item crowded">
-      <span class="hike-icon">🚶‍♂️</span>
-      <span class="hike-label">Crowds</span>
-      <span class="hike-value">Not Crowded</span>
-    </div>
-    
+<p>Monitoring is about the <code class="language-plaintext highlighter-rouge">known knowns</code> and traditionally this would involve the templating up of these scenarios and coding them into the monitoring stack for infrastructure and application issues. This involves working with SMEs around the end to end service and what could go wrong factoring in service degradation, risk (via reduced resilience) and status via thresholding and baseline of the application or service. This is both time consuming and an acceptance that if a scenario hasn’t been templated then this would drive continuous improvement via RCA.</p>
 
-    
-    <div class="hike-item dog">
-      <span class="hike-icon">🐕</span>
-      <span class="hike-label">Dog Friendly</span>
-      <span class="hike-value">True</span>
-    </div>
-    
+<p>I think a good example is that traditionally we would light up dashboards like a Christmas tree 🎄 if something went wrong or a node disappeared. However, this is perfectly normal in a containerised environment due to their ephemeral nature. It’s all about how the service is impacted. The days of a traditional event console are also numbered.</p>
 
-    
-    <div class="hike-item conditions">
-      <span class="hike-icon">🌦️</span>
-      <span class="hike-label">Conditions</span>
-      <span class="hike-value">Sunshine</span>
-    </div>
-    
+<p><img src="/assets/images/grafana-dash.png" alt="Grafana Dashboard" /></p>
 
-    
-    <div class="hike-item views">
-      <span class="hike-icon">🌄</span>
-      <span class="hike-label">Great Views</span>
-      <span class="hike-value">True</span>
-    </div>
-    
+<p>One of the most common challenges with monitoring is the amount of noise that it creates which makes it difficult to understand the real issues from the false alarms. Even with count and time based correlation capabilities. The primary reason for this stems from the fact that monitoring is typically applied as an isolated, disconnected system which monitors a component of a service as an individual entity, and not as a piece of a larger ecosystem with dependencies and integrations affecting one another. This ends up being a system which at the most is best at stating what is broken in a service at a symptomatic level, without really stating what might have caused it or led to that situation.</p>
 
-    
-    <div class="hike-item distance">
-      <span class="hike-icon">📏</span>
-      <span class="hike-label">Distance</span>
-      <span class="hike-value">10.4 km</span>
-    </div>
-    
+<p>Observability (or <code class="language-plaintext highlighter-rouge">O11y</code>👀 don’t shoot the messenger) is a term borrowed from the world of control theory which is defined as the ability of a system to provide insights of its internal state based on how its exterior is behaving. When applying this to our paradigm, it means that observability is a property associated with an application, rather than an implementation on the application and its associated components.</p>
 
-    
-    <div class="hike-item duration">
-      <span class="hike-icon">⏱️</span>
-      <span class="hike-label">Duration</span>
-      <span class="hike-value">4h 35m</span>
-    </div>
-    
+<p>By moving to modern technologies and cloud we create a proliferation of object, services and metrics, a metric explosion if you like. Traditional approaches to monitoring will not work. You can’t have a static threshold or policy defined for every scenario, managed by humans, it’s impossible. As humans, we are all subject to cognitive limitation, algorithms on the other hand are capable of processing millions of events and deriving meaning from large datasets. Services are the new focal point, it’s a different paradigm (customer impact, service performance/availability and risk).</p>
 
-    
-    <div class="hike-item elevation">
-      <span class="hike-icon">📈</span>
-      <span class="hike-label">Elevation Gain</span>
-      <span class="hike-value">918 m</span>
-    </div>
-    
+<p><img src="/assets/images/hand-sketch-1.png" alt="Grafana Dashboard" /></p>
 
-    
-    <div class="hike-item start">
-      <span class="hike-icon">📍</span>
-      <span class="hike-label">Start Point</span>
-      <span class="hike-value">Underskiddaw Car Park</span>
-    </div>
-    
+<p><code class="language-plaintext highlighter-rouge">They all overlap</code></p>
 
-  </div>
-</div>
-                
+<p><img src="/assets/images/hand-sketch-2.png" alt="Grafana Dashboard" /></p>
 
-                <h2 id="hiking-to-skiddaw-summit--little-man">Hiking to Skiddaw Summit &amp; Little Man</h2>
+<p>Logs can yield metrics Traces can yield metrics But you need all three</p>
 
-<p><strong>Overview</strong></p>
+<p>While all three data types are treated separately, they actually all overlap. Logs can yield metrics. Traces can yield metrics. Metrics can point you to the right trace or the right log. With metrics, traces and logs, you can recognise issues faster to find the underlying root cause</p>
 
-<p>Parking isnt great and you need to arrive early to have any chance of a parking space (the car park is small). Otherwise this was a fantastic hike with great views. We even managed to experience a cloud inversion.</p>
+<p>Observability is about finding out why and whats changed. Monolithic applications often fail in predictable ways. Modern applications are too complicated to know all of the ways your application can fail. Observability allows you to ask the right questions.</p>
 
-<p>After some early clag this cleared and its a pretty steep and brutal ascent. We took in Skiddaw little man also and recommend you tackle this afer summitting.</p>
+<blockquote>
+  <p>So, Monitoring is a subset of Observability</p>
+</blockquote>
 
-<h3 id="key-hike-points">Key Hike Points</h3>
+<p>Observability benefits divide neatly into two categories:</p>
 
 <ul>
-  <li>Steep but rewarding ascent</li>
-  <li>Cloud inversion at the summit</li>
-  <li>Claggy start</li>
-  <li>Limited parking — arrive early</li>
+  <li>understanding health (i.e. monitoring)</li>
+  <li>understanding change (i.e. finding insights and signals in the firehose of telemetry).</li>
 </ul>
 
-<h3 id="quote-from-the-hike">Quote from the Hike</h3>
+<blockquote>
+  <p><em>Somewhere along the way monitoring was thrown under a bus, which is unfortunate. If we define monitoring as an effort to connect the health of a system component to the health of the business then it’s actually critical and ripe for innovation such as SLOs (more on this in a later blog)</em></p>
+</blockquote>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Breathtaking views of a cloud inversion
-</code></pre></div></div>
+<p>Monitoring got a bad name because operators were trying to monitor every possible failure mode of a distributed system. That doesn’t work because there are too many of them as outlined right at the start of this article. Also that’s why there are always far too many dashboards in a company trying to show status for every single scenario.</p>
 
-<h3 id="image-gallery">Image Gallery</h3>
+<p>Monitoring really doesn’t have to be that way. It can actually be very clarifying and there’s plenty of room for innovation. I’d argue that SLOs, done properly, are what monitoring can and should be (or become).</p>
 
-<p><img src="/assets/images/looking-down-to-derwentwater.jpg" alt="Looking Down to Derwentwater" /><br />
-<em>Looking down to Derwentwater</em>
-<img src="/assets/images/skiddaw-to-little-man.jpg" alt="Skiddaw to Little Man" /><br />
-<em>Skiddaw to Little Man and cloud inversion</em></p>
+<p>So what if we do things differently? What if we do things right? We treat Monitoring as a first-class citizen, albeit only a part (a subset remember) of observability. Now we create monitoring for the signals that best express and predict the health of each component in our systems.</p>
 
-<h3 id="additional-notes">Additional Notes</h3>
+<h2 id="what-are-the-goals-of-observability">What are the goals of Observability</h2>
 
-<ul>
-  <li>Bring waterproofs if rain is forecast</li>
-  <li>Dog-friendly trails are available</li>
-  <li>Great views throughout the route</li>
-</ul>
+<p>Building observability for a system should never be treated as a goal in itself. There needs to be clarity on the areas of improvement that observability is targeting. This helps in ensuring that observability is aligned with the expectations of the stakeholders and is also customised to the organisation’s specific needs.</p>
 
-<hr />
+<p><img src="/assets/images/o11y-diagram.png" alt="O11y Diagram" /></p>
 
-<h3 id="directions">Directions</h3>
+<h2 id="service-reliability">Service Reliability</h2>
 
-<p>Start at <strong>Underskiddaw Car Park</strong>. Parking is limited, so arriving early is recommended. Trailhead markers are clearly visible.</p>
+<p>Observability provides insights into a service like the performance of the service relative to the pre-defined baseline. The metrics could be providing details on the key areas of availability and latency of the service. Observable services are able to provide proactive alerts when a system is either deviating or is about to deviate from the expected path on these two key areas. Getting notified on this deviation at the earliest enables the application support teams to take corrective actions to either completely eliminate or reduce the impact to the service.</p>
 
-<h3 id="gear-recommendations">Gear Recommendations</h3>
+<h2 id="operational-efficiency">Operational Efficiency</h2>
 
-<ul>
-  <li>Hiking boots</li>
-  <li>Trekking poles</li>
-  <li>Snacks and water</li>
-  <li>Camera for the views</li>
-</ul>
+<p>This is one that is often totally ignored or given less focus by many SRE teams.</p>
 
-<h3 id="nearby-attractions">Nearby Attractions</h3>
+<p>Along with improvements in the areas of mean time to recover (MTTR) and mean time to detect (MTTD), observability also directly impacts another important area which is now being termed as the MTTI or mean time to investigate. MTTI is defined as the time taken by an organization to start investigating the cause and the path for solving the issue since the issue was detected. The insights enabled by observability can shorten this period by pinpointing the cause upfront and helping the team get on with resolving the issue at the earliest. As the observable system emits the right signals at the right time and has the warning signals built in, they enable the operations teams to efficiently spend their time and avoid focusing on irrelevant areas. This helps improve the operational efficiency of the organisation.</p>
 
-<ul>
-  <li>Keswick town</li>
-  <li>Derwent Water</li>
-  <li>Skiddaw Little Man</li>
-  <li>Latrigg summit for a shorter walk</li>
-</ul>
+<p>There are also other important indicators that can be used here but the take away point is to <code class="language-plaintext highlighter-rouge">measure and track</code> everything.</p>
 
-<hr />
+<h2 id="security-and-compliance">Security and Compliance</h2>
+
+<p>By providing a 360-degree view of a service’s state which is achieved by correlating logs from multiple systems like applications, integration points, network and hosting infrastructure; an observable system is able to provide critical insights into the security and compliance requirements requirements of a system. With correlation between network patterns, data usage, and access logs, certain security behavior of the system can be analyzed and alarms can be triggered for any anomalies. Any organization that wants to achieve high standards of security should start thinking about observability with focus on security. Having a SIEM (security information and event management) which is able to aggregate, correlate, and notify on security anomalies helps organisations monitor user and system behaviours related to security. Having an integrated SIEM and Observability platform also adds greater value.</p>
+
+<p><strong>So in Summary</strong></p>
+
+<blockquote>
+  <p><em>Monitoring will never be superseded by Observability as they are complimentary approaches. They both need each other. It’s not just part of Observability’s DNA, it’s a vital chromosome ! The challenge is to evolve Monitoring, and to use it as platform and bridge for the patterns and insights in our telemetry that can explain change.</em></p>
+</blockquote>
+
+<p><code class="language-plaintext highlighter-rouge">Remember</code> the single most important question in Observability is</p>
+
+<blockquote>
+  <p>what caused that change</p>
+</blockquote>
+
+<p>Thats all until next time 💥</p>
 
 
                 <!-- Pagination links -->
@@ -342,11 +285,11 @@
                         
                         
                             <li>
-                                <a href="/what-is-the-difference-between-observability-and-monitoring/">
+                                <a href="/hiking-skiddaw-via-jenkinshill/">
                                     
-                                        <img src="/assets/images/what-is-observability-header.jpg">
+                                        <img src="/assets/images/skiddaw-to-little-man.jpg">
                                     
-                                    <h3>What's the difference between Observability & Monitoring?</h3>
+                                    <h3>Skiddaw Summit via Jenkins Bridleway</h3>
                                 </a>
                             </li>
                         
@@ -376,7 +319,7 @@
 
         <!-- Add time bar only for pages without pagination -->
         
-            <div class="time-bar" data-minutes="1">
+            <div class="time-bar" data-minutes="7">
     <span class="time-completed"></span>
     <span class="time-remaining"></span>
     <div class="bar">
@@ -396,13 +339,13 @@
         </div>
     </div>
     
-    <a href="/beginners-guide-to-building-in-gcp-with-terraform/" class="post-preview">
+    <a href="/creating-hikebox-tutorial/" class="post-preview">
         <div class="image">
             
-                <img src="/assets/images/building-in-gcp-header.jpg">
+                <img src="/assets/images/hikebox-tutorial.jpg">
             
         </div>
-        <h3 class="title">Beginners Guide to building in GCP with Terraform</h3>
+        <h3 class="title">Creating a Reusable Hike Info Box in Jekyll</h3>
     </a>
 </div>
 
@@ -418,11 +361,11 @@
 
         <section class="share">
     <h3>Share</h3>
-    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;A great hike with a steep early ascent and a cloud inversion&quot;%20https://iczster.github.io/hiking-skiddaw-via-jenkinshill/%20via%20&#64;iczster&hashtags=hiking,summit,lakes"
+    <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;Overview and explanation between observability and monitoring&quot;%20https://iczster.github.io/what-is-the-difference-between-observability-and-monitoring/%20via%20&#64;iczster&hashtags=tech,blog,SRE,observability"
     onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
         <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
     </a>
-    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://iczster.github.io/hiking-skiddaw-via-jenkinshill/"
+    <a aria-label="Share on Facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://iczster.github.io/what-is-the-difference-between-observability-and-monitoring/"
     onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
         <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
     </a>
@@ -498,7 +441,7 @@
         disqus_loaded = true;
         var disqus_shortname = 'disqus_username';
         var disqus_title = '';
-        var disqus_url = '/hiking-skiddaw-via-jenkinshill/';
+        var disqus_url = '/what-is-the-difference-between-observability-and-monitoring/';
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
         dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
         (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
@@ -634,79 +577,103 @@
         {
             "@context": "http://schema.org",
             "@type": "BlogPosting",
-            "name": "Skiddaw Summit via Jenkins Bridleway",
-            "headline": "Taking in the views from Little Man",
-            "description": "A great hike with a steep early ascent and a cloud inversion",
-            "image": "/assets/images/skiddaw-to-little-man.jpg",
-            "url": "https://iczster.github.io/hiking-skiddaw-via-jenkinshill/",
-            "articleBody": "Hiking to Skiddaw Summit &amp;amp; Little Man
+            "name": "What's the difference between Observability & Monitoring?",
+            "headline": "Observability is core to SRE activities and success",
+            "description": "Overview and explanation between observability and monitoring",
+            "image": "/assets/images/what-is-observability-header.jpg",
+            "url": "https://iczster.github.io/what-is-the-difference-between-observability-and-monitoring/",
+            "articleBody": "Introduction
 
-Overview
+I often get asked what is the difference between observability and monitoring and should observability replace monitoring? Lets take it back to the premise of what traditional monitoring is. This is my first article in my Site Reliability Engineering series.
 
-Parking isnt great and you need to arrive early to have any chance of a parking space (the car park is small). Otherwise this was a fantastic hike with great views. We even managed to experience a cloud inversion.
+I have been involved in monitoring over 20 years and the design, architecture and implementation of a whole range of monitoring tools across both open source and enterprise.
 
-After some early clag this cleared and its a pretty steep and brutal ascent. We took in Skiddaw little man also and recommend you tackle this afer summitting.
+Monitoring is about the known knowns and traditionally this would involve the templating up of these scenarios and coding them into the monitoring stack for infrastructure and application issues. This involves working with SMEs around the end to end service and what could go wrong factoring in service degradation, risk (via reduced resilience) and status via thresholding and baseline of the application or service. This is both time consuming and an acceptance that if a scenario hasn’t been templated then this would drive continuous improvement via RCA.
 
-Key Hike Points
-
-
-  Steep but rewarding ascent
-  Cloud inversion at the summit
-  Claggy start
-  Limited parking — arrive early
-
-
-Quote from the Hike
-
-Breathtaking views of a cloud inversion
-
-
-Image Gallery
-
-
-Looking down to Derwentwater
-
-Skiddaw to Little Man and cloud inversion
-
-Additional Notes
-
-
-  Bring waterproofs if rain is forecast
-  Dog-friendly trails are available
-  Great views throughout the route
+I think a good example is that traditionally we would light up dashboards like a Christmas tree 🎄 if something went wrong or a node disappeared. However, this is perfectly normal in a containerised environment due to their ephemeral nature. It’s all about how the service is impacted. The days of a traditional event console are also numbered.
 
 
 
+One of the most common challenges with monitoring is the amount of noise that it creates which makes it difficult to understand the real issues from the false alarms. Even with count and time based correlation capabilities. The primary reason for this stems from the fact that monitoring is typically applied as an isolated, disconnected system which monitors a component of a service as an individual entity, and not as a piece of a larger ecosystem with dependencies and integrations affecting one another. This ends up being a system which at the most is best at stating what is broken in a service at a symptomatic level, without really stating what might have caused it or led to that situation.
 
-Directions
+Observability (or O11y👀 don’t shoot the messenger) is a term borrowed from the world of control theory which is defined as the ability of a system to provide insights of its internal state based on how its exterior is behaving. When applying this to our paradigm, it means that observability is a property associated with an application, rather than an implementation on the application and its associated components.
 
-Start at Underskiddaw Car Park. Parking is limited, so arriving early is recommended. Trailhead markers are clearly visible.
-
-Gear Recommendations
-
-
-  Hiking boots
-  Trekking poles
-  Snacks and water
-  Camera for the views
-
-
-Nearby Attractions
-
-
-  Keswick town
-  Derwent Water
-  Skiddaw Little Man
-  Latrigg summit for a shorter walk
+By moving to modern technologies and cloud we create a proliferation of object, services and metrics, a metric explosion if you like. Traditional approaches to monitoring will not work. You can’t have a static threshold or policy defined for every scenario, managed by humans, it’s impossible. As humans, we are all subject to cognitive limitation, algorithms on the other hand are capable of processing millions of events and deriving meaning from large datasets. Services are the new focal point, it’s a different paradigm (customer impact, service performance/availability and risk).
 
 
 
+They all overlap
+
+
+
+Logs can yield metrics Traces can yield metrics But you need all three
+
+While all three data types are treated separately, they actually all overlap. Logs can yield metrics. Traces can yield metrics. Metrics can point you to the right trace or the right log. With metrics, traces and logs, you can recognise issues faster to find the underlying root cause
+
+Observability is about finding out why and whats changed. Monolithic applications often fail in predictable ways. Modern applications are too complicated to know all of the ways your application can fail. Observability allows you to ask the right questions.
+
+
+  So, Monitoring is a subset of Observability
+
+
+Observability benefits divide neatly into two categories:
+
+
+  understanding health (i.e. monitoring)
+  understanding change (i.e. finding insights and signals in the firehose of telemetry).
+
+
+
+  Somewhere along the way monitoring was thrown under a bus, which is unfortunate. If we define monitoring as an effort to connect the health of a system component to the health of the business then it’s actually critical and ripe for innovation such as SLOs (more on this in a later blog)
+
+
+Monitoring got a bad name because operators were trying to monitor every possible failure mode of a distributed system. That doesn’t work because there are too many of them as outlined right at the start of this article. Also that’s why there are always far too many dashboards in a company trying to show status for every single scenario.
+
+Monitoring really doesn’t have to be that way. It can actually be very clarifying and there’s plenty of room for innovation. I’d argue that SLOs, done properly, are what monitoring can and should be (or become).
+
+So what if we do things differently? What if we do things right? We treat Monitoring as a first-class citizen, albeit only a part (a subset remember) of observability. Now we create monitoring for the signals that best express and predict the health of each component in our systems.
+
+What are the goals of Observability
+
+Building observability for a system should never be treated as a goal in itself. There needs to be clarity on the areas of improvement that observability is targeting. This helps in ensuring that observability is aligned with the expectations of the stakeholders and is also customised to the organisation’s specific needs.
+
+
+
+Service Reliability
+
+Observability provides insights into a service like the performance of the service relative to the pre-defined baseline. The metrics could be providing details on the key areas of availability and latency of the service. Observable services are able to provide proactive alerts when a system is either deviating or is about to deviate from the expected path on these two key areas. Getting notified on this deviation at the earliest enables the application support teams to take corrective actions to either completely eliminate or reduce the impact to the service.
+
+Operational Efficiency
+
+This is one that is often totally ignored or given less focus by many SRE teams.
+
+Along with improvements in the areas of mean time to recover (MTTR) and mean time to detect (MTTD), observability also directly impacts another important area which is now being termed as the MTTI or mean time to investigate. MTTI is defined as the time taken by an organization to start investigating the cause and the path for solving the issue since the issue was detected. The insights enabled by observability can shorten this period by pinpointing the cause upfront and helping the team get on with resolving the issue at the earliest. As the observable system emits the right signals at the right time and has the warning signals built in, they enable the operations teams to efficiently spend their time and avoid focusing on irrelevant areas. This helps improve the operational efficiency of the organisation.
+
+There are also other important indicators that can be used here but the take away point is to measure and track everything.
+
+Security and Compliance
+
+By providing a 360-degree view of a service’s state which is achieved by correlating logs from multiple systems like applications, integration points, network and hosting infrastructure; an observable system is able to provide critical insights into the security and compliance requirements requirements of a system. With correlation between network patterns, data usage, and access logs, certain security behavior of the system can be analyzed and alarms can be triggered for any anomalies. Any organization that wants to achieve high standards of security should start thinking about observability with focus on security. Having a SIEM (security information and event management) which is able to aggregate, correlate, and notify on security anomalies helps organisations monitor user and system behaviours related to security. Having an integrated SIEM and Observability platform also adds greater value.
+
+So in Summary
+
+
+  Monitoring will never be superseded by Observability as they are complimentary approaches. They both need each other. It’s not just part of Observability’s DNA, it’s a vital chromosome ! The challenge is to evolve Monitoring, and to use it as platform and bridge for the patterns and insights in our telemetry that can explain change.
+
+
+Remember the single most important question in Observability is
+
+
+  what caused that change
+
+
+Thats all until next time 💥
 ",
-            "wordcount": "222",
+            "wordcount": "1403",
             "inLanguage": "en",
-            "dateCreated": "11-00-2025/",
-            "datePublished": "11-00-2025/",
-            "dateModified": "11-00-2025/",
+            "dateCreated": "29-00-2022/",
+            "datePublished": "29-00-2022/",
+            "dateModified": "29-00-2022/",
             "author": {
                 "@type": "Person",
                 "name": "Longy",
@@ -731,9 +698,9 @@ Nearby Attractions
                 }
             },
             "mainEntityOfPage": "True",
-            "genre": "Hiking",
-            "articleSection": "Hiking",
-            "keywords": ["hiking","summit","lakes"]
+            "genre": "Tech",
+            "articleSection": "Tech",
+            "keywords": ["tech","blog","SRE","observability"]
         }
         </script>
     </body>

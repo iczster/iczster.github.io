@@ -440,7 +440,7 @@ project_name <span class="o">=</span> <span class="s2">"Dev-Work"</span>
 
 <p><img src="/assets/images/website-html-automated.png" alt="Website Automated" /></p>
 
-<p>To remove all resources that have been created just run terraform destroy you can also apply the same switch if you do not wish to be prompted</p>
+<p>To remove all resources that have been created just run <code class="language-plaintext highlighter-rouge">terraform destroy</code> you can also apply the same switch if you do not wish to be prompted</p>
 
 <h3 id="additional-improvements">Additional Improvements</h3>
 
@@ -448,10 +448,12 @@ project_name <span class="o">=</span> <span class="s2">"Dev-Work"</span>
 
 <p>Remember Terraform is a declarative language so this will help in modularisation of your code.</p>
 
-<p>Create separate .tf module files
-Create custom variables
-Running <code class="language-plaintext highlighter-rouge">terraform fmt</code> will ensure your code is nicely linted
-Test the Ansible deployment by configuring a local <code class="language-plaintext highlighter-rouge">Inventory.txt</code> file and running the following command.</p>
+<ul>
+  <li>Create separate .tf module files</li>
+  <li>Create custom variables</li>
+  <li>Running <code class="language-plaintext highlighter-rouge">terraform fmt</code> will ensure your code is nicely linted</li>
+  <li>Test the Ansible deployment by configuring a local <code class="language-plaintext highlighter-rouge">Inventory.txt</code> file and running the following command.</li>
+</ul>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ansible gcp_servers <span class="nt">-m</span> script <span class="nt">-a</span> <span class="s2">"update_web_server.sh"</span>
 </code></pre></div></div>
@@ -498,6 +500,15 @@ sudo echo "&lt;h1&gt;Instance Built Using Terraform in GCP&lt;/h1&gt; `date`" | 
                                 </a>
                             </li>
                         
+                            <li>
+                                <a href="/what-is-the-difference-between-observability-and-monitoring/">
+                                    
+                                        <img src="/assets/images/what-is-observability-header.jpg">
+                                    
+                                    <h3>What's the difference between Observability & Monitoring?</h3>
+                                </a>
+                            </li>
+                        
                     </ul>
                 </aside>
             
@@ -526,13 +537,13 @@ sudo echo "&lt;h1&gt;Instance Built Using Terraform in GCP&lt;/h1&gt; `date`" | 
         </div>
     </div>
     
-    <a href="/creating-hikebox-tutorial/" class="post-preview">
+    <a href="/what-is-the-difference-between-observability-and-monitoring/" class="post-preview">
         <div class="image">
             
-                <img src="/assets/images/hikebox-tutorial.jpg">
+                <img src="/assets/images/what-is-observability-header.jpg">
             
         </div>
-        <h3 class="title">Creating a Reusable Hike Info Box in Jekyll</h3>
+        <h3 class="title">What's the difference between Observability & Monitoring?</h3>
     </a>
 </div>
 
@@ -1033,10 +1044,12 @@ Given the size and complexity of the terraform code it isn’t worth the effort 
 
 Remember Terraform is a declarative language so this will help in modularisation of your code.
 
-Create separate .tf module files
-Create custom variables
-Running terraform fmt will ensure your code is nicely linted
-Test the Ansible deployment by configuring a local Inventory.txt file and running the following command.
+
+  Create separate .tf module files
+  Create custom variables
+  Running terraform fmt will ensure your code is nicely linted
+  Test the Ansible deployment by configuring a local Inventory.txt file and running the following command.
+
 
 ansible gcp_servers -m script -a &quot;update_web_server.sh&quot;
 
@@ -1052,7 +1065,7 @@ Thats all until next time 💥
 
 Good luck and Happy Coding 💻
 ",
-            "wordcount": "1707",
+            "wordcount": "1711",
             "inLanguage": "en",
             "dateCreated": "11-00-2022/",
             "datePublished": "11-00-2022/",
