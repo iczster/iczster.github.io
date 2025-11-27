@@ -99,7 +99,7 @@ The following CSS makes the box visually appealing:
 
 To ensure the Hike Info Box appears only for relevant posts:
 
-```liquid
+```
 {% if page.category == "Hiking" %}
   {% include hike-box.html
       difficulty=page.difficulty
