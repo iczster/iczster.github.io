@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Peter Hook and the Light Holmfirth Picturedrome
+title: "Peter Hook and the Light Holmfirth Picturedrome"
 subtitle: "A great gig mixed with emotions"
 description: "Blog review of gig"
 image: /assets/images/hooky-3.jpg
