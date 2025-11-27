@@ -23,9 +23,16 @@ Dependencies
 
 You have created a GCP account (or trial account). You will receive $300 of credits and also 750 hours per month will be free if you select the e2-micro instance. More information can be found in the tutorial below including the configuration of your gcp-creds.json file
 
-https://www.youtube.com/watch?v=gb0bytUGDnQ
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/gb0bytUGDnQ" 
+    title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
 
-The Google Cloud SDK is installed link here https://cloud.google.com/sdk/docs/install
+
+The Google Cloud SDK is installed link here [Google Cloud SDK installation guide](https://cloud.google.com/sdk/docs/install)
+
 
 You can validate this with:
 
