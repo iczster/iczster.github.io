@@ -6,7 +6,7 @@ description: "Step-by-step guide on creating a reusable hike info box with anima
 image: /assets/images/hikebox-tutorial.jpg
 date: 2025-10-01 10:00:00
 category: Tech
-tags: [tech, blogging, jekyll, tutorial]
+tags: [tech, blog, jekyll, tutorial]
 author: Longy
 ---
 
@@ -99,7 +99,8 @@ The following CSS makes the box visually appealing:
 
 To ensure the Hike Info Box appears only for relevant posts:
 
-```css
+{% raw %}
+```text
 {% if page.category == "Hiking" %}
   {% include hike-box.html
       difficulty=page.difficulty
@@ -114,6 +115,8 @@ To ensure the Hike Info Box appears only for relevant posts:
   %}
 {% endif %}
 ```
+{% endraw %}
+
 
 > Reusability tip: Replace "Hiking" with any category, or check for tags:
 
