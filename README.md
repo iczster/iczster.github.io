@@ -35,7 +35,7 @@ Tutorials, experiments, cloud engineering notes, GCP/Terraform builds, homelab t
 Trail write-ups, gear breakdowns, and stories from the mountains with custom “Hike Info Boxes” embedded directly into posts.
 
 ### 🎶 Music  
-Playlists, mixes, production tips, and commentary on the artists that inspire.
+Playlists, mixes, gig reviews, and commentary on the artists that inspire.
 
 ### 🍳 Cooking  
 Recipes, experiments, and flavour-packed ideas from a food lover who likes to break the rules.
@@ -49,14 +49,14 @@ Match thoughts, commentary, and observations from the world of football and beyo
 
 **Longyflix** is powered by:
 
-- ⚙️ **Jekyll** — a fast static site generator  
+- ⚙️ **Jekyll** a fast static site generator  
 - 🎞️ **Jekflix Theme (customised):**  
   - Tweaked layouts  
   - Extended components  
   - Added Hiking Info Box  
   - Improved styling and visuals  
 - 🧩 Custom HTML/Liquid components made specifically for the blog  
-- 🚀 **GitHub Pages** hosting  
+- 🚀 **GitHub Pages** hosting + custom CNAME 
 - 🔒 **Cloudflare** for DNS and HTTPS  
 
 ---

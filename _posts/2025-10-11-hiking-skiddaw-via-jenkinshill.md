@@ -35,7 +35,7 @@ After some early clag this cleared and its a pretty steep and brutal ascent. We 
 * Steep but rewarding ascent  
 * Cloud inversion at the summit
 * Claggy start 
-* Limited parking — arrive early  
+* Limited parking (arrive early) 
 
 ### Quote from the Hike
 

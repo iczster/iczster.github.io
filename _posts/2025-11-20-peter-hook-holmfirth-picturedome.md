@@ -37,7 +37,7 @@ From the pulsating basslines to the audience’s enthusiastic participation, Pet
 
 ### 🎵 Full Setlist
 
-> #### Set 1 (Get Ready album)
+#### Set 1 (Get Ready album)
 - **Crystal** _(New Order cover)_  
 - **60 Miles an Hour** _(New Order cover)_  
 - **Turn My Way** _(New Order cover)_  
@@ -51,7 +51,7 @@ From the pulsating basslines to the audience’s enthusiastic participation, Pet
 - **Brutal** _(New Order cover)_  
 - **Here to Stay** _(New Order cover)_  
 
-> #### Set 2
+#### Set 2
 - **Atmosphere** _(Joy Division cover)_  
 - **Dead Souls** _(Joy Division cover)_  
 - **New Dawn Fades** _(Joy Division cover)_  
