@@ -41,6 +41,25 @@
                     start_point=page.start_point
                 %}
                 {% endif %}
+                {% if page.category == "Film" %}
+                {% include film-info-box.html
+                    director=page.director
+                    writer=page.writer
+                    release_year=page.release_year
+                    runtime=page.runtime
+                    genre=page.genre
+                    certificate=page.certificate
+                    lead_actors=page.lead_actors
+                    mood=page.mood
+                    pace=page.pace
+                    cinematography=page.cinematography
+                    soundtrack=page.soundtrack
+                    rewatch=page.rewatch
+                    score=page.score
+                    best_moment=page.best_moment
+                %}
+                {% endif %}
+
 
                 {{ content }}
 

@@ -1,0 +1,124 @@
+<div class="hike-box">
+
+  <h3 class="hike-box-title">Film Details</h3>
+
+  <div class="hike-box-grid">
+
+    {% if include.director %}
+    <div class="hike-item director">
+      <span class="hike-icon">🎬</span>
+      <span class="hike-label">Director</span>
+      <span class="hike-value">{{ include.director }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.writer %}
+    <div class="hike-item writer">
+      <span class="hike-icon">📝</span>
+      <span class="hike-label">Writer</span>
+      <span class="hike-value">{{ include.writer }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.release_year %}
+    <div class="hike-item year">
+      <span class="hike-icon">📅</span>
+      <span class="hike-label">Year</span>
+      <span class="hike-value">{{ include.release_year }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.runtime %}
+    <div class="hike-item runtime">
+      <span class="hike-icon">⏱️</span>
+      <span class="hike-label">Runtime</span>
+      <span class="hike-value">{{ include.runtime }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.genre %}
+    <div class="hike-item genre">
+      <span class="hike-icon">🎭</span>
+      <span class="hike-label">Genre</span>
+      <span class="hike-value">{{ include.genre }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.certificate %}
+    <div class="hike-item certificate">
+      <span class="hike-icon">🔞</span>
+      <span class="hike-label">Certificate</span>
+      <span class="hike-value">{{ include.certificate }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.lead_actors %}
+    <div class="hike-item cast">
+      <span class="hike-icon">🎭</span>
+      <span class="hike-label">Main Cast</span>
+      <span class="hike-value">
+        {% for actor in include.lead_actors %}
+          {{ actor }}{% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </span>
+    </div>
+    {% endif %}
+
+    {% if include.mood %}
+    <div class="hike-item mood">
+      <span class="hike-icon">🎨</span>
+      <span class="hike-label">Mood</span>
+      <span class="hike-value">{{ include.mood }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.pace %}
+    <div class="hike-item pace">
+      <span class="hike-icon">🚶‍♂️</span>
+      <span class="hike-label">Pace</span>
+      <span class="hike-value">{{ include.pace }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.cinematography %}
+    <div class="hike-item cinematography">
+      <span class="hike-icon">🎥</span>
+      <span class="hike-label">Cinematography</span>
+      <span class="hike-value">{{ include.cinematography }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.soundtrack %}
+    <div class="hike-item soundtrack">
+      <span class="hike-icon">🎵</span>
+      <span class="hike-label">Soundtrack</span>
+      <span class="hike-value">{{ include.soundtrack }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.rewatch %}
+    <div class="hike-item rewatch">
+      <span class="hike-icon">🔁</span>
+      <span class="hike-label">Rewatch?</span>
+      <span class="hike-value">{{ include.rewatch }}</span>
+    </div>
+    {% endif %}
+
+    {% if include.score %}
+    <div class="hike-item score">
+      <span class="hike-icon">🏆</span>
+      <span class="hike-label">Score</span>
+      <span class="hike-value">{{ include.score }}/10</span>
+    </div>
+    {% endif %}
+
+    {% if include.best_moment %}
+    <div class="hike-item best-moment">
+      <span class="hike-icon">🎞️</span>
+      <span class="hike-label">Best Moment</span>
+      <span class="hike-value">{{ include.best_moment }}</span>
+    </div>
+    {% endif %}
+
+  </div>
+</div>
