@@ -19,6 +19,22 @@
     } ,
   
     {
+      "title"    : "CRASH Live 2025 – A Retro Gaming Weekend in Warwickshire",
+      "tags"     : "retro, gaming, crash live, events, and computing",
+      "categories" : "Tech",
+      "url"      : "/crash-live-2025/",
+      "date"     : "11/17/2025"
+    } ,
+  
+    {
+      "title"    : "Building My Own Blog Site with Jekyll",
+      "tags"     : "tech, blogging, tutorial, and jekyll",
+      "categories" : "Tech",
+      "url"      : "/building-my-own-blog-site-with-jekyll/",
+      "date"     : "10/28/2025"
+    } ,
+  
+    {
       "title"    : "Skiddaw Summit via Jenkins Bridleway",
       "tags"     : "hiking, summit, and lakes",
       "categories" : "Hiking",

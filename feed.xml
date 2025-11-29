@@ -5,8 +5,8 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 29 Nov 2025 16:11:35 +0000</pubDate>
-    <lastBuildDate>Sat, 29 Nov 2025 16:11:35 +0000</lastBuildDate>
+    <pubDate>Sat, 29 Nov 2025 19:36:45 +0000</pubDate>
+    <lastBuildDate>Sat, 29 Nov 2025 19:36:45 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -41,6 +41,44 @@
         <category>review</category>
         
         <category>Music</category>
+      </item>
+    
+      <item>
+        <title>CRASH Live 2025 – A Retro Gaming Weekend in Warwickshire</title>
+        <description>&lt;p&gt;The &lt;strong&gt;CRASH Live 2025&lt;/strong&gt; event took place on the &lt;strong&gt;15th and 16th November 2025&lt;/strong&gt;, hosted at the Holiday Inn in Kenilworth, Warwickshire and what a weekend it turned out to be.&lt;/p&gt; &lt;h2 id=&quot;battling-the-storms-to-get-there&quot;&gt;Battling the Storms to Get There&lt;/h2&gt; &lt;p&gt;The journey down was &lt;em&gt;not&lt;/em&gt; for the faint-hearted.&lt;br /&gt; After a night of relentless storms, flooded roads, and detours that felt like bonus levels from a lost 8-bit adventure game, getting to the venue became an achievement in itself. But arriving at the hotel, greeted by fellow retro enthusiasts, made the effort instantly worthwhile.&lt;/p&gt; &lt;h2 id=&quot;zx-spectrum-next--gremlin-graphics-sessions&quot;&gt;ZX Spectrum Next &amp;amp; Gremlin Graphics Sessions&lt;/h2&gt;...</description>
+        <pubDate>Mon, 17 Nov 2025 10:00:00 +0000</pubDate>
+        <link>https://iczster.github.io/crash-live-2025/</link>
+        <guid isPermaLink="true">https://iczster.github.io/crash-live-2025/</guid>
+        
+        <category>retro</category>
+        
+        <category>gaming</category>
+        
+        <category>crash live</category>
+        
+        <category>events</category>
+        
+        <category>computing</category>
+        
+        <category>Tech</category>
+      </item>
+    
+      <item>
+        <title>Building My Own Blog Site with Jekyll</title>
+        <description>&lt;h2 id=&quot;why-i-chose-jekyll-for-my-blog&quot;&gt;Why I Chose Jekyll for My Blog&lt;/h2&gt; &lt;p&gt;Creating your own blog gives you &lt;strong&gt;full control&lt;/strong&gt; over content, design, and performance. I wanted a platform that:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;Is lightweight and fast ✅&lt;/li&gt; &lt;li&gt;Supports &lt;strong&gt;Markdown&lt;/strong&gt; content naturally 📄&lt;/li&gt; &lt;li&gt;Allows &lt;strong&gt;full customization&lt;/strong&gt; without relying on WordPress or hosted platforms 🎨&lt;/li&gt; &lt;li&gt;Integrates easily with &lt;strong&gt;GitHub Pages&lt;/strong&gt; for free hosting 🌐&lt;/li&gt; &lt;li&gt;Can showcase my interests: &lt;strong&gt;film, tech, hiking, sport, and music&lt;/strong&gt; 🎬🚀🏞️⚽🎵&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Jekyll is perfect because it’s a &lt;strong&gt;static site generator&lt;/strong&gt; that converts Markdown posts into a fast, responsive website. Paired with the &lt;strong&gt;Jekflix theme&lt;/strong&gt;, I can create a cinematic, modern design tailored...</description>
+        <pubDate>Tue, 28 Oct 2025 10:00:00 +0000</pubDate>
+        <link>https://iczster.github.io/building-my-own-blog-site-with-jekyll/</link>
+        <guid isPermaLink="true">https://iczster.github.io/building-my-own-blog-site-with-jekyll/</guid>
+        
+        <category>tech</category>
+        
+        <category>blogging</category>
+        
+        <category>tutorial</category>
+        
+        <category>jekyll</category>
+        
+        <category>Tech</category>
       </item>
     
       <item>

@@ -185,6 +185,20 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/crash-live-2025/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-11-17</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/building-my-own-blog-site-with-jekyll/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-10-28</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/hiking-skiddaw-via-jenkinshill/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
