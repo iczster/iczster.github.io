@@ -46,10 +46,9 @@ Breathtaking views of a cloud inversion
 
 ### Image Gallery
 
-<figure>
-    <img src="/assets/images/looking-down-to-derwentwater.jpg" alt="Looking Down to Derwentwater, CO">
-    <figcaption>Looking Down to Derwentwater/figcaption>
-</figure>
+
+![Looking Down to Derwentwater](/assets/images/looking-down-to-derwentwater.jpg)  
+*Looking down to Derwentwater*
 
 ![Skiddaw to Little Man](/assets/images/skiddaw-to-little-man.jpg)  
 *Skiddaw to Little Man and cloud inversion*
