@@ -68,6 +68,14 @@
     </div>
     {% endif %}
 
+    {% if include.best_moment %}
+    <div class="hike-item best-moment">
+      <span class="hike-icon">🎞️</span>
+      <span class="hike-label">Best Moment</span>
+      <span class="hike-value">{{ include.best_moment }}</span>
+    </div>
+    {% endif %}
+
     {% if include.start_point %}
     <div class="hike-item start">
       <span class="hike-icon">📍</span>

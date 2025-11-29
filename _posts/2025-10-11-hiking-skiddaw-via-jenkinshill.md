@@ -19,6 +19,7 @@ great_views: yes
 distance: 10.4
 duration: "4h 35m"
 elevation_gain: 918
+best_moment: "Epic cloud inversion"
 start_point: "Underskiddaw Car Park"
 ---
 
