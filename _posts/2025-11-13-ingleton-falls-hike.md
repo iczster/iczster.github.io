@@ -2,9 +2,10 @@
 layout: post
 title: "Ingleton Falls Hike"
 subtitle: "Fierce waterfalls & rainbows"
+description: "A great hike for beginners"
 image: /assets/images/ingleton-falls-header.jpg
 category: Hiking
-tags: [hiking, yokshire, waterfalls]
+tags: [hiking, yorkshire, waterfalls]
 
 difficulty: Moderate
 crowded: "Very quiet"
@@ -30,11 +31,11 @@ The waterfalls were absolutely **roaring** the most powerful I’ve ever seen th
 
 A couple of changes on the route stood out:
 
-- The once-reliable **ice-cream van is no longer there**.  
+- The once reliable **ice-cream van is no longer there**.  
 - However, there’s now a **small kiosk** by the caravan park that does drinks and snacks, which was a welcome surprise.
 - We got to see a rainbow over the fells
 
-As always, the scenery was stunning—lush greens, dramatic gorges, and fast-flowing rivers everywhere. The trail was noticeably **quiet**, probably because the entry fee has now gone up to **£11 per person**, which is, well, a bit steep.
+As always, the scenery was stunning with lush greens, dramatic gorges, and fast flowing rivers everywhere. The trail was noticeably **quiet**, probably because the entry fee has now gone up to **£11 per person**, which is, well, a bit steep.
 
 We wrapped up with a much needed **coffee and a seriously good slice of carrot cake** at a café in Ingleton. Proper reward after a rain battered loop.
 

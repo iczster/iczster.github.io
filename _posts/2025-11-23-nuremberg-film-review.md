@@ -32,7 +32,7 @@ author: Longy
 date: 2025-11-23 10:00:00
 ---
 
-📘 Plot Summary
+# 📘 Plot Summary
 
 The film focuses on the true story of the psychological duel between US Army psychiatrist Douglas Kelley (Rami Malek) and the imprisoned Nazi leader Hermann Göring (Russell Crowe) during the first Nuremberg trial in 1945-1946. As the Allies attempt to hold the Nazi regime accountable for the Holocaust, Kelley works to understand the depths of their evil. 
 
@@ -40,7 +40,7 @@ Despite arriving late and missing the first five or so minutes (or, let’s be h
 
 For a film built around dialogue, interrogation, and courtroom strategy, it’s far more engaging and cinematic than it has any right to be. The pacing is controlled and patient, yet the characters and stakes are so sharply drawn that even the quieter moments carry real weight. If anything, missing the opening only highlighted how confidently the film establishes itself  within minutes I understood the tone, the world, and where the story was headed.
 
-⭐ Russell Crowe Steals the Film
+# ⭐ Russell Crowe Steals the Film
 
 Russell Crowe delivers one of his strongest performances in years.
 
@@ -48,7 +48,7 @@ He plays his role with a calm authority that anchors the entire plot. Crowe’s 
 
 He grounds the narrative, brings focus to complex moments, and ultimately serves as the emotional centrepiece of the movie which is probably why it remained so captivating even after a chaotic late arrival.
 
-🎥 Final Thoughts
+# 🎥 Final Thoughts
 
 Nuremberg is a long film, but it earns every minute. The mood, pacing, and performances (especially Crowe’s) make it absorbing from start to finish. Even jumping in slightly late didn’t diminish its impact, if anything, it highlighted how clear, confident, and commanding the storytelling is.
 
