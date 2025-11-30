@@ -192,6 +192,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/ingleton-falls-hike/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-11-14</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/building-my-own-blog-site-with-jekyll/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>

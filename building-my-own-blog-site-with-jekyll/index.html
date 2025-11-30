@@ -167,7 +167,7 @@
                         </time>
                     
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
-                    <span>4 min to read</span>
+                    <span>6 min to read</span>
                 </p>
                 <h1 class="post-title">Building My Own Blog Site with Jekyll</h1>
                 <p class="post-subtitle">How I combined tech, film, hiking, sport, and music into a personal blog</p>
@@ -250,10 +250,13 @@ bundle <span class="nt">-v</span>
 
 <p>Or if using your own theme like Jekflix then locate the repo on github for the theme you want to use:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/username/jekflix-theme.git my-blog
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/username/some-theme.git my-blog
 <span class="nb">cd </span>my-blog
 bundle <span class="nb">install</span>
 </code></pre></div></div>
+<blockquote>
+  <p>You can also simply fork from a theme of your choice into your own repo</p>
+</blockquote>
 
 <h3 id="5️⃣-serve-your-site-locally">5️⃣ Serve Your Site Locally</h3>
 
@@ -291,7 +294,7 @@ ruby <span class="nt">-v</span>
 
 <ul>
   <li>You must have gem to install Jekyll.</li>
-  <li>You only need rbenv if you want version control over Ruby. For a personal blog on a Mac, it’s optional—system Ruby usually works fine if you install Jekyll and Bundler.</li>
+  <li>You only need <code class="language-plaintext highlighter-rouge">rbenv</code> if you want version control over Ruby. For a personal blog on a Mac, it’s optional system Ruby usually works fine if you install Jekyll and Bundler.</li>
 </ul>
 
 <h3 id="structuring-content-for-your-interests">Structuring Content for Your Interests</h3>
@@ -320,7 +323,56 @@ ruby <span class="nt">-v</span>
   <li>Customizable layout themes like Jekflix allow cinematic post cards, modular info boxes, and more.</li>
 </ul>
 
+<h3 id="the-advantages-of-going-static">The Advantages Of Going Static</h3>
+<ul>
+  <li><strong>Simplicity</strong> Jekyll strips everything down to the bare minimum, eliminating a lot of complexity:</li>
+  <li><strong>No database</strong> Unlike WordPress and other content management systems (CMS), Jekyll doesn’t have a database. All posts and pages are converted to static HTML prior to publication. This is great for loading speed because no database calls are made when a page is loaded.</li>
+  <li><strong>No CMS</strong> Simply write all of your content in Markdown, and Jekyll will run it through templates to generate your static website. GitHub can serve as a CMS if needed because you can edit content on it.</li>
+  <li><strong>Fast</strong> Jekyll is fast because, being stripped down and without a database, you’re just serving up static pages. My base theme, Jekyll Now, makes only three HTTP requests — including the profile picture and social icons!</li>
+  <li><strong>Minimal</strong> Your Jekyll website will include absolutely no functionality or features that you aren’t using.</li>
+  <li><strong>Design control</strong> Spend less time wrestling with complex templates written by other people, and more time creating your own theme or customizing an uncomplicated base theme.</li>
+  <li><strong>Security</strong> The vast majority of vulnerabilities that affect platforms like WordPress don’t exist because Jekyll has no CMS, database or PHP. So, you don’t have to spend as much time installing security updates.</li>
+  <li><strong>Convenient hosting</strong> Convenient if you already use GitHub, that is. GitHub Pages will build and host your Jekyll website at no charge, while simultaneously handling version control.</li>
+</ul>
+
 <hr />
+
+<h3 id="directory-structure">Directory Structure</h3>
+
+<p>Here’s a snapshot of my Jekyll website’s directory structure:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/Users/longy/dev/coding/longyflix
+├─ CNAME <span class="c"># Contains your custom domain name (optional)</span>
+├─ _config.yml <span class="c"># Jekyll's configuration flags</span>
+├─ _includes <span class="c"># Snippets of code that can be used throughout your templates</span>
+│  ├─ analytics.html
+│  └─ disqus.html
+├─ _layouts
+│  ├─ default.html <span class="c"># The main template. Includes &lt;head&gt;, &lt;navigation&gt;, &lt;footer&gt;, etc</span>
+│  ├─ page.html <span class="c"># Static page layout</span>
+│  └─ post.html <span class="c"># Blog post layout</span>
+├─ _posts <span class="c"># All posts go in this directory!</span>
+│  └─ 2025-10-28-Hello-World.md
+├─ _site <span class="c"># After Jekyll builds the website, it puts the static HTML output here. This is what's served!</span>
+│  ├─ CNAME
+│  ├─ LICENSE
+│  ├─ about.html
+│  ├─ feed.xml
+│  ├─ index.html
+│  ├─ sitemap.xml
+│  └─ style.css
+├─ about.md <span class="c"># A static "About" page that I created.</span>
+├─ feed.xml <span class="c"># Powers the RSS feed</span>
+├─ assets/images <span class="c"># All of my images are stored here.</span>
+│  ├── first-post-header.jpg
+├─ index.html <span class="c"># Home page layout</span>
+├─ scss <span class="c"># The Sass style sheets for my website</span>
+│  ├─ _highlights.scss
+│  ├─ _reset.scss
+│  ├─ _variables.scss
+│  └─ style.scss
+└── sitemap.xml <span class="c"># Site map for the website</span>
+</code></pre></div></div>
 <h3 id="next-steps">Next Steps</h3>
 
 <p>Once your site is running locally, you can:</p>
@@ -353,29 +405,29 @@ include I have also mirrored this for a film-info-box
                         
                         
                             <li>
-                                <a href="/nuremberg-film-review/">
+                                <a href="/ingleton-falls-hike/">
                                     
-                                        <img src="/assets/images/nuremberg-review.jpg">
+                                        <img src="/assets/images/ingleton-falls-header.jpg">
                                     
-                                    <h3>Nuremberg (2025) Film Review</h3>
+                                    <h3>Ingleton Falls Hike</h3>
                                 </a>
                             </li>
                         
                             <li>
-                                <a href="/beginners-guide-to-building-in-gcp-with-terraform/">
+                                <a href="/crash-live-2025/">
                                     
-                                        <img src="/assets/images/building-in-gcp-header.jpg">
+                                        <img src="/assets/images/crashlive-header.jpg">
                                     
-                                    <h3>Beginners Guide to building in GCP with Terraform</h3>
+                                    <h3>CRASH Live 2025 A Retro Gaming Weekend in Warwickshire</h3>
                                 </a>
                             </li>
                         
                             <li>
-                                <a href="/peter-hook-holmfirth-picturedome/">
+                                <a href="/what-is-the-difference-between-observability-and-monitoring/">
                                     
-                                        <img src="/assets/images/hooky-3.jpg">
+                                        <img src="/assets/images/what-is-observability-header.jpg">
                                     
-                                    <h3>Peter Hook and the Light Holmfirth Picturedrome</h3>
+                                    <h3>What's the difference between Observability & Monitoring?</h3>
                                 </a>
                             </li>
                         
@@ -387,7 +439,7 @@ include I have also mirrored this for a film-info-box
 
         <!-- Add time bar only for pages without pagination -->
         
-            <div class="time-bar" data-minutes="4">
+            <div class="time-bar" data-minutes="6">
     <span class="time-completed"></span>
     <span class="time-remaining"></span>
     <div class="bar">
@@ -407,13 +459,13 @@ include I have also mirrored this for a film-info-box
         </div>
     </div>
     
-    <a href="/crash-live-2025/" class="post-preview">
+    <a href="/ingleton-falls-hike/" class="post-preview">
         <div class="image">
             
-                <img src="/assets/images/crashlive-header.jpg">
+                <img src="/assets/images/ingleton-falls-header.jpg">
             
         </div>
-        <h3 class="title">CRASH Live 2025 A Retro Gaming Weekend in Warwickshire</h3>
+        <h3 class="title">Ingleton Falls Hike</h3>
     </a>
 </div>
 
@@ -714,9 +766,12 @@ cd my-blog
 
 Or if using your own theme like Jekflix then locate the repo on github for the theme you want to use:
 
-git clone https://github.com/username/jekflix-theme.git my-blog
+git clone https://github.com/username/some-theme.git my-blog
 cd my-blog
 bundle install
+
+
+  You can also simply fork from a theme of your choice into your own repo
 
 
 5️⃣ Serve Your Site Locally
@@ -755,7 +810,7 @@ After installing via rbenv you’ll also use gem as usual, but it’s tied to th
 
 
   You must have gem to install Jekyll.
-  You only need rbenv if you want version control over Ruby. For a personal blog on a Mac, it’s optional—system Ruby usually works fine if you install Jekyll and Bundler.
+  You only need rbenv if you want version control over Ruby. For a personal blog on a Mac, it’s optional system Ruby usually works fine if you install Jekyll and Bundler.
 
 
 Structuring Content for Your Interests
@@ -784,6 +839,55 @@ Benefits of Running Your Own Blog
   Customizable layout themes like Jekflix allow cinematic post cards, modular info boxes, and more.
 
 
+The Advantages Of Going Static
+
+  Simplicity Jekyll strips everything down to the bare minimum, eliminating a lot of complexity:
+  No database Unlike WordPress and other content management systems (CMS), Jekyll doesn’t have a database. All posts and pages are converted to static HTML prior to publication. This is great for loading speed because no database calls are made when a page is loaded.
+  No CMS Simply write all of your content in Markdown, and Jekyll will run it through templates to generate your static website. GitHub can serve as a CMS if needed because you can edit content on it.
+  Fast Jekyll is fast because, being stripped down and without a database, you’re just serving up static pages. My base theme, Jekyll Now, makes only three HTTP requests — including the profile picture and social icons!
+  Minimal Your Jekyll website will include absolutely no functionality or features that you aren’t using.
+  Design control Spend less time wrestling with complex templates written by other people, and more time creating your own theme or customizing an uncomplicated base theme.
+  Security The vast majority of vulnerabilities that affect platforms like WordPress don’t exist because Jekyll has no CMS, database or PHP. So, you don’t have to spend as much time installing security updates.
+  Convenient hosting Convenient if you already use GitHub, that is. GitHub Pages will build and host your Jekyll website at no charge, while simultaneously handling version control.
+
+
+
+
+Directory Structure
+
+Here’s a snapshot of my Jekyll website’s directory structure:
+
+/Users/longy/dev/coding/longyflix
+├─ CNAME # Contains your custom domain name (optional)
+├─ _config.yml # Jekyll&apos;s configuration flags
+├─ _includes # Snippets of code that can be used throughout your templates
+│  ├─ analytics.html
+│  └─ disqus.html
+├─ _layouts
+│  ├─ default.html # The main template. Includes &amp;lt;head&amp;gt;, &amp;lt;navigation&amp;gt;, &amp;lt;footer&amp;gt;, etc
+│  ├─ page.html # Static page layout
+│  └─ post.html # Blog post layout
+├─ _posts # All posts go in this directory!
+│  └─ 2025-10-28-Hello-World.md
+├─ _site # After Jekyll builds the website, it puts the static HTML output here. This is what&apos;s served!
+│  ├─ CNAME
+│  ├─ LICENSE
+│  ├─ about.html
+│  ├─ feed.xml
+│  ├─ index.html
+│  ├─ sitemap.xml
+│  └─ style.css
+├─ about.md # A static &quot;About&quot; page that I created.
+├─ feed.xml # Powers the RSS feed
+├─ assets/images # All of my images are stored here.
+│  ├── first-post-header.jpg
+├─ index.html # Home page layout
+├─ scss # The Sass style sheets for my website
+│  ├─ _highlights.scss
+│  ├─ _reset.scss
+│  ├─ _variables.scss
+│  └─ style.scss
+└── sitemap.xml # Site map for the website
 
 Next Steps
 
@@ -803,7 +907,7 @@ See my blog post on creating a matching `hike-info-box.html` modular
 include I have also mirrored this for a film-info-box
 
 ",
-            "wordcount": "723",
+            "wordcount": "1195",
             "inLanguage": "en",
             "dateCreated": "28-00-2025/",
             "datePublished": "28-00-2025/",

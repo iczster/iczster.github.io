@@ -27,6 +27,14 @@
     } ,
   
     {
+      "title"    : "Ingleton Falls Hike",
+      "tags"     : "hiking, yokshire, and waterfalls",
+      "categories" : "Hiking",
+      "url"      : "/ingleton-falls-hike/",
+      "date"     : "11/14/2025"
+    } ,
+  
+    {
       "title"    : "Building My Own Blog Site with Jekyll",
       "tags"     : "tech, blogging, tutorial, and jekyll",
       "categories" : "Tech",
