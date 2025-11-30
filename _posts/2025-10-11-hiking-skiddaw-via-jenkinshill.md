@@ -21,6 +21,7 @@ duration: "4h 35m"
 elevation_gain: 918
 best_moment: "Epic cloud inversion"
 start_point: "Underskiddaw Car Park"
+maps_link: "https://maps.app.goo.gl/xMPchBAPcinSx3pp6"
 ---
 
 ## Hiking to Skiddaw Summit & Little Man

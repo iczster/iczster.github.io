@@ -84,5 +84,15 @@
     </div>
     {% endif %}
 
+    {% if include.maps_link %}
+    <div class="hike-item map-link">
+      <span class="hike-icon">🗺️</span>
+      <span class="hike-label">Map</span>
+      <span class="hike-value">
+        <a href="{{ include.maps_link }}" target="_blank">View on Google Maps</a>
+      </span>
+    </div>
+    {% endif %}
+
   </div>
 </div>

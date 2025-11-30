@@ -80,10 +80,11 @@ cd my-blog
 Or if using your own theme like Jekflix then locate the repo on github for the theme you want to use:
 
 ```bash
-git clone https://github.com/username/jekflix-theme.git my-blog
+git clone https://github.com/username/some-theme.git my-blog
 cd my-blog
 bundle install
 ```
+> You can also simply fork from a theme of your choice into your own repo
 
 ### 5️⃣ Serve Your Site Locally
 
@@ -117,7 +118,7 @@ After installing via ```rbenv``` you’ll also use gem as usual, but it’s tied
 ✅ Summary
 
 * You must have gem to install Jekyll.
-* You only need rbenv if you want version control over Ruby. For a personal blog on a Mac, it’s optional—system Ruby usually works fine if you install Jekyll and Bundler.
+* You only need ```rbenv``` if you want version control over Ruby. For a personal blog on a Mac, it’s optional system Ruby usually works fine if you install Jekyll and Bundler.
 
 ### Structuring Content for Your Interests
 
@@ -141,8 +142,55 @@ Using modular includes like film-info-box.html and hike-box.html, I can display 
 * Learning opportunity managing Jekyll, Ruby, Git, and deployment teaches valuable skills.
 * Customizable layout themes like Jekflix allow cinematic post cards, modular info boxes, and more.
 
+### The Advantages Of Going Static #
+* **Simplicity** Jekyll strips everything down to the bare minimum, eliminating a lot of complexity:
+* **No database** Unlike WordPress and other content management systems (CMS), Jekyll doesn’t have a database. All posts and pages are converted to static HTML prior to publication. This is great for loading speed because no database calls are made when a page is loaded.
+* **No CMS** Simply write all of your content in Markdown, and Jekyll will run it through templates to generate your static website. GitHub can serve as a CMS if needed because you can edit content on it.
+* **Fast** Jekyll is fast because, being stripped down and without a database, you’re just serving up static pages. My base theme, Jekyll Now, makes only three HTTP requests — including the profile picture and social icons!
+* **Minimal** Your Jekyll website will include absolutely no functionality or features that you aren’t using.
+* **Design control** Spend less time wrestling with complex templates written by other people, and more time creating your own theme or customizing an uncomplicated base theme.
+* **Security** The vast majority of vulnerabilities that affect platforms like WordPress don’t exist because Jekyll has no CMS, database or PHP. So, you don’t have to spend as much time installing security updates.
+* **Convenient hosting** Convenient if you already use GitHub, that is. GitHub Pages will build and host your Jekyll website at no charge, while simultaneously handling version control.
 
 ---
+
+### Directory Structure 
+
+Here’s a snapshot of my Jekyll website’s directory structure:
+
+```bash
+/Users/longy/dev/coding/longyflix
+├─ CNAME # Contains your custom domain name (optional)
+├─ _config.yml # Jekyll's configuration flags
+├─ _includes # Snippets of code that can be used throughout your templates
+│  ├─ analytics.html
+│  └─ disqus.html
+├─ _layouts
+│  ├─ default.html # The main template. Includes <head>, <navigation>, <footer>, etc
+│  ├─ page.html # Static page layout
+│  └─ post.html # Blog post layout
+├─ _posts # All posts go in this directory!
+│  └─ 2025-10-28-Hello-World.md
+├─ _site # After Jekyll builds the website, it puts the static HTML output here. This is what's served!
+│  ├─ CNAME
+│  ├─ LICENSE
+│  ├─ about.html
+│  ├─ feed.xml
+│  ├─ index.html
+│  ├─ sitemap.xml
+│  └─ style.css
+├─ about.md # A static "About" page that I created.
+├─ feed.xml # Powers the RSS feed
+├─ assets/images # All of my images are stored here.
+│  ├── first-post-header.jpg
+├─ index.html # Home page layout
+├─ scss # The Sass style sheets for my website
+│  ├─ _highlights.scss
+│  ├─ _reset.scss
+│  ├─ _variables.scss
+│  └─ style.scss
+└── sitemap.xml # Site map for the website
+```
 ### Next Steps
 
 Once your site is running locally, you can:
