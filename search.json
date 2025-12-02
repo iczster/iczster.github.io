@@ -35,6 +35,30 @@
     } ,
   
     {
+      "title"    : "Hiking Whernside The Highest of the Yorkshire Three Peaks",
+      "tags"     : "hiking, three-peaks, yorkshire, whernside, and summit",
+      "categories" : "Hiking",
+      "url"      : "/hiking-to-whernside-summit/",
+      "date"     : "11/12/2025"
+    } ,
+  
+    {
+      "title"    : "Review: Fawlty Towers The Play Palace Theatre Manchester",
+      "tags"     : "theatre, palace, and play",
+      "categories" : "Theatre",
+      "url"      : "/fawlty-towers-review-palace-theatre/",
+      "date"     : "11/08/2025"
+    } ,
+  
+    {
+      "title"    : "Gig Review: Tom Meighan @ Whittles, Oldham",
+      "tags"     : "gig, review, and music",
+      "categories" : "Music",
+      "url"      : "/tom-meighan-whittles-oldham/",
+      "date"     : "11/08/2025"
+    } ,
+  
+    {
       "title"    : "Building My Own Blog Site with Jekyll",
       "tags"     : "tech, blogging, tutorial, and jekyll",
       "categories" : "Tech",

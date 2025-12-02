@@ -199,6 +199,27 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/hiking-to-whernside-summit/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-11-12</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/fawlty-towers-review-palace-theatre/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-11-08</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/tom-meighan-whittles-oldham/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-11-08</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/building-my-own-blog-site-with-jekyll/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
