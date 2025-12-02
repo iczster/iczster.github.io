@@ -55,7 +55,15 @@
       "tags"     : "gig, review, and music",
       "categories" : "Music",
       "url"      : "/tom-meighan-whittles-oldham/",
-      "date"     : "11/08/2025"
+      "date"     : "11/04/2025"
+    } ,
+  
+    {
+      "title"    : "Review: Walk Right Back The Everly Brothers Story",
+      "tags"     : "theatre, tribute, and music",
+      "categories" : "Theatre",
+      "url"      : "/walk-right-back-everly-brothers/",
+      "date"     : "11/01/2025"
     } ,
   
     {
@@ -67,6 +75,30 @@
     } ,
   
     {
+      "title"    : "Review: Young Frankenstein @ Hope Mill Theatre",
+      "tags"     : "theatre, musical, and comedy",
+      "categories" : "Theatre",
+      "url"      : "/young-frankenstein/",
+      "date"     : "10/24/2025"
+    } ,
+  
+    {
+      "title"    : "Review: New Dawn Fades @ The Met, Bury",
+      "tags"     : "theatre, drama, music, joy-division, and bury-met",
+      "categories" : "Theatre",
+      "url"      : "/new-dawn-fades/",
+      "date"     : "10/16/2025"
+    } ,
+  
+    {
+      "title"    : "Review: The Story of The Kinks @ Palace Theatre Manchester",
+      "tags"     : "theatre, music, and tribute",
+      "categories" : "Theatre",
+      "url"      : "/the-story-of-the-kinks/",
+      "date"     : "10/14/2025"
+    } ,
+  
+    {
       "title"    : "Skiddaw Summit via Jenkins Bridleway",
       "tags"     : "hiking, summit, and lakes",
       "categories" : "Hiking",
@@ -75,11 +107,27 @@
     } ,
   
     {
+      "title"    : "Review: First Light @ Shaw Playhouse",
+      "tags"     : "theatre, drama, war, and review",
+      "categories" : "Theatre",
+      "url"      : "/first-light/",
+      "date"     : "10/06/2025"
+    } ,
+  
+    {
       "title"    : "Creating a Reusable Hike Info Box in Jekyll",
       "tags"     : "tech, blog, jekyll, and tutorial",
       "categories" : "Tech",
       "url"      : "/creating-hikebox-tutorial/",
       "date"     : "10/01/2025"
+    } ,
+  
+    {
+      "title"    : "Trip Review: Neuschwanstein &amp; Hohenschwangau Castles A Day Out from Munich",
+      "tags"     : "travel, Munich, and Neuschwanstein",
+      "categories" : "Travel",
+      "url"      : "/neuschwanstein-munich-castle/",
+      "date"     : "08/07/2025"
     } ,
   
     {

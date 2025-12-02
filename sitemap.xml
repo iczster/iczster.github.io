@@ -216,7 +216,14 @@
             <loc>https://iczster.github.io/tom-meighan-whittles-oldham/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
-            <lastmod>2025-11-08</lastmod>
+            <lastmod>2025-11-04</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/walk-right-back-everly-brothers/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-11-01</lastmod>
         </url>
     
         <url>
@@ -227,6 +234,27 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/young-frankenstein/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-10-24</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/new-dawn-fades/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-10-16</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/the-story-of-the-kinks/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-10-14</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/hiking-skiddaw-via-jenkinshill/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -234,10 +262,24 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/first-light/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-10-06</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/creating-hikebox-tutorial/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2025-10-01</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/neuschwanstein-munich-castle/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-08-07</lastmod>
         </url>
     
         <url>
