@@ -82,3 +82,11 @@ Start at **Underskiddaw Car Park**. Parking is limited, so arriving early is rec
 * Latrigg summit for a shorter walk  
 
 ---
+
+## 📸 Photo Gallery  
+ 
+![Skiddaw](/assets/images/skiddaw-1.jpg)  
+![Skiddaw](/assets/images/skiddaw-2.jpg)  
+![Skiddaw](/assets/images/skiddaw-3.jpg)  
+![Skiddaw](/assets/images/skiddaw-4.jpg)  
+![Skiddaw](/assets/images/skiddaw-5.jpg)  

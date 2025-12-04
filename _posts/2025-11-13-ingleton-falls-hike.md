@@ -41,7 +41,7 @@ We wrapped up with a much needed **coffee and a seriously good slice of carrot c
 
 Still one of the best circular walks in Yorkshire. Fierce falls, wet boots, rainbows, great cake. Ideal.
 
-## Gallery View
+## 📸 Photo Gallery  
 
 ![Ingleton Falls 1](/assets/images/ingleton-1.jpg)  
 ![Ingleton Falls 2](/assets/images/ingleton-2.jpg)  
