@@ -5,8 +5,8 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Dec 2025 14:37:59 +0000</pubDate>
-    <lastBuildDate>Thu, 04 Dec 2025 14:37:59 +0000</lastBuildDate>
+    <pubDate>Thu, 04 Dec 2025 18:01:03 +0000</pubDate>
+    <lastBuildDate>Thu, 04 Dec 2025 18:01:03 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -267,6 +267,26 @@
         <category>tutorial</category>
         
         <category>Tech</category>
+      </item>
+    
+      <item>
+        <title>Travel Blog: Four Days in Munich History, Beer Halls &amp; The Bavarian Alps</title>
+        <description>&lt;p&gt;Visiting Munich in early September turned into one of the most &lt;strong&gt;packed, exhausting and rewarding city breaks&lt;/strong&gt; we’ve ever done. With early flights, heavy walking days, moving historic sites and two major day trips into the Bavarian mountains, we squeezed the absolute maximum out of a long weekend that lasted from &lt;strong&gt;6th to 9th September&lt;/strong&gt;.&lt;/p&gt; &lt;p&gt;This blog covers the &lt;strong&gt;arrival day and final day&lt;/strong&gt;, with separate posts dedicated to our visits to &lt;strong&gt;Neuschwanstein Castle&lt;/strong&gt; and &lt;strong&gt;The Eagle’s Nest&lt;/strong&gt; both highlights of the trip in their own right.&lt;/p&gt; &lt;hr /&gt; &lt;h1 id=&quot;-day-1-arrival-history--the-longest-day&quot;&gt;🇩🇪 Day 1: Arrival, History &amp;amp; The Longest Day&lt;/h1&gt; &lt;p&gt;The...</description>
+        <pubDate>Wed, 01 Oct 2025 00:00:00 +0100</pubDate>
+        <link>https://iczster.github.io/four-days-in-munich/</link>
+        <guid isPermaLink="true">https://iczster.github.io/four-days-in-munich/</guid>
+        
+        <category>travel</category>
+        
+        <category>Munich</category>
+        
+        <category>Bavaria</category>
+        
+        <category>Germany</category>
+        
+        <category>blog</category>
+        
+        <category>Travel</category>
       </item>
     
       <item>

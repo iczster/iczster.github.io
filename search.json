@@ -123,6 +123,14 @@
     } ,
   
     {
+      "title"    : "Travel Blog: Four Days in Munich History, Beer Halls &amp; The Bavarian Alps",
+      "tags"     : "travel, Munich, Bavaria, Germany, and blog",
+      "categories" : "Travel",
+      "url"      : "/four-days-in-munich/",
+      "date"     : "10/01/2025"
+    } ,
+  
+    {
       "title"    : "Trip Review: The Eagle’s Nest Bavarian Alps From Munich",
       "tags"     : "travel, Munich, Bavaria, and EaglesNest",
       "categories" : "Travel",
