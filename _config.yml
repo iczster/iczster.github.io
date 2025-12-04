@@ -49,7 +49,8 @@ url: "https://iczster.github.io" # the base hostname & protocol for your site
 # Social sharing / Open Graph
 social:
   name: "Longyflix"
-  image: "/assets/images/home-og.jpg"
+  image: "https://iczster.github.io/assets/images/home-og2.jpg"
+
 theme_mode: auto     # or 'light', or 'auto' for system preference
 google_analytics: "UA-XXXXXXXX-X"
 language: "en"
