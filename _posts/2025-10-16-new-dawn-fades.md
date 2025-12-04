@@ -5,7 +5,7 @@ subtitle: "A powerful, witty and deeply Mancunian Joy Division story"
 description: "A gripping and inventive retelling of the Joy Division story, staged at The Met in Bury the site of an infamous 1979 gig"
 date: 2025-10-16
 category: Theatre
-image: /assets/images/new-dawn-fades-header.png
+image: /assets/images/new-dawn-fades-header.jpg
 tags: [theatre, drama, music, joy-division, bury-met]
 ---
 
@@ -41,7 +41,7 @@ When songs arrive, they hit hard: haunting, raw, electric. The musical arrangeme
 
 It’s less “watch the band recreated on stage” and more “remember why this music mattered at all”.
 
-![New Dawn Fades](/assets/images/ndf-1.png)  
+![New Dawn Fades](/assets/images/ndf-1.jpg)  
 
 ### ✍️ Tone & Themes
 

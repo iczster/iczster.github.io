@@ -5,7 +5,7 @@ subtitle: "Monstrous comedy, musical mayhem and pure fun"
 description: "A wild, witty revival of Young Frankenstein at Hope Mill — intimate venue, big laughs."
 date: 2025-10-24
 category: Theatre
-image: /assets/images/young-frank-header.png
+image: /assets/images/young-frank-header.jpg
 tags: [theatre, musical, comedy]
 ---
 
@@ -51,7 +51,7 @@ It’s the kind of venue that makes you want to support live theatre more often 
 A couple of jokes feel a little old-fashioned or too silly but honestly, that’s part of the charm.  
 If you’re not on board with camp humour, innuendo and surreal musical comedy, this won’t change your mind.  
 
-![Frank](/assets/images/young-frank-1.png)  
+![Frank](/assets/images/young-frank-1.jpg)  
 
 ### ✅ Final thoughts
 

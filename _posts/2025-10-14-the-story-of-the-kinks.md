@@ -5,7 +5,7 @@ subtitle: "Surprisingly catchy a night out worth staying awake for"
 description: "A tribute style theatrical concert and biography of The Kinks at Manchester’s Palace Theatre"
 date: 2025-10-14
 category: Theatre
-image: /assets/images/kinks-header.png
+image: /assets/images/kinks-header.jpg
 tags: [theatre, music, tribute]
 ---
 
@@ -33,7 +33,7 @@ Narrative segments (band history, anecdotes, reflections) were light on pretensi
 
 Visually, the production opted for simple but effective staging minimal set changes, lighting cues that shifted mood, some period inspired projections, and a few costume touches that evoked the different decades of The Kinks’ career without overdoing nostalgia.  
 
-![Kinks](/assets/images/kinks-1.png)  
+![Kinks](/assets/images/kinks-1.jpg)  
 
 ### 👍 What worked for me  
 
