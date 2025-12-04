@@ -5,8 +5,8 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Dec 2025 13:03:48 +0000</pubDate>
-    <lastBuildDate>Thu, 04 Dec 2025 13:03:48 +0000</lastBuildDate>
+    <pubDate>Thu, 04 Dec 2025 14:37:59 +0000</pubDate>
+    <lastBuildDate>Thu, 04 Dec 2025 14:37:59 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -267,6 +267,24 @@
         <category>tutorial</category>
         
         <category>Tech</category>
+      </item>
+    
+      <item>
+        <title>Trip Review: The Eagle’s Nest Bavarian Alps From Munich</title>
+        <description>&lt;h2 id=&quot;-the-tour-early-start--easy-pickup&quot;&gt;🚌 The Tour: Early Start &amp;amp; Easy Pickup&lt;/h2&gt; &lt;p&gt;We arranged this trip through &lt;strong&gt;GetYourGuide&lt;/strong&gt;, with an early &lt;strong&gt;8am pickup from the centre of Munich&lt;/strong&gt;. It was an easy, well organised start that set the tone for what turned into an unforgettable day. A sneakly latte and croissant got the day off to a flyer. On the way out Ursula also took us on the route to pass some historical places like the police station were Hitler lived over.&lt;/p&gt; &lt;h2 id=&quot;-our-guide-ursula&quot;&gt;👩 Our Guide: Ursula&lt;/h2&gt; &lt;p&gt;A &lt;strong&gt;special mention to Ursula&lt;/strong&gt;, our guide, who absolutely made the day. Warm, funny, and incredibly...</description>
+        <pubDate>Mon, 08 Sep 2025 00:00:00 +0100</pubDate>
+        <link>https://iczster.github.io/eagles-nest-from-munich/</link>
+        <guid isPermaLink="true">https://iczster.github.io/eagles-nest-from-munich/</guid>
+        
+        <category>travel</category>
+        
+        <category>Munich</category>
+        
+        <category>Bavaria</category>
+        
+        <category>EaglesNest</category>
+        
+        <category>Travel</category>
       </item>
     
       <item>

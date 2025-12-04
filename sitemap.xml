@@ -276,6 +276,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/eagles-nest-from-munich/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-09-08</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/neuschwanstein-munich-castle/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
