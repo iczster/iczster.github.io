@@ -5,7 +5,7 @@
     {
       "title"    : "Nuremberg (2025) Film Review",
       "tags"     : "film, review, history, and drama",
-      "categories" : "Film",
+      "categories" : "film",
       "url"      : "/nuremberg-film-review/",
       "date"     : "11/23/2025"
     } ,
@@ -13,7 +13,7 @@
     {
       "title"    : "Peter Hook and the Light Holmfirth Picturedrome",
       "tags"     : "music, gig, and review",
-      "categories" : "Music",
+      "categories" : "music",
       "url"      : "/peter-hook-holmfirth-picturedome/",
       "date"     : "11/20/2025"
     } ,
@@ -21,7 +21,7 @@
     {
       "title"    : "CRASH Live 2025 A Retro Gaming Weekend in Warwickshire",
       "tags"     : "retro, gaming, crash live, events, and computing",
-      "categories" : "Tech",
+      "categories" : "tech",
       "url"      : "/crash-live-2025/",
       "date"     : "11/17/2025"
     } ,
@@ -29,7 +29,7 @@
     {
       "title"    : "Ingleton Falls Hike",
       "tags"     : "hiking, yorkshire, and waterfalls",
-      "categories" : "Hiking",
+      "categories" : "hiking",
       "url"      : "/ingleton-falls-hike/",
       "date"     : "11/14/2025"
     } ,
@@ -37,7 +37,7 @@
     {
       "title"    : "Hiking Whernside The Highest of the Yorkshire Three Peaks",
       "tags"     : "hiking, three-peaks, yorkshire, whernside, and summit",
-      "categories" : "Hiking",
+      "categories" : "hiking",
       "url"      : "/hiking-to-whernside-summit/",
       "date"     : "11/12/2025"
     } ,
@@ -45,7 +45,7 @@
     {
       "title"    : "Review: Fawlty Towers The Play Palace Theatre Manchester",
       "tags"     : "theatre, palace, and play",
-      "categories" : "Theatre",
+      "categories" : "theatre",
       "url"      : "/fawlty-towers-review-palace-theatre/",
       "date"     : "11/08/2025"
     } ,
@@ -53,7 +53,7 @@
     {
       "title"    : "Gig Review: Tom Meighan @ Whittles, Oldham",
       "tags"     : "gig, review, and music",
-      "categories" : "Music",
+      "categories" : "music",
       "url"      : "/tom-meighan-whittles-oldham/",
       "date"     : "11/04/2025"
     } ,
@@ -61,7 +61,7 @@
     {
       "title"    : "Review: Walk Right Back The Everly Brothers Story",
       "tags"     : "theatre, tribute, and music",
-      "categories" : "Theatre",
+      "categories" : "theatre",
       "url"      : "/walk-right-back-everly-brothers/",
       "date"     : "11/01/2025"
     } ,
@@ -69,7 +69,7 @@
     {
       "title"    : "Building My Own Blog Site with Jekyll",
       "tags"     : "tech, blogging, tutorial, and jekyll",
-      "categories" : "Tech",
+      "categories" : "tech",
       "url"      : "/building-my-own-blog-site-with-jekyll/",
       "date"     : "10/28/2025"
     } ,
@@ -77,7 +77,7 @@
     {
       "title"    : "Review: Young Frankenstein @ Hope Mill Theatre",
       "tags"     : "theatre, musical, and comedy",
-      "categories" : "Theatre",
+      "categories" : "theatre",
       "url"      : "/young-frankenstein/",
       "date"     : "10/24/2025"
     } ,
@@ -85,7 +85,7 @@
     {
       "title"    : "Review: New Dawn Fades @ The Met, Bury",
       "tags"     : "theatre, drama, music, joy-division, and bury-met",
-      "categories" : "Theatre",
+      "categories" : "theatre",
       "url"      : "/new-dawn-fades/",
       "date"     : "10/16/2025"
     } ,
@@ -93,7 +93,7 @@
     {
       "title"    : "Review: The Story of The Kinks @ Palace Theatre Manchester",
       "tags"     : "theatre, music, and tribute",
-      "categories" : "Theatre",
+      "categories" : "theatre",
       "url"      : "/the-story-of-the-kinks/",
       "date"     : "10/14/2025"
     } ,
@@ -109,7 +109,7 @@
     {
       "title"    : "Review: First Light @ Shaw Playhouse",
       "tags"     : "theatre, drama, war, and review",
-      "categories" : "Theatre",
+      "categories" : "theatre",
       "url"      : "/first-light/",
       "date"     : "10/06/2025"
     } ,
@@ -117,7 +117,7 @@
     {
       "title"    : "Creating a Reusable Hike Info Box in Jekyll",
       "tags"     : "tech, blog, jekyll, and tutorial",
-      "categories" : "Tech",
+      "categories" : "tech",
       "url"      : "/creating-hikebox-tutorial/",
       "date"     : "10/01/2025"
     } ,
@@ -125,7 +125,7 @@
     {
       "title"    : "Travel Blog: Four Days in Munich History, Beer Halls &amp; The Bavarian Alps",
       "tags"     : "travel, Munich, Bavaria, Germany, and blog",
-      "categories" : "Travel",
+      "categories" : "travel",
       "url"      : "/four-days-in-munich/",
       "date"     : "10/01/2025"
     } ,
@@ -133,7 +133,7 @@
     {
       "title"    : "Trip Review: The Eagle’s Nest Bavarian Alps From Munich",
       "tags"     : "travel, Munich, Bavaria, and EaglesNest",
-      "categories" : "Travel",
+      "categories" : "travel",
       "url"      : "/eagles-nest-from-munich/",
       "date"     : "09/08/2025"
     } ,
@@ -141,7 +141,7 @@
     {
       "title"    : "Trip Review: Neuschwanstein &amp; Hohenschwangau Castles A Day Out from Munich",
       "tags"     : "travel, Munich, and Neuschwanstein",
-      "categories" : "Travel",
+      "categories" : "travel",
       "url"      : "/neuschwanstein-munich-castle/",
       "date"     : "09/07/2025"
     } ,
@@ -149,7 +149,7 @@
     {
       "title"    : "What&#39;s the difference between Observability &amp; Monitoring?",
       "tags"     : "tech, blog, SRE, and observability",
-      "categories" : "Tech",
+      "categories" : "tech",
       "url"      : "/what-is-the-difference-between-observability-and-monitoring/",
       "date"     : "03/29/2022"
     } ,
@@ -157,7 +157,7 @@
     {
       "title"    : "Beginners Guide to building in GCP with Terraform",
       "tags"     : "tech, blog, GCP, and tutorial",
-      "categories" : "Tech",
+      "categories" : "tech",
       "url"      : "/beginners-guide-to-building-in-gcp-with-terraform/",
       "date"     : "03/11/2022"
     } 

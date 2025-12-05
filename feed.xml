@@ -5,8 +5,8 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Dec 2025 11:55:42 +0000</pubDate>
-    <lastBuildDate>Fri, 05 Dec 2025 11:55:42 +0000</lastBuildDate>
+    <pubDate>Fri, 05 Dec 2025 12:02:10 +0000</pubDate>
+    <lastBuildDate>Fri, 05 Dec 2025 12:02:10 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -24,7 +24,7 @@
         
         <category>drama</category>
         
-        <category>Film</category>
+        <category>film</category>
       </item>
     
       <item>
@@ -40,7 +40,7 @@
         
         <category>review</category>
         
-        <category>Music</category>
+        <category>music</category>
       </item>
     
       <item>
@@ -60,7 +60,7 @@
         
         <category>computing</category>
         
-        <category>Tech</category>
+        <category>tech</category>
       </item>
     
       <item>
@@ -76,7 +76,7 @@
         
         <category>waterfalls</category>
         
-        <category>Hiking</category>
+        <category>hiking</category>
       </item>
     
       <item>
@@ -96,7 +96,7 @@
         
         <category>summit</category>
         
-        <category>Hiking</category>
+        <category>hiking</category>
       </item>
     
       <item>
@@ -112,7 +112,7 @@
         
         <category>play</category>
         
-        <category>Theatre</category>
+        <category>theatre</category>
       </item>
     
       <item>
@@ -128,7 +128,7 @@
         
         <category>music</category>
         
-        <category>Music</category>
+        <category>music</category>
       </item>
     
       <item>
@@ -144,7 +144,7 @@
         
         <category>music</category>
         
-        <category>Theatre</category>
+        <category>theatre</category>
       </item>
     
       <item>
@@ -162,7 +162,7 @@
         
         <category>jekyll</category>
         
-        <category>Tech</category>
+        <category>tech</category>
       </item>
     
       <item>
@@ -178,7 +178,7 @@
         
         <category>comedy</category>
         
-        <category>Theatre</category>
+        <category>theatre</category>
       </item>
     
       <item>
@@ -198,7 +198,7 @@
         
         <category>bury-met</category>
         
-        <category>Theatre</category>
+        <category>theatre</category>
       </item>
     
       <item>
@@ -214,7 +214,7 @@
         
         <category>tribute</category>
         
-        <category>Theatre</category>
+        <category>theatre</category>
       </item>
     
       <item>
@@ -248,7 +248,7 @@
         
         <category>review</category>
         
-        <category>Theatre</category>
+        <category>theatre</category>
       </item>
     
       <item>
@@ -266,7 +266,7 @@
         
         <category>tutorial</category>
         
-        <category>Tech</category>
+        <category>tech</category>
       </item>
     
       <item>
@@ -286,7 +286,7 @@
         
         <category>blog</category>
         
-        <category>Travel</category>
+        <category>travel</category>
       </item>
     
       <item>
@@ -304,7 +304,7 @@
         
         <category>EaglesNest</category>
         
-        <category>Travel</category>
+        <category>travel</category>
       </item>
     
       <item>
@@ -320,7 +320,7 @@
         
         <category>Neuschwanstein</category>
         
-        <category>Travel</category>
+        <category>travel</category>
       </item>
     
       <item>
@@ -338,7 +338,7 @@
         
         <category>observability</category>
         
-        <category>Tech</category>
+        <category>tech</category>
       </item>
     
       <item>
@@ -356,7 +356,7 @@
         
         <category>tutorial</category>
         
-        <category>Tech</category>
+        <category>tech</category>
       </item>
     
   </channel>
