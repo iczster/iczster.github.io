@@ -4,7 +4,7 @@ title: "Trip Review: Neuschwanstein & Hohenschwangau Castles A Day Out from Muni
 subtitle: "Fairytale castles, steep climbs and unforgettable views"  
 description: "A day trip from Munich to Neuschwanstein and Hohenschwangau with GetYourGuide magical, scenic and very worth the early start."  
 date: 2025-09-07  
-category: Travel  
+category: travel  
 image: /assets/images/castle-header.jpg 
 tags: [travel, Munich, Neuschwanstein]  
 ---

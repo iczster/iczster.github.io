@@ -4,7 +4,7 @@ title: "Ingleton Falls Hike"
 subtitle: "Fierce waterfalls & rainbows"
 description: "A great hike for beginners"
 image: /assets/images/ingleton-falls-header.jpg
-category: Hiking
+category: hiking
 tags: [hiking, yorkshire, waterfalls]
 
 difficulty: Moderate

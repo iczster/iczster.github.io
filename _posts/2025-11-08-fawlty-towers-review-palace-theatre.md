@@ -4,7 +4,7 @@ title: "Review: Fawlty Towers The Play Palace Theatre Manchester"
 subtitle: "Funny and engaging"
 description: "A touring play out of the West End"
 date: 2025-11-08
-category: Theatre
+category: theatre
 image: /assets/images/fawlty-towers-header.jpg
 tags: [theatre, palace, play]
 ---

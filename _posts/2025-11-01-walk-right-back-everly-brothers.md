@@ -4,7 +4,7 @@ title: "Review: Walk Right Back The Everly Brothers Story"
 subtitle: "Rock-and-roll nostalgia, even for a skeptic"
 description: "A touring tribute musical telling the life story of The Everly Brothers"
 date: 2025-11-01
-category: Theatre
+category: theatre
 image: /assets/images/everly-header.jpg
 tags: [theatre, tribute, music]
 ---

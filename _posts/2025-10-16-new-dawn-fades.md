@@ -4,7 +4,7 @@ title: "Review: New Dawn Fades @ The Met, Bury"
 subtitle: "A powerful, witty and deeply Mancunian Joy Division story"
 description: "A gripping and inventive retelling of the Joy Division story, staged at The Met in Bury the site of an infamous 1979 gig"
 date: 2025-10-16
-category: Theatre
+category: theatre
 image: /assets/images/new-dawn-fades-header.jpg
 tags: [theatre, drama, music, joy-division, bury-met]
 ---

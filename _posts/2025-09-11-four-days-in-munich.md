@@ -4,7 +4,7 @@ title: "Travel Blog: Four Days in Munich History, Beer Halls & The Bavarian Alps
 subtitle: "A packed long weekend exploring one of Europe’s most fascinating cities"
 description: "Four days in Munich exploring historic sites, beer halls, mountain views, castles and the Eagle’s Nest. An immersive and unforgettable trip."
 date: 2025-10-01
-category: Travel
+category: travel
 image: /assets/images/munich-trip-header.jpg
 tags: [travel, Munich, Bavaria, Germany, blog]
 ---

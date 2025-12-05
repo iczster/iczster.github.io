@@ -4,7 +4,7 @@ title: "Trip Review: The Eagle’s Nest Bavarian Alps From Munich"
 subtitle: "Alpine views, complex history and an unforgettable day out from Munich"
 description: "A day trip to the Eagle’s Nest in the Bavarian Alps stunning scenery, remarkable engineering and a moving historical experience."
 date: 2025-09-08
-category: Travel
+category: travel
 image: /assets/images/eagles-nest-header.jpg
 tags: [travel, Munich, Bavaria, EaglesNest]
 ---

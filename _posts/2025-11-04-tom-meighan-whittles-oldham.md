@@ -4,7 +4,7 @@ title: "Gig Review: Tom Meighan @ Whittles, Oldham"
 subtitle: "Ex Kasabian Frontman"
 description: "A rare visit to a venue of this size"
 date: 2025-11-04
-category: Music
+category: music
 image: /assets/images/tom-meighan-header.jpg
 tags: [gig, review, music]
 ---

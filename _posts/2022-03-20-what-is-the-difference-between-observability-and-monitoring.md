@@ -5,7 +5,7 @@ subtitle: "Observability is core to SRE activities and success"
 description: "Overview and explanation between observability and monitoring"
 image: /assets/images/what-is-observability-header.jpg
 date: 2022-03-29 10:00:00
-category: Tech
+category: tech
 tags: [tech, blog, SRE, observability]
 author: Longy
 ---

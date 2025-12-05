@@ -3,7 +3,7 @@ layout: post
 title: "Nuremberg (2025) Film Review"
 subtitle: "A long film made gripping by Russell Crowe"
 image: /assets/images/nuremberg-review.jpg
-category: Film
+category: film
 tags: [film, review, history, drama]
 
 director: "James Vanderbilt"

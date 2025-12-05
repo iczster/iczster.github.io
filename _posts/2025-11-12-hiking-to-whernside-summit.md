@@ -5,7 +5,7 @@ subtitle: "A misty climb with aircraft flyovers and a steep descent"
 description: "A dramatic ascent of Whernside in low visibility with memorable moments including a waterfall and an A400 aircraft flyover."
 image: /assets/images/whernside-header.jpg
 date: 2025-11-12 21:00:00
-category: Hiking
+category: hiking
 tags: [hiking, three-peaks, yorkshire, whernside, summit]
 author: Longy
 

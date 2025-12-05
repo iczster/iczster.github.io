@@ -4,7 +4,7 @@ title: "Review: First Light @ Shaw Playhouse"
 subtitle: "A stark, powerful meditation on war, memory and truth"  
 description: "A touring staging of First Light a WW1 era drama about desertion, duty and family"  
 date: 2025-10-06  
-category: Theatre  
+category: theatre  
 image: /assets/images/first-light-header.jpg  
 tags: [theatre, drama, war, review]  
 ---

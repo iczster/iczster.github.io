@@ -4,7 +4,7 @@ title: "Review: Young Frankenstein @ Hope Mill Theatre"
 subtitle: "Monstrous comedy, musical mayhem and pure fun"
 description: "A wild, witty revival of Young Frankenstein at Hope Mill — intimate venue, big laughs."
 date: 2025-10-24
-category: Theatre
+category: theatre
 image: /assets/images/young-frank-header.jpg
 tags: [theatre, musical, comedy]
 ---

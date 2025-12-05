@@ -5,7 +5,7 @@ subtitle: "Automate the build of a web server and Ansible on Google Compute Engi
 description: "Step-by-step guide on automating the creation of GCP resources"
 image: /assets/images/building-in-gcp-header.jpg
 date: 2022-03-11 10:00:00
-category: Tech
+category: tech
 tags: [tech, blog, GCP, tutorial]
 author: Longy
 ---

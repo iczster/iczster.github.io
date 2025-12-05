@@ -4,7 +4,7 @@ title: "Review: The Story of The Kinks @ Palace Theatre Manchester"
 subtitle: "Surprisingly catchy a night out worth staying awake for"
 description: "A tribute style theatrical concert and biography of The Kinks at Manchester’s Palace Theatre"
 date: 2025-10-14
-category: Theatre
+category: theatre
 image: /assets/images/kinks-header.jpg
 tags: [theatre, music, tribute]
 ---

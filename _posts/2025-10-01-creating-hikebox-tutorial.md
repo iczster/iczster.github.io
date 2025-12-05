@@ -5,7 +5,7 @@ subtitle: "How to build a modular info box for hiking posts (or any category)"
 description: "Step-by-step guide on creating a reusable hike info box with animations, badges, and conditional rendering in Jekyll."
 image: /assets/images/hikebox-tutorial.jpg
 date: 2025-10-01 10:00:00
-category: Tech
+category: tech
 tags: [tech, blog, jekyll, tutorial]
 author: Longy
 ---

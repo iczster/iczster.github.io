@@ -5,7 +5,7 @@ subtitle: "How I combined tech, film, hiking, sport, and music into a personal b
 description: "A guide to creating a Jekyll blog on a Mac and why I chose this approach."
 image: /assets/images/creating-a-personal-blog-header.png
 date: 2025-10-28 10:00:00
-category: Tech
+category: tech
 tags: [tech, blogging, tutorial, jekyll]
 author: Longy
 ---

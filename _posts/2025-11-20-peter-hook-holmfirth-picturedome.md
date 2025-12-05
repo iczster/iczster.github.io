@@ -5,7 +5,7 @@ subtitle: "A great gig mixed with emotions"
 description: "Blog review of the gig"
 image: /assets/images/hooky-3.jpg
 date: 2025-11-20 10:00:00
-category: Music
+category: music
 tags: [music, gig, review]
 author: Longy
 ---
