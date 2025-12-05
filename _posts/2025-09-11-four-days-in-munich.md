@@ -152,9 +152,7 @@ I’d go back in a heartbeat.
 ## 📸 Photo Gallery  
 
 ![Munich](/assets/images/munich-1.jpg)  
-![Munich](/assets/images/munich-2.jpg)  
-![Munich](/assets/images/munich-3.jpg)  
-![Munich](/assets/images/munich-4.jpg)  
+![Munich](/assets/images/munich-2.jpg)   
 ![Munich](/assets/images/munich-5.jpg)
 ![Munich](/assets/images/munich-6.jpg)  
 ![Munich](/assets/images/munich-7.jpg)  
