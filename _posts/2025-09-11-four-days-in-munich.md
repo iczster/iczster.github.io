@@ -2,7 +2,7 @@
 layout: post
 title: "Travel Blog: Four Days in Munich History, Beer Halls & The Bavarian Alps"
 subtitle: "A packed long weekend exploring one of Europe’s most fascinating cities"
-description: "Four days in Munich exploring historic sites, beer halls, mountain views, castles and the Eagle’s Nest — an immersive and unforgettable trip."
+description: "Four days in Munich exploring historic sites, beer halls, mountain views, castles and the Eagle’s Nest. An immersive and unforgettable trip."
 date: 2025-10-01
 category: Travel
 image: /assets/images/munich-trip-header.jpg
@@ -89,7 +89,6 @@ These deserve their own posts, because they were **full-day adventures** into th
 
 - 🦅 **The Eagle’s Nest** history, engineering and unforgettable scenery  
   👉 Read the full post: [Eagles Nest from Munich](/eagles-nest-from-munich/)
-
 
 ---
 

@@ -5,7 +5,7 @@ subtitle: "Taking in the views from Little Man"
 description: "A great hike with a steep early ascent and a cloud inversion"
 image: /assets/images/skiddaw-to-little-man.jpg
 date: 2025-10-11 18:00:00
-category: Hiking
+category: hiking
 tags: [hiking, summit, lakes]
 
 author: Longy
