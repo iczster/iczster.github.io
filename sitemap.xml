@@ -179,6 +179,13 @@
     
     
         <url>
+            <loc>https://iczster.github.io/a-tribute-to-manchester/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-12-05</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/nuremberg-film-review/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
