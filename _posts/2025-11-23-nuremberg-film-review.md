@@ -2,6 +2,7 @@
 layout: post
 title: "Nuremberg (2025) Film Review"
 subtitle: "A long film made gripping by Russell Crowe"
+description: "Compelling and engaging account of the Nazi trial."
 image: /assets/images/nuremberg-review.jpg
 category: film
 tags: [film, review, history, drama]

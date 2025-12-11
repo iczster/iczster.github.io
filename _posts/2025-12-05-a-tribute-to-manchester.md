@@ -73,7 +73,7 @@ It was catharsis.
 
 ---
 
-## 🎧 Afterparty Club Academy Chaos
+## 🎧 Afterparty Club Academy 
 
 As if three hours of wall-to-wall classics wasn’t enough, the night rolled on to **Club Academy** for the afterparty.  
 
