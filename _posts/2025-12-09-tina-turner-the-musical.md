@@ -82,3 +82,11 @@ A brilliant night out, a fitting tribute to a music icon, and a reminder of just
 
 ![Tina Turner the Musical](/assets/images/tina-1.jpg)  
 ![Tina Turner the Musical](/assets/images/tina-2.jpg)  
+
+## 🎥 Video Gallery  
+
+
+<video width="320" height="360" controls>
+  <source src="{{ '/assets/videos/tina-video-1.mov' | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
