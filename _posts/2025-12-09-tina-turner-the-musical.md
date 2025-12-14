@@ -33,7 +33,7 @@ The production doesn’t shy away from the darker chapters, but it also celebrat
 
 ---
 
-## 🎭 A World-Class Creative Team
+## 🎭 A World Class Creative Team
 
 Presented in association with **Tina Turner** herself, the musical carries a level of authenticity and reverence that shines throughout.
 
