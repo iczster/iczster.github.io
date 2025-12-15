@@ -87,6 +87,6 @@ A brilliant night out, a fitting tribute to a music icon, and a reminder of just
 
 
 <video width="320" height="360" controls>
-  <source src="{{ '/assets/videos/tina-video-1.mov' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/tina-video-1.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
