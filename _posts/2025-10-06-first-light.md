@@ -7,6 +7,7 @@ date: 2025-10-06
 category: theatre  
 image: /assets/images/first-light-header.jpg  
 tags: [theatre, drama, war, review]  
+author: Longy
 ---
 
 ### First Light @ Shaw Playhouse

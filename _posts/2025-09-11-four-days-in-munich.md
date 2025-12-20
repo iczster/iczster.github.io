@@ -7,6 +7,7 @@ date: 2025-10-01
 category: travel
 image: /assets/images/munich-trip-header.jpg
 tags: [travel, Munich, Bavaria, Germany, blog]
+author: Longy
 ---
 
 Visiting Munich in early September turned into one of the most **packed, exhausting and rewarding city breaks** we’ve ever done. With early flights, heavy walking days, moving historic sites and two major day trips into the Bavarian mountains, we squeezed the absolute maximum out of a long weekend that lasted from **6th to 9th September**.

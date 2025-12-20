@@ -7,6 +7,7 @@ date: 2025-10-16
 category: theatre
 image: /assets/images/new-dawn-fades-header.jpg
 tags: [theatre, drama, music, joy-division, bury-met]
+author: Longy
 ---
 
 ## New Dawn Fades @ The Met, Bury

@@ -7,6 +7,7 @@ date: 2025-10-14
 category: theatre
 image: /assets/images/kinks-header.jpg
 tags: [theatre, music, tribute]
+author: Longy
 ---
 
 ## The Story of The Kinks @ Palace Theatre Manchester

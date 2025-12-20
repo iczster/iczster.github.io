@@ -7,6 +7,7 @@ date: 2025-12-13
 category: music
 image: /assets/images/inspirals-header.jpg
 tags: [music, gig, review]
+author: Longy
 ---
 
 # 🎸 Inspiral Carpets Albert Hall Manchester  

@@ -7,7 +7,6 @@ image: /assets/images/skiddaw-to-little-man.jpg
 date: 2025-10-11 18:00:00
 category: hiking
 tags: [hiking, summit, lakes]
-
 author: Longy
 
 # Hike Metadata (used by hike-box.html)

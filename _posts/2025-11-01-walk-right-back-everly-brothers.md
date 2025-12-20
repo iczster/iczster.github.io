@@ -7,6 +7,7 @@ date: 2025-11-01
 category: theatre
 image: /assets/images/everly-header.jpg
 tags: [theatre, tribute, music]
+author: Longy
 ---
 
 ### Walk Right Back The Everly Brothers Story Theatre Royal Wakefield

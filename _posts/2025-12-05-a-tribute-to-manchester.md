@@ -7,6 +7,7 @@ date: 2025-12-05
 category: music  
 image: /assets/images/tribute-to-man-header.jpg  
 tags: [music, Manchester, gig]  
+author: Longy
 ---
 
 # 🎸 A Tribute to Manchester Manchester Academy

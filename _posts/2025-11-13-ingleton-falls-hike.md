@@ -6,6 +6,7 @@ description: "A great hike for beginners"
 image: /assets/images/ingleton-falls-header.jpg
 category: hiking
 tags: [hiking, yorkshire, waterfalls]
+author: Longy
 
 difficulty: Moderate
 crowded: "Very quiet"

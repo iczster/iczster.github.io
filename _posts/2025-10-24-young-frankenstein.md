@@ -7,6 +7,7 @@ date: 2025-10-24
 category: theatre
 image: /assets/images/young-frank-header.jpg
 tags: [theatre, musical, comedy]
+author: Longy
 ---
 
 ## Young Frankenstein @ Hope Mill Theatre what a night

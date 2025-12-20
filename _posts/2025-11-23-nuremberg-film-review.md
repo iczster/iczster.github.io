@@ -6,6 +6,7 @@ description: "Compelling and engaging account of the Nazi trial."
 image: /assets/images/nuremberg-review.jpg
 category: film
 tags: [film, review, history, drama]
+author: Longy
 
 director: "James Vanderbilt"
 writer: "James Vanderbilt"

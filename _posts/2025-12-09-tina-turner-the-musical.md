@@ -7,6 +7,7 @@ date: 2025-12-09
 category: theatre
 image: /assets/images/tina-header.jpg
 tags: [theatre, music, review]
+author: Longy
 ---
 
 # 🎤 Tina Turner The Musical Palace Theatre Manchester

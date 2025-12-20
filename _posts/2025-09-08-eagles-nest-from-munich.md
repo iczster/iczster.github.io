@@ -7,6 +7,7 @@ date: 2025-09-08
 category: travel
 image: /assets/images/eagles-nest-header.jpg
 tags: [travel, Munich, Bavaria, EaglesNest]
+author: Longy
 ---
 
 ## 🚌 The Tour: Early Start & Easy Pickup

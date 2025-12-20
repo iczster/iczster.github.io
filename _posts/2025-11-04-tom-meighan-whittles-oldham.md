@@ -7,6 +7,7 @@ date: 2025-11-04
 category: music
 image: /assets/images/tom-meighan-header.jpg
 tags: [gig, review, music]
+author: Longy
 ---
 
 ### Review

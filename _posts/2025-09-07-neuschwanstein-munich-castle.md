@@ -7,6 +7,7 @@ date: 2025-09-07
 category: travel  
 image: /assets/images/castle-header.jpg 
 tags: [travel, Munich, Neuschwanstein]  
+author: Longy
 ---
 
 ### A day trip to Neuschwanstein & Hohenschwangau our Munich get‑away treat
