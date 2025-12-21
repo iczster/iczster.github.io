@@ -5,7 +5,7 @@ subtitle: "A towering, unsettling portrait of genius, guilt and destruction"
 description: "Christopher Nolan’s epic examination of J. Robert Oppenheimer and the creation of the atomic bomb, anchored by a career-defining performance from Cillian Murphy."
 image: https://editorial.rottentomatoes.com/wp-content/uploads/2023/03/Oppenheimer.jpg
 date: 2023-07-30 20:00:00
-category: Film
+category: film
 tags: [film, review, history, drama]
 author: Longy
 

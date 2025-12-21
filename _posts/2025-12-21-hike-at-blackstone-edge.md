@@ -4,7 +4,7 @@ title: "Hike Review: Blackstone Edge"
 subtitle: "A foggy, boggy winter wander on the moors"
 description: "A brisk December hike at Blackstone Edge, battling mist, drizzle and boggy ground for a quick winter leg-stretcher."
 date: 2025-12-21 13:00:00
-category: Hiking
+category: hiking
 image: /assets/images/blackstone-header.jpg
 tags: [hiking, moors, winter, lancashire, yorkshire]
 author: Longy
@@ -17,7 +17,7 @@ conditions: "Foggy and misty with light drizzle; very boggy underfoot in places"
 great_views: no
 distance: 6
 duration: "1–1.5 hours"
-elevation_gain: 438
+elevation_gain: 134
 start_point: "Roadside (near the Rams Head)"
 best_moment: "Breaking through the mist briefly near the edge and seeing the moorland drop away and the fast water"
 maps_link: "https://maps.google.com/?q=Blackstone+Edge"

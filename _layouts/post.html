@@ -28,7 +28,7 @@
                 {% include pagination-post.html progressBar=true %}
 
                 {% include toc.html %}
-                {% if page.category == "Hiking" %}
+                {% if page.category == "hiking" %}
                 {% include hike-box.html
                     difficulty=page.difficulty
                     crowded=page.crowded
@@ -43,7 +43,7 @@
                     maps_link=page.maps_link
                 %}
                 {% endif %}
-                {% if page.category == "Film" %}
+                {% if page.category == "film" %}
                 {% include film-info-box.html
                     director=page.director
                     writer=page.writer
