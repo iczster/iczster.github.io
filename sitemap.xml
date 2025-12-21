@@ -179,6 +179,13 @@
     
     
         <url>
+            <loc>https://iczster.github.io/hike-at-blackstone-edge/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-12-21</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/the-clause-academy2/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -330,6 +337,27 @@
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2025-09-07</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/spangled-always-in-colour-ep-review/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2024-06-02</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/hamilton-review-palace-theatre/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2023-11-23</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/oppenheimer-film-review/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2023-07-30</lastmod>
         </url>
     
         <url>

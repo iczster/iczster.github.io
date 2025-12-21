@@ -3,6 +3,14 @@
   
   
     {
+      "title"    : "Hike Review: Blackstone Edge",
+      "tags"     : "hiking, moors, winter, lancashire, and yorkshire",
+      "categories" : "Hiking",
+      "url"      : "/hike-at-blackstone-edge/",
+      "date"     : "12/21/2025"
+    } ,
+  
+    {
       "title"    : "The Clause Manchester Academy 2",
       "tags"     : "music, gig, and review",
       "categories" : "Music",
@@ -176,6 +184,30 @@
       "categories" : "travel",
       "url"      : "/neuschwanstein-munich-castle/",
       "date"     : "09/07/2025"
+    } ,
+  
+    {
+      "title"    : "EP Review: Spangled Always in Colour EP",
+      "tags"     : "music, review, manchester, indie, and funk",
+      "categories" : "Music",
+      "url"      : "/spangled-always-in-colour-ep-review/",
+      "date"     : "06/02/2024"
+    } ,
+  
+    {
+      "title"    : "Theatre Review: Hamilton",
+      "tags"     : "theatre, review, and manchester",
+      "categories" : "Theatre",
+      "url"      : "/hamilton-review-palace-theatre/",
+      "date"     : "11/23/2023"
+    } ,
+  
+    {
+      "title"    : "Oppenheimer (2023) Film Review",
+      "tags"     : "film, review, history, and drama",
+      "categories" : "Film",
+      "url"      : "/oppenheimer-film-review/",
+      "date"     : "07/30/2023"
     } ,
   
     {
