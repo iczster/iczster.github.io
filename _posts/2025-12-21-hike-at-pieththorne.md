@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Hike Review: Blackstone Edge"
-subtitle: "A foggy, boggy winter wander on the moors"
-description: "A brisk December hike at Blackstone Edge, battling mist, drizzle and boggy ground for a quick winter leg-stretcher."
+title: "Hike Review: Piethorne Reservoir"
+subtitle: "A foggy, boggy winter wander on the trail"
+description: "A brisk December hike at Pennine Way and Piethorne Reservior, battling mist, drizzle and boggy ground for a quick winter leg stretcher."
 date: 2025-12-21 13:00:00
 category: hiking
 image: /assets/images/blackstone-header.jpg
-tags: [hiking, moors, winter, lancashire, yorkshire]
+tags: [hiking, winter, lancashire]
 author: Longy
 
 # Hike Info (used by hike-box.html)
@@ -23,9 +23,9 @@ best_moment: "Breaking through the mist briefly near the edge and seeing the moo
 maps_link: "https://maps.google.com/?q=Blackstone+Edge"
 ---
 
-## 🥾 Blackstone Edge  Winter Hike Review
+## 🥾 Piethorn Reservoir Winter Hike Review
 
-Blackstone Edge is one of those walks that never quite feels the same twice, and this **late-December outing** was very much a case of *embracing the conditions rather than fighting them*.
+Piethorne is one of those walks that never quite feels the same twice, and this **late December outing** was very much a case of *embracing the conditions rather than fighting them*.
 
 We headed out for a **brisk morning hike**, mainly to get the blood flowing and clear the head before the rest of the day. From the off, the weather set the tone **foggy, misty and damp**, with a light drizzle hanging in the air. Not unpleasant, but definitely the sort of weather that seeps into your clothes if you’re not paying attention.
 
@@ -35,7 +35,7 @@ Underfoot, things were **very boggy in places**, especially across flatter secti
 
 One odd moment came when part of the trail was **gated off**, despite there being no obvious works or hazards going on. With no clear diversion signed, we ended up **leap-frogging the gate** and carrying on slightly annoying, but not enough to derail the walk.
 
-Visibility was limited for most of the hike, meaning the usual dramatic views from Blackstone Edge were largely hidden. That said, the mist gave the landscape a **quiet, moody feel**, and it was refreshing to have the place largely to ourselves.
+Visibility was limited for most of the hike, meaning the usual dramatic views from Piethorne were largely hidden. That said, the mist gave the landscape a **quiet, moody feel**, and it was refreshing to have the place largely to ourselves.
 
 ## 🏞️ The walk itself
 
@@ -47,10 +47,10 @@ There were a couple of brief moments where the mist lifted just enough to hint a
 
 This was never about big views or epic mileage. Instead, it was a **short, sharp winter walk** perfect for getting moving, blowing off the cobwebs and reminding yourself why good kit matters.
 
-Blackstone Edge continues to be a reliable goto for a **quick moorland ans resevoir walk fix**, even when the weather isn’t playing ball. Sometimes, a damp, foggy hike is exactly what you need.
+Piethorne continues to be a reliable goto for a **quick moorland and reservoir walk fix**, even when the weather isn’t playing ball. Sometimes, a damp, foggy hike is exactly what you need.
 
 ---
 
 ## 📸 Photo Gallery  
 
-![Blackston Edge](/assets/images/blackstone-1.jpg)  
+![Piethorne](/assets/images/blackstone-1.jpg)  
