@@ -186,6 +186,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/the-running-man-review/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-12-21</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/the-clause-academy2/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -340,10 +347,24 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/the-gap-review-hope-mill-theatre/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-04-14</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/spangled-always-in-colour-ep-review/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2024-06-02</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/in-bruges-film-review/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2024-04-04</lastmod>
         </url>
     
         <url>

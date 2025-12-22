@@ -11,6 +11,14 @@
     } ,
   
     {
+      "title"    : "Film Review: The Running Man (2025)",
+      "tags"     : "film, review, action, and sci-fi",
+      "categories" : "film",
+      "url"      : "/the-running-man-review/",
+      "date"     : "12/21/2025"
+    } ,
+  
+    {
       "title"    : "The Clause Manchester Academy 2",
       "tags"     : "music, gig, and review",
       "categories" : "Music",
@@ -187,11 +195,27 @@
     } ,
   
     {
+      "title"    : "The GAP – Hope Mill Theatre Review",
+      "tags"     : "theatre, review, and hopemill",
+      "categories" : "theatre",
+      "url"      : "/the-gap-review-hope-mill-theatre/",
+      "date"     : "04/14/2025"
+    } ,
+  
+    {
       "title"    : "EP Review: Spangled Always in Colour EP",
       "tags"     : "music, review, manchester, indie, and funk",
       "categories" : "Music",
       "url"      : "/spangled-always-in-colour-ep-review/",
       "date"     : "06/02/2024"
+    } ,
+  
+    {
+      "title"    : "Film Review: In Bruges",
+      "tags"     : "film, review, and dark comedy",
+      "categories" : "film",
+      "url"      : "/in-bruges-film-review/",
+      "date"     : "04/04/2024"
     } ,
   
     {
