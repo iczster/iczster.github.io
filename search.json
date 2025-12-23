@@ -179,6 +179,14 @@
     } ,
   
     {
+      "title"    : "Recipe: Chicken &amp; Berry Bowl",
+      "tags"     : "cooking, food, recipe, and healthy",
+      "categories" : "cooking",
+      "url"      : "/cooking-chicken-berry-bowl/",
+      "date"     : "09/21/2025"
+    } ,
+  
+    {
       "title"    : "Trip Review: The Eagle’s Nest Bavarian Alps From Munich",
       "tags"     : "travel, Munich, Bavaria, and EaglesNest",
       "categories" : "travel",
@@ -192,6 +200,30 @@
       "categories" : "travel",
       "url"      : "/neuschwanstein-munich-castle/",
       "date"     : "09/07/2025"
+    } ,
+  
+    {
+      "title"    : "Hike Review: Brontë Way &amp; Top Withens",
+      "tags"     : "hiking, bronte, moors, and top withens",
+      "categories" : "hiking",
+      "url"      : "/bronte-way-top-withens-hike/",
+      "date"     : "08/24/2025"
+    } ,
+  
+    {
+      "title"    : "Trip Review: Keighley, Haworth &amp; the Brontë Country Moors",
+      "tags"     : "travel, hiking, and yorkshire",
+      "categories" : "travel",
+      "url"      : "/trip-review-keighley-haworth/",
+      "date"     : "08/23/2025"
+    } ,
+  
+    {
+      "title"    : "One Pan Omelette Meal",
+      "tags"     : "cooking, recipe, and healthy",
+      "categories" : "cooking",
+      "url"      : "/cooking-one-pan-omelette-meal/",
+      "date"     : "08/17/2025"
     } ,
   
     {

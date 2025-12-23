@@ -34,6 +34,14 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/category/cooking/</loc>
+            
+                <changefreq>monthly</changefreq>
+                <priority>0.5</priority>
+            
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/feed.xml</loc>
             
                 <changefreq>monthly</changefreq>
@@ -333,6 +341,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/cooking-chicken-berry-bowl/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-09-21</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/eagles-nest-from-munich/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -344,6 +359,27 @@
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2025-09-07</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/bronte-way-top-withens-hike/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-08-24</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/trip-review-keighley-haworth/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-08-23</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/cooking-one-pan-omelette-meal/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-08-17</lastmod>
         </url>
     
         <url>
