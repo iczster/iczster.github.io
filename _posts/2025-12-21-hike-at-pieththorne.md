@@ -5,7 +5,7 @@ subtitle: "A foggy, boggy winter wander on the trail"
 description: "A brisk December hike at Pennine Way and Piethorne Reservior, battling mist, drizzle and boggy ground for a quick winter leg stretcher."
 date: 2025-12-21 13:00:00
 category: hiking
-image: /assets/images/blackstone-header.jpg
+image: /assets/images/piethorne-header.jpg
 tags: [hiking, winter, lancashire]
 author: Longy
 
