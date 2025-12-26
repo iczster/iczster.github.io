@@ -24,7 +24,7 @@ pace: "Measured with sudden bursts"
 cinematography: "Moody, picturesque European backdrops"
 soundtrack: "Subtle and atmospheric"
 rewatch: "Maybe"
-score: 3
+score: 5.5
 best_moment: "Ralph Fiennes’ explosive arrival and moral absolutism"
 ---
 
@@ -44,4 +44,4 @@ This won’t be for everyone. It’s slow in places, deliberately abrasive, and 
 
 **Give it a watch you won’t be disappointed.**
 
-🍿 **Final score: 3/5**
+🍿 **Final score: 5.5/10**

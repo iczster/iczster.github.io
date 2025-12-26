@@ -23,7 +23,7 @@ Haworth itself is a striking place. Cobbled streets rise sharply toward the **Br
 
 The story of the Brontë sisters is inseparable from the landscape around them. Their isolation, loss and imagination were shaped by the moors that stretch endlessly beyond the village. Emily Brontë’s *Wuthering Heights* in particular feels almost inseparable from this terrain wild, unforgiving and emotionally charged.
 
-Walking through Haworth, it’s easy to see how these stories were born. We took in the sights, the cemetery is steeped in history, we didnt visit the house but grabbed a banging lattle and some carrot cake.
+Walking through Haworth, it’s easy to see how these stories were born. We took in the sights, the cemetery is steeped in history, we didnt visit the house but grabbed a banging latte and some carrot cake.
 
 ---
 
@@ -56,7 +56,7 @@ We completed the route **anticlockwise around the reservoir**, which offered a g
 
 ## 🛏️ Base Camp: The Old Silent Inn
 
-We stayed at the **Old Silent Inn**, which I’d describe as **functional rather than luxurious**. It’s not somewhere you stay for plush comforts or indulgence, but it works well as a **base camp** if your plans revolve around hiking and exploring. This was personified with the comment "we have upgraded you to a room with a window" 😂
+We stayed at the **Old Silent Inn**, which I’d describe as **functional rather than luxurious**. It’s not somewhere you stay for plush comforts or indulgence, but it works well as a **base camp** if your plans revolve around hiking and exploring. This was personified with the comment "we have upgraded your to a room with a window" 😂
 
 Having said that its Warm, practical and well located, exactly what we needed.
 
@@ -64,7 +64,7 @@ Having said that its Warm, practical and well located, exactly what we needed.
 
 ## 📝 Final Thoughts
 
-This trip wasn’t about comfort or spectacle — it was about **place, atmosphere and history**.
+This trip wasn’t about comfort or spectacle it was about **place, atmosphere and history**.
 
 - Haworth delivers literary depth and character  
 - The moors are bleak, beautiful and emotionally heavy  

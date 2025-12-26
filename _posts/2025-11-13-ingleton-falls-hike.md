@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ingleton Falls Hike"
+title: "Hiking Ingleton Falls"
 subtitle: "Fierce waterfalls & rainbows"
 description: "A great hike for beginners"
 image: /assets/images/ingleton-falls-header.jpg

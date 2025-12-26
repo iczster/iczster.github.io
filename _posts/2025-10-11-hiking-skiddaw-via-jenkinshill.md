@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Skiddaw Summit via Jenkins Bridleway"
+title: "Hiking Skiddaw Summit via Jenkins Bridleway"
 subtitle: "Taking in the views from Little Man"
 description: "A great hike with a steep early ascent and a cloud inversion"
 image: /assets/images/skiddaw-to-little-man.jpg

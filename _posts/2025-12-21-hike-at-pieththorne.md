@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hike Review: Piethorne Reservoir"
+title: "Hiking Piethorne Reservoir"
 subtitle: "A foggy, boggy winter wander on the trail"
 description: "A brisk December hike at Pennine Way and Piethorne Reservior, battling mist, drizzle and boggy ground for a quick winter leg stretcher."
 date: 2025-12-21 13:00:00
@@ -23,7 +23,7 @@ best_moment: "Breaking through the mist briefly near the edge and seeing the moo
 maps_link: "https://maps.google.com/?q=Blackstone+Edge"
 ---
 
-## 🥾 Piethorn Reservoir Winter Hike Review
+## 🥾 Piethorne Reservoir Winter Hike Review
 
 Piethorne is one of those walks that never quite feels the same twice, and this **late December outing** was very much a case of *embracing the conditions rather than fighting them*.
 

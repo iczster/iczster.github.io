@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hike Review: Brontë Way & Top Withens"
+title: "Hiking Brontë Way & Top Withens"
 subtitle: "Bleak moorland, literary history and the ruins of Wuthering Heights"
 description: "A moorland hike from The Old Silent Inn following sections of the Brontë Way to Brontë Waterfall and the windswept ruins of Top Withens."
 date: 2025-08-24
@@ -17,8 +17,10 @@ great_views: yes
 distance: 12
 duration: "4h"
 elevation_gain: 316
-start_point: "The Old Silent Inn, West Yorkshire"
 best_moment: "Reaching Top Withens across the open moors"
+start_point: "The Old Silent Inn, West Yorkshire"
+maps_link: "https://maps.app.goo.gl/Z6SsSZxT7TLCRFGf8"
+
 --- 
 
 ## 🚶‍♂️ Brontë Way & Top Withens Hike

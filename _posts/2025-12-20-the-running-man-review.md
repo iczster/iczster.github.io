@@ -24,7 +24,7 @@ pace: "Fast, though uneven"
 cinematography: "Sharp, sleek futurist visuals"
 soundtrack: "Energetic and propulsive"
 rewatch: "Maybe"
-score: 3
+score: 6
 best_moment: "Domingo’s flamboyant energy and standout action sequences"
 ---
 
@@ -52,6 +52,6 @@ At the same time, many viewers appreciate the film for what it is: a **fast pace
 
 I’d sum this up as a worthy reimagining that **never quite eclipses the original**, but does enough right especially in style, effects, and performances to be worth your time. It’s enjoyable, energetic, and often fun, even if it doesn’t linger in the mind with the same charm or thematic sharpness that made the first film a cult favourite.
 
-🍿 **Score: 3/5**
+🍿 **Score: 6/10**
 
 ---

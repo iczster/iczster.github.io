@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "One Pan Omelette Meal"
+title: "Recipe: One Pan Omelette Meal"
 subtitle: "A quick, healthy and nutritious meal in a single pan"
 description: "A fast and healthy one pan omelette meal with sourdough croutons, avocado, cheese and smoked salmon. Perfect for breakfast, lunch or a light dinner."
 date: 2025-08-17
