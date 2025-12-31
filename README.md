@@ -4,7 +4,7 @@ Built with **Jekyll** + a customised **Jekflix** theme
 
 ---
 
-![Longy Cloud Banner](https://dummyimage.com/1200x300/000/fff&text=Longy.Cloud+Blog)  
+![Longy Cloud Banner](./assets/images/home-og.jpg)  
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built%20with-Jekyll-red?style=for-the-badge" />
@@ -77,9 +77,9 @@ A personal corner of the internet where passion and creativity meet.
 
 ---
 
-## 📸 Site Preview   
+## 📸 Site Preview
 
-![Grafana Dashboard](/assets/images/site-preview.png)  
+![Grafana Dashboard](/assets/images/site-preview.jpg)  
 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Tina Turner The Musical @ Palace Theatre Manchester"
 subtitle: "A powerful celebration of the Queen of Rock ‘n’ Roll"
-description: "A review of Tina Turner The Musical at the Palace Theatre Manchester — an energetic, emotional and inspiring tribute to a true music icon."
+description: "A review of Tina Turner The Musical at the Palace Theatre Manchester an energetic, emotional and inspiring tribute to a true music icon."
 date: 2025-12-09
 category: theatre
 image: /assets/images/tina-header.jpg
