@@ -313,6 +313,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/titanic-exhibition-manchester/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-10-13</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/hiking-skiddaw-via-jenkinshill/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -362,6 +369,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/bridlington-spa-weekend-2025/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-09-01</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/bronte-way-top-withens-hike/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
@@ -380,6 +394,41 @@
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
             <lastmod>2025-08-17</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/blackstone-edge-reservoir-hike/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-08-10</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/public-image-limited-holmfirth/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-08-01</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/a-manchester-anthem-hope-mill/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-07-30</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/together-in-electric-dreams/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-07-25</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/shed-seven-scarborough-2025/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-06-15</lastmod>
         </url>
     
         <url>

@@ -147,6 +147,14 @@
     } ,
   
     {
+      "title"    : "Review: Titanic Museum Tour at Manchester Central",
+      "tags"     : "travel, museums, history, and review",
+      "categories" : "travel",
+      "url"      : "/titanic-exhibition-manchester/",
+      "date"     : "10/13/2025"
+    } ,
+  
+    {
       "title"    : "Hiking Skiddaw Summit via Jenkins Bridleway",
       "tags"     : "hiking, summit, and lakes",
       "categories" : "hiking",
@@ -203,6 +211,14 @@
     } ,
   
     {
+      "title"    : "Trip &amp; Gig Review: Bridlington Spa Weekend",
+      "tags"     : "music, travel, gig, review, and festival",
+      "categories" : "music",
+      "url"      : "/bridlington-spa-weekend-2025/",
+      "date"     : "09/01/2025"
+    } ,
+  
+    {
       "title"    : "Hiking Brontë Way &amp; Top Withens",
       "tags"     : "hiking, bronte, moors, and top withens",
       "categories" : "hiking",
@@ -224,6 +240,46 @@
       "categories" : "cooking",
       "url"      : "/cooking-one-pan-omelette-meal/",
       "date"     : "08/17/2025"
+    } ,
+  
+    {
+      "title"    : "Hiking Blackstone Edge Reservoir Loop",
+      "tags"     : "hiking, walking, and moors",
+      "categories" : "hiking",
+      "url"      : "/blackstone-edge-reservoir-hike/",
+      "date"     : "08/10/2025"
+    } ,
+  
+    {
+      "title"    : "Public Image Ltd at Holmfirth Picturedrome",
+      "tags"     : "music, gig, and review",
+      "categories" : "music",
+      "url"      : "/public-image-limited-holmfirth/",
+      "date"     : "08/01/2025"
+    } ,
+  
+    {
+      "title"    : "Theatre Review: A Manchester Anthem Hope Mill Theatre",
+      "tags"     : "theatre, review, and manchester",
+      "categories" : "theatre",
+      "url"      : "/a-manchester-anthem-hope-mill/",
+      "date"     : "07/30/2025"
+    } ,
+  
+    {
+      "title"    : "Review: Together in Electric Dreams North West Computer Museum, Leigh",
+      "tags"     : "theatre, music, review, retro, museum, and gaming",
+      "categories" : "music",
+      "url"      : "/together-in-electric-dreams/",
+      "date"     : "07/25/2025"
+    } ,
+  
+    {
+      "title"    : "Gig Review: Shed Seven at Scarborough Open Air Theatre",
+      "tags"     : "music, gig, review, shed seven, and scarborough",
+      "categories" : "music",
+      "url"      : "/shed-seven-scarborough-2025/",
+      "date"     : "06/15/2025"
     } ,
   
     {
