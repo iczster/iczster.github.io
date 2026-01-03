@@ -439,6 +439,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/united-vs-lyon-europa-league/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2025-04-18</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/the-gap-review-hope-mill-theatre/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
