@@ -5,9 +5,27 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 31 Dec 2025 14:43:14 +0000</pubDate>
-    <lastBuildDate>Wed, 31 Dec 2025 14:43:14 +0000</lastBuildDate>
+    <pubDate>Sat, 03 Jan 2026 15:53:59 +0000</pubDate>
+    <lastBuildDate>Sat, 03 Jan 2026 15:53:59 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Atari Retro Collection Project</title>
+        <description>&lt;h2 id=&quot;️-atari-retro-collection-project&quot;&gt;🕹️ Atari Retro Collection Project&lt;/h2&gt; &lt;p&gt;My &lt;strong&gt;first ever console&lt;/strong&gt; was an &lt;strong&gt;Atari 2600&lt;/strong&gt;, the classic &lt;strong&gt;woodgrain version&lt;/strong&gt;, so when Atari announced the &lt;strong&gt;Atari 2600+&lt;/strong&gt;, I jumped at the chance to relive some serious childhood memories.&lt;/p&gt; &lt;p&gt;Yes, original consoles are still out there, but the appeal of the &lt;strong&gt;2600+&lt;/strong&gt; was obvious straight away:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;HDMI output&lt;/strong&gt; for modern TVs&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Smaller, cleaner form factor&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Compatibility with Atari 2600 and 7800 cartridges&lt;/strong&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Within minutes of unboxing, I was straight back in the late 70s and early 80s, joystick in hand, rediscovering games I hadn’t touched in decades.&lt;/p&gt; &lt;h2 id=&quot;-why-the-atari-2600-works-so-well&quot;&gt;📺 Why the...</description>
+        <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+        <link>https://iczster.github.io/atari-2600-retro-project/</link>
+        <guid isPermaLink="true">https://iczster.github.io/atari-2600-retro-project/</guid>
+        
+        <category>retro</category>
+        
+        <category>tech</category>
+        
+        <category>atari</category>
+        
+        <category>gaming</category>
+        
+        <category>tech</category>
+      </item>
     
       <item>
         <title>Hiking Piethorne Reservoir</title>
@@ -509,22 +527,6 @@
         <category>yorkshire</category>
         
         <category>travel</category>
-      </item>
-    
-      <item>
-        <title>Recipe: One Pan Omelette Meal</title>
-        <description>&lt;h2 id=&quot;-one-pan-omelette-meal&quot;&gt;🍳 One-Pan Omelette Meal&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Prep time:&lt;/strong&gt; 5 minutes&lt;br /&gt; &lt;strong&gt;Cook time:&lt;/strong&gt; 15 minutes&lt;br /&gt; &lt;strong&gt;Serves:&lt;/strong&gt; 1&lt;br /&gt; &lt;strong&gt;Difficulty:&lt;/strong&gt; Easy&lt;/p&gt; &lt;p&gt;This is one of my go to meals when I want something &lt;strong&gt;quick, filling and genuinely nutritious&lt;/strong&gt; without creating a mountain of washing up. Everything happens in &lt;strong&gt;one pan&lt;/strong&gt;, and it works just as well for breakfast as it does for lunch or a light evening meal.&lt;/p&gt; &lt;p&gt;Sourdough croutons give it texture, the omelette adds protein, and the smoked salmon and avocado bring healthy fats simple, balanced and really satisfying.&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;-ingredients&quot;&gt;🛒 Ingredients&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;2 slices of sourdough...</description>
-        <pubDate>Sun, 17 Aug 2025 00:00:00 +0100</pubDate>
-        <link>https://iczster.github.io/cooking-one-pan-omelette-meal/</link>
-        <guid isPermaLink="true">https://iczster.github.io/cooking-one-pan-omelette-meal/</guid>
-        
-        <category>cooking</category>
-        
-        <category>recipe</category>
-        
-        <category>healthy</category>
-        
-        <category>cooking</category>
       </item>
     
   </channel>

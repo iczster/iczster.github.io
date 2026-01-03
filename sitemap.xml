@@ -187,6 +187,13 @@
     
     
         <url>
+            <loc>https://iczster.github.io/atari-2600-retro-project/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2026-01-02</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/hike-at-pieththorne/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
