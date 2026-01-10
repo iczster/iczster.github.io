@@ -5,14 +5,14 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 03 Jan 2026 16:11:37 +0000</pubDate>
-    <lastBuildDate>Sat, 03 Jan 2026 16:11:37 +0000</lastBuildDate>
+    <pubDate>Sat, 10 Jan 2026 15:16:29 +0000</pubDate>
+    <lastBuildDate>Sat, 10 Jan 2026 15:16:29 +0000</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
         <title>Atari Retro Collection Project</title>
         <description>&lt;h2 id=&quot;️-atari-retro-collection-project&quot;&gt;🕹️ Atari Retro Collection Project&lt;/h2&gt; &lt;p&gt;My &lt;strong&gt;first ever console&lt;/strong&gt; was an &lt;strong&gt;Atari 2600&lt;/strong&gt;, the classic &lt;strong&gt;woodgrain version&lt;/strong&gt;, so when Atari announced the &lt;strong&gt;Atari 2600+&lt;/strong&gt;, I jumped at the chance to relive some serious childhood memories.&lt;/p&gt; &lt;p&gt;Yes, original consoles are still out there, but the appeal of the &lt;strong&gt;2600+&lt;/strong&gt; was obvious straight away:&lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;strong&gt;HDMI output&lt;/strong&gt; for modern TVs&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Smaller, cleaner form factor&lt;/strong&gt;&lt;/li&gt; &lt;li&gt;&lt;strong&gt;Compatibility with Atari 2600 and 7800 cartridges&lt;/strong&gt;&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Within minutes of unboxing, I was straight back in the late 70s and early 80s, joystick in hand, rediscovering games I hadn’t touched in decades.&lt;/p&gt; &lt;h2 id=&quot;-why-the-atari-2600-works-so-well&quot;&gt;📺 Why the...</description>
-        <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
         <link>https://iczster.github.io/atari-2600-retro-project/</link>
         <guid isPermaLink="true">https://iczster.github.io/atari-2600-retro-project/</guid>
         
@@ -25,6 +25,22 @@
         <category>gaming</category>
         
         <category>tech</category>
+      </item>
+    
+      <item>
+        <title>The Lion, The Witch and The Wardrobe – A Rushed Arrival into Narnia</title>
+        <description>&lt;h2 id=&quot;-the-lion-the-witch-and-the-wardrobe&quot;&gt;🎭 The Lion, The Witch and The Wardrobe&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;The Lowry, Salford 4th January 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;A trip to the theatre is usually something I look forward to: the anticipation, the build-up, the chance to slow down and sink into a live performance. This one, however, started in a bit of a sprint.&lt;/p&gt; &lt;h3 id=&quot;-parking-a-minor-battle-before-narnia&quot;&gt;🚗 Parking: A Minor Battle Before Narnia&lt;/h3&gt; &lt;p&gt;If you’re heading to &lt;strong&gt;The Lowry&lt;/strong&gt;, do yourself a favour and &lt;strong&gt;arrive early&lt;/strong&gt;. Parking is, frankly, a bit of a &lt;strong&gt;ballache&lt;/strong&gt;, especially when it’s shared with the shopping centre. Cars circling, tempers rising, time ticking.&lt;/p&gt; &lt;p&gt;There &lt;em&gt;is&lt;/em&gt; a saving grace:...</description>
+        <pubDate>Sun, 04 Jan 2026 00:00:00 +0000</pubDate>
+        <link>https://iczster.github.io/lion-the-witch-and-the-wardrobe-lowry/</link>
+        <guid isPermaLink="true">https://iczster.github.io/lion-the-witch-and-the-wardrobe-lowry/</guid>
+        
+        <category>theatre</category>
+        
+        <category>review</category>
+        
+        <category>lowry</category>
+        
+        <category>culture</category>
       </item>
     
       <item>
@@ -511,22 +527,6 @@
         <category>top withens</category>
         
         <category>hiking</category>
-      </item>
-    
-      <item>
-        <title>Trip Review: Keighley, Haworth &amp; the Brontë Country Moors</title>
-        <description>&lt;h2 id=&quot;-a-day-in-brontë-country&quot;&gt;🚂 A Day in Brontë Country&lt;/h2&gt; &lt;p&gt;Keighley and Haworth have long sat high on my list of places to visit properly not just as a whistle stop tourist stop, but as somewhere to &lt;strong&gt;walk, linger and absorb&lt;/strong&gt;. This corner of West Yorkshire is steeped in literature, shaped by weather, and defined by the bleak moorland that gave rise to some of the most enduring stories ever written.&lt;/p&gt; &lt;p&gt;This trip combined a &lt;strong&gt;day in Haworth&lt;/strong&gt; with a &lt;strong&gt;moorland hike along the Brontë Way&lt;/strong&gt;, using the Old Silent Inn as our base.&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;-haworth--the-brontë-legacy&quot;&gt;📚 Haworth &amp;amp; the Brontë Legacy&lt;/h2&gt;...</description>
-        <pubDate>Sat, 23 Aug 2025 00:00:00 +0100</pubDate>
-        <link>https://iczster.github.io/trip-review-keighley-haworth/</link>
-        <guid isPermaLink="true">https://iczster.github.io/trip-review-keighley-haworth/</guid>
-        
-        <category>travel</category>
-        
-        <category>hiking</category>
-        
-        <category>yorkshire</category>
-        
-        <category>travel</category>
       </item>
     
   </channel>

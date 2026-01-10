@@ -190,7 +190,14 @@
             <loc>https://iczster.github.io/atari-2600-retro-project/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
-            <lastmod>2026-01-02</lastmod>
+            <lastmod>2026-01-08</lastmod>
+        </url>
+    
+        <url>
+            <loc>https://iczster.github.io/lion-the-witch-and-the-wardrobe-lowry/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2026-01-04</lastmod>
         </url>
     
         <url>
