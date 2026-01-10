@@ -3,7 +3,7 @@ layout: post
 title: "Atari Retro Collection Project"
 subtitle: "Rebuilding childhood memories one cartridge at a time"
 description: "A personal retro gaming project revisiting the Atari 2600, modernised with the Atari 2600+ and a growing cartridge collection."
-date: 2026-01-02
+date: 2026-01-08
 category: tech
 tags: [retro, tech, atari, gaming]
 image: /assets/images/atari-collection-header.jpg
@@ -464,6 +464,20 @@ games:
     year: 1982
     publisher: Atari
     image: /assets/images/games/yars.png
+
+  - title: "Radar Lock"
+    system: atari-2600
+    genre: shooter
+    year: 1989
+    publisher: Tengen
+    image: /assets/images/games/radar-lock.png
+
+  - title: "Mr. Run and Jump"
+    system: atari-2600
+    genre: platformer
+    year: 2023
+    publisher: Atari
+    image: /assets/images/games/mr-run-and-jump.png
 
 
   - title: "Pac-Man"

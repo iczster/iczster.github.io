@@ -8,7 +8,7 @@ image: /assets/images/united-vs-lyon-header.jpg
 author: Longy
 ---
 
-There’s something about the floodlights at Old Trafford – or wherever the Reds are playing on European nights that doesn’t just illuminate the pitch, but **awakens the soul**. You walk in, ticket clenched in hand (or more accurately, your phone these days), eyes scanning the crowd. The air hums with expectation, nerves, and that electric energy you only get on a big European night.
+There’s something about the floodlights at Old Trafford or wherever the Reds are playing on European nights that doesn’t just illuminate the pitch, but **awakens the soul**. You walk in, ticket clenched in hand (or more accurately, your phone these days), eyes scanning the crowd. The air hums with expectation, nerves, and that electric energy you only get on a big European night.
 
 And when it’s **Manchester United**, it’s never *just* a match.
 
