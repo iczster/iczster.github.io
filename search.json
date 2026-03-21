@@ -3,6 +3,30 @@
   
   
     {
+      "title"    : "The Battle Britpop Brought Back to Life",
+      "tags"     : "music, theatre, review, manchester, and britpop",
+      "categories" : "theatre",
+      "url"      : "/the-battle/",
+      "date"     : "03/19/2026"
+    } ,
+  
+    {
+      "title"    : "Derwent Edge, Ladybower Reservoir and The Wheelstones",
+      "tags"     : "hiking, peak-district, and moorland",
+      "categories" : "hiking",
+      "url"      : "/derwent-edge/",
+      "date"     : "03/17/2026"
+    } ,
+  
+    {
+      "title"    : "The David Bowie Experience A Decade On, Still Starman",
+      "tags"     : "music, theatre, tribute, and review",
+      "categories" : "theatre",
+      "url"      : "/the-david-bowie-experience-manchester/",
+      "date"     : "01/10/2026"
+    } ,
+  
+    {
       "title"    : "Atari Retro Collection Project",
       "tags"     : "retro, tech, atari, and gaming",
       "categories" : "tech",
@@ -13,7 +37,7 @@
     {
       "title"    : "The Lion, The Witch and The Wardrobe – A Rushed Arrival into Narnia",
       "tags"     : "theatre, review, and lowry",
-      "categories" : "culture",
+      "categories" : "theatre",
       "url"      : "/lion-the-witch-and-the-wardrobe-lowry/",
       "date"     : "01/04/2026"
     } ,
@@ -307,7 +331,7 @@
     } ,
   
     {
-      "title"    : "The GAP – Hope Mill Theatre Review",
+      "title"    : "The GAP Hope Mill Theatre Review",
       "tags"     : "theatre, review, and hopemill",
       "categories" : "theatre",
       "url"      : "/the-gap-review-hope-mill-theatre/",
