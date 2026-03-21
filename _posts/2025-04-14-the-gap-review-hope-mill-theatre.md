@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The GAP – Hope Mill Theatre Review"
+title: "The GAP Hope Mill Theatre Review"
 subtitle: "Intimate, nostalgic and beautifully performed"
 description: "A thoughtful and intimate production at Hope Mill Theatre exploring love, loss and friendship."
 date: 2025-04-14

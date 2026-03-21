@@ -4,7 +4,7 @@ title: "The Lion, The Witch and The Wardrobe – A Rushed Arrival into Narnia"
 subtitle: "A family friendly classic with moments of magic and mild misgivings"
 description: "A theatre review of The Lion, The Witch and The Wardrobe at The Lowry, Salford, January 2026."
 date: 2026-01-04
-category: culture
+category: theatre
 tags: [theatre, review, lowry]
 image: /assets/images/lion-header.jpg
 author: Longy
