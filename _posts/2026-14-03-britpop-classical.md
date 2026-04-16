@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Britpop Classical at Manchester Ritz"
+title: "Britpop Classical at Manchester Apollo"
 subtitle: "Strings, nostalgia and a different take on the Britpop era"
-description: "A review of Britpop Classical at Manchester Ritz featuring orchestral takes on iconic Britpop tracks with special guest appearances."
+description: "A review of Britpop Classical at Manchester Apollo featuring orchestral takes on iconic Britpop tracks with special guest appearances."
 date: 2026-03-14
 category: music
 tags: [music, gig, review, manchester]
@@ -11,9 +11,9 @@ image: /assets/images/britpop-classical-header.jpg
 ---
 
 ## 🎸 Britpop Classical  
-**Manchester Ritz 14th March 2026**
+**Manchester Apollo 14th March 2026**
 
-Back at what is probably **my favourite venue in Manchester**, the Ritz. There is just something about the place. The size, the layout, the history. It always feels like the perfect setting for a night of live music.
+Back at what is probably **my favourite venue in Manchester**, the Apollo. There is just something about the place. The size, the layout, the history. It always feels like the perfect setting for a night of live music.
 
 Interestingly, this one was **not sold out**, which made for a much more relaxed experience. Plenty of space, no crushing crowds and even better, we were asked on the way in if we wanted to move forward about **12 rows**. For some reason we turned it down. Still not sure why. One of those decisions you regret almost immediately.
 
