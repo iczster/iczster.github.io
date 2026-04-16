@@ -5,8 +5,8 @@
     <description>My personal blog about my hobbies, interests and career</description>
     <link>https://iczster.github.io/</link>
     <atom:link href="https://iczster.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Mar 2026 17:33:51 +0000</pubDate>
-    <lastBuildDate>Sun, 22 Mar 2026 17:33:51 +0000</lastBuildDate>
+    <pubDate>Thu, 16 Apr 2026 17:02:53 +0100</pubDate>
+    <lastBuildDate>Thu, 16 Apr 2026 17:02:53 +0100</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
@@ -46,8 +46,8 @@
       </item>
     
       <item>
-        <title>Britpop Classical at Manchester Ritz</title>
-        <description>&lt;h2 id=&quot;-britpop-classical&quot;&gt;🎸 Britpop Classical&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Manchester Ritz 14th March 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Back at what is probably &lt;strong&gt;my favourite venue in Manchester&lt;/strong&gt;, the Ritz. There is just something about the place. The size, the layout, the history. It always feels like the perfect setting for a night of live music.&lt;/p&gt; &lt;p&gt;Interestingly, this one was &lt;strong&gt;not sold out&lt;/strong&gt;, which made for a much more relaxed experience. Plenty of space, no crushing crowds and even better, we were asked on the way in if we wanted to move forward about &lt;strong&gt;12 rows&lt;/strong&gt;. For some reason we turned it down. Still not sure why. One of...</description>
+        <title>Britpop Classical at Manchester Apollo</title>
+        <description>&lt;h2 id=&quot;-britpop-classical&quot;&gt;🎸 Britpop Classical&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Manchester Apollo 14th March 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Back at what is probably &lt;strong&gt;my favourite venue in Manchester&lt;/strong&gt;, the Apollo. There is just something about the place. The size, the layout, the history. It always feels like the perfect setting for a night of live music.&lt;/p&gt; &lt;p&gt;Interestingly, this one was &lt;strong&gt;not sold out&lt;/strong&gt;, which made for a much more relaxed experience. Plenty of space, no crushing crowds and even better, we were asked on the way in if we wanted to move forward about &lt;strong&gt;12 rows&lt;/strong&gt;. For some reason we turned it down. Still not sure why. One of...</description>
         <pubDate>Sat, 14 Mar 2026 00:00:00 +0000</pubDate>
         <link>https://iczster.github.io/britpop-classical/</link>
         <guid isPermaLink="true">https://iczster.github.io/britpop-classical/</guid>
@@ -61,6 +61,22 @@
         <category>manchester</category>
         
         <category>music</category>
+      </item>
+    
+      <item>
+        <title>Fire Raisers at Hope Mill Theatre</title>
+        <description>&lt;h2 id=&quot;-fire-raisers&quot;&gt;🎭 Fire Raisers&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Hope Mill Theatre 13th March 2026&lt;/strong&gt;&lt;/p&gt; &lt;p&gt;Friday the 13th and back at a venue I make no secret about loving.&lt;/p&gt; &lt;p&gt;&lt;strong&gt;Hope Mill Theatre&lt;/strong&gt; is one of those places that just gets it right. It is quirky, intimate and feels a bit like a hidden gem tucked away in Manchester. Every visit feels like something a bit different and that is exactly why I keep going back.&lt;/p&gt; &lt;h2 id=&quot;-pre-show-traditions&quot;&gt;🍕 Pre Show Traditions&lt;/h2&gt; &lt;p&gt;Before even getting into the play, the usual pre show routine was in full effect.&lt;/p&gt; &lt;p&gt;Pizza and hummus. Simple, effective and now pretty much part...</description>
+        <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+        <link>https://iczster.github.io/fire-raisers-hope-mill/</link>
+        <guid isPermaLink="true">https://iczster.github.io/fire-raisers-hope-mill/</guid>
+        
+        <category>theatre</category>
+        
+        <category>review</category>
+        
+        <category>manchester</category>
+        
+        <category>theatre</category>
       </item>
     
       <item>
@@ -509,24 +525,6 @@
         <category>blog</category>
         
         <category>travel</category>
-      </item>
-    
-      <item>
-        <title>Recipe: Chicken &amp; Berry Bowl</title>
-        <description>&lt;h2 id=&quot;️-jamie-olivers-chicken--berry-bowl&quot;&gt;🍽️ Jamie Oliver’s Chicken &amp;amp; Berry Bowl&lt;/h2&gt; &lt;p&gt;&lt;strong&gt;Prep time:&lt;/strong&gt; 10 minutes&lt;br /&gt; &lt;strong&gt;Cook time:&lt;/strong&gt; 20 minutes&lt;br /&gt; &lt;strong&gt;Serves:&lt;/strong&gt; 2&lt;br /&gt; &lt;strong&gt;Difficulty:&lt;/strong&gt; Easy&lt;/p&gt; &lt;p&gt;This recipe comes from &lt;em&gt;Jamie: Eat Yourself Healthy&lt;/em&gt; and is a brilliant example of how bold flavours and healthy eating don’t have to be at odds. The combination of &lt;strong&gt;ras el hanout–spiced chicken&lt;/strong&gt; with blistered blueberries sounds unusual on paper, but it works beautifully in practice.&lt;/p&gt; &lt;p&gt;The spice blend gives the chicken warmth and depth, while the blueberries add a subtle sweetness and tang not unlike cranberry with roast meat.&lt;/p&gt; &lt;hr /&gt; &lt;h2 id=&quot;-ingredients&quot;&gt;🛒 Ingredients&lt;/h2&gt; &lt;ul&gt; &lt;li&gt;2...</description>
-        <pubDate>Sun, 21 Sep 2025 00:00:00 +0100</pubDate>
-        <link>https://iczster.github.io/cooking-chicken-berry-bowl/</link>
-        <guid isPermaLink="true">https://iczster.github.io/cooking-chicken-berry-bowl/</guid>
-        
-        <category>cooking</category>
-        
-        <category>food</category>
-        
-        <category>recipe</category>
-        
-        <category>healthy</category>
-        
-        <category>cooking</category>
       </item>
     
   </channel>

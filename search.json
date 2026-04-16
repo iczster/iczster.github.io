@@ -19,11 +19,19 @@
     } ,
   
     {
-      "title"    : "Britpop Classical at Manchester Ritz",
+      "title"    : "Britpop Classical at Manchester Apollo",
       "tags"     : "music, gig, review, and manchester",
       "categories" : "music",
       "url"      : "/britpop-classical/",
       "date"     : "03/14/2026"
+    } ,
+  
+    {
+      "title"    : "Fire Raisers at Hope Mill Theatre",
+      "tags"     : "theatre, review, and manchester",
+      "categories" : "theatre",
+      "url"      : "/fire-raisers-hope-mill/",
+      "date"     : "03/13/2026"
     } ,
   
     {

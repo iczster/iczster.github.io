@@ -208,6 +208,13 @@
         </url>
     
         <url>
+            <loc>https://iczster.github.io/fire-raisers-hope-mill/</loc>
+            <changefreq>weekly</changefreq>
+            <priority>0.8</priority>
+            <lastmod>2026-03-13</lastmod>
+        </url>
+    
+        <url>
             <loc>https://iczster.github.io/the-david-bowie-experience-manchester/</loc>
             <changefreq>weekly</changefreq>
             <priority>0.8</priority>
